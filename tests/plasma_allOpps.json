@@ -1,0 +1,142 @@
+Fetching ALL opportunities on chain 9745...
+{
+  chainId: 9745,
+  chainName: undefined,
+  summary: {
+    totalOpportunities: 72,
+    totalTvl: 6319389149.0513,
+    totalDailyRewards: 148990.9179250457,
+    avgApr: 59.16343988553652,
+    weightedAvgApr: 0.8615536535782263,
+    totalLiveCampaigns: 88
+  },
+  byAction: [
+    {
+      action: 'LEND',
+      count: 5,
+      totalTvl: 3091083914.390312,
+      avgApr: 1.8308637578244844,
+      weightedAvgApr: 1.2628997077081838
+    },
+    {
+      action: 'BORROW',
+      count: 6,
+      totalTvl: 1984041438.172443,
+      avgApr: 0.5249915648942425,
+      weightedAvgApr: 0.430204738884836
+    },
+    {
+      action: 'HOLD',
+      count: 31,
+      totalTvl: 1179129656.051783,
+      avgApr: 135.3452826570112,
+      weightedAvgApr: 0.5533115679481853
+    },
+    {
+      action: 'POOL',
+      count: 14,
+      totalTvl: 52823096.88499091,
+      avgApr: 1.547255868046039,
+      weightedAvgApr: 0.5277505963905823
+    },
+    {
+      action: 'STAKE',
+      count: 16,
+      totalTvl: 12311043.551768584,
+      avgApr: 1.8811286912593217,
+      weightedAvgApr: 0.5617971538751861
+    }
+  ],
+  topPoolsByTvl: [
+    {
+      identifier: '0xc8742018b840928fbd203cc323c3569b64eccb56',
+      name: 'Lend USDT0 on Aave (net lending)',
+      action: 'LEND',
+      tvl: 2331941557.4533,
+      apr: 0.7168915361306123,
+      dailyRewards: 45801.34699423312,
+      liveCampaigns: 1
+    },
+    {
+      identifier: '0xff7eb38fce1372e4a2a37fcc47668352da6c406b',
+      name: 'Borrow USDT0 from Aave (net borrow)',
+      action: 'BORROW',
+      tvl: 1798022001.773167,
+      apr: 0.4411904054433539,
+      dailyRewards: 21733.42619064039,
+      liveCampaigns: 1
+    },
+    {
+      identifier: '0xdb3FaAD4436E2d133fdaB0788332845df9b0ABdF',
+      name: 'Hold Pendle YT or LP from Ethena sUSDE 09 Apr 2026 market',
+      action: 'HOLD',
+      tvl: 715624918.0323442,
+      apr: 0.1878237783229506,
+      dailyRewards: 3682.503451147582,
+      liveCampaigns: 1
+    },
+    {
+      identifier: '0xeefac321069fbecc9d6b2aed2948f6d5503d8633BORROW_BL',
+      name: 'Lend sUSDe and USDe on Aave (looping required)',
+      action: 'LEND',
+      tvl: 379912846.9114435,
+      apr: 4.352208761016268,
+      dailyRewards: 45300.27454111278,
+      liveCampaigns: 1
+    },
+    {
+      identifier: '0x1DD4b13fcAE900C60a350589BE8052959D2Ed27B',
+      name: 'Supply USDT0 to the Fluid fUSDT0 vault',
+      action: 'LEND',
+      tvl: 320273284.6698133,
+      apr: 1.409882292860434,
+      dailyRewards: 12371.16802554024,
+      liveCampaigns: 1
+    },
+    {
+      identifier: '0xd1074E0AE85610dDBA0147e29eBe0D8E5873a000',
+      name: 'Hold PlasmaUSD vault shares on Mainnet or Plasma',
+      action: 'HOLD',
+      tvl: 302360000,
+      apr: 0.120826101371535,
+      dailyRewards: 1000.903561936913,
+      liveCampaigns: 2
+    },
+    {
+      identifier: '0xBc345229C1b52e4c30530C614BB487323BA38Da5',
+      name: 'Borrow USDT0 from Fluid wstUSR/USDT0 Vault',
+      action: 'BORROW',
+      tvl: 134394466.458341,
+      apr: 0.2373661244920986,
+      dailyRewards: 873.9916070246506,
+      liveCampaigns: 1
+    },
+    {
+      identifier: '0x68930887e1318eF30653a4b7942AB07544ebEd4d',
+      name: 'Hold Pendle YT or LP from Ethena USDe 09 Apr 2026 market',
+      action: 'HOLD',
+      tvl: 91542494.50059865,
+      apr: 0.4894323221955513,
+      dailyRewards: 1227.502894876753,
+      liveCampaigns: 1
+    },
+    {
+      identifier: '0xe818ad0D20D504C55601b9d5e0E137314414dec4',
+      name: 'Deposit into the Euler K3 Capital USDT0 Vault',
+      action: 'LEND',
+      tvl: 48991003.02095833,
+      apr: 2.570399136274237,
+      dailyRewards: 3450.03922877479,
+      liveCampaigns: 2
+    },
+    {
+      identifier: '0x5Fa69163085efd4767f24639eB1fB87Ed34bBB12',
+      name: 'LP in Pendle Ethena sUSDE 9APR2026',
+      action: 'POOL',
+      tvl: 32260328.33962799,
+      apr: 0.2272671951125479,
+      dailyRewards: 143.2436745481063,
+      liveCampaigns: 1
+    }
+  ]
+}

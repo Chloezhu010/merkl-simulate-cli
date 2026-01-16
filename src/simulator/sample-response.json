@@ -1,0 +1,139 @@
+== Full Opp ==
+{
+  action: 'LEND',
+  activePrograms: [
+    {
+      icon: 'https://storage.googleapis.com/merkl-static-assets/protocols/ethena.svg',
+      id: 'ec8c59b5-f55d-4dd6-be41-76eaea78afd4',
+      name: 'Ethena Liquid Leverage',
+      slug: 'ethena'
+    }
+  ],
+  apr: 4.652743650304738,
+  aprRecord: {
+    breakdowns: [ [Object] ],
+    cumulated: 4.652743650304738,
+    timestamp: '1768400646'
+  },
+  chain: {
+    endOfDisputePeriod: 1768384800,
+    explorers: [ [Object] ],
+    icon: 'https://raw.githubusercontent.com/AngleProtocol/angle-token-list/main/src/assets/chains/ethereum.svg',
+    id: 1,
+    liveCampaigns: 108,
+    name: 'Ethereum'
+  },
+  chainId: 1,
+  dailyRewards: 92907.35152196624,
+  depositUrl: 'https://app.aave.com/markets/?marketName=proto_mainnet_v3',
+  description: 'This campaign is part of Ethena’s Liquid Leverage program, with Merkl acting as the distribution partner in collaboration with the ACI. The campaign considers the lowest amount of tokens lent across the sUSDe and USDe markets. It will run indefinitely, with the stated rate expected to remain roughly in line with the sUSDe rate for the foreseeable future. To be eligible, users must also borrow USDC, USDT, or USDS and maintain a health factor below 2.5.',
+  explorerAddress: '0x4F5923Fc5FD4a93352581b38B7cD26943012DECF',
+  howToSteps: [ 'Lend assets on Aave.', 'Rewards accumulate automatically.' ],
+  id: '5877322385708089533',
+  identifier: '0x8014e0076e5393e62c49a7134070d8fccc922e46BORROW_BL',
+  lastCampaignCreatedAt: 1767880279,
+  liveCampaigns: 1,
+  maxApr: 0.05,
+  name: 'Lend sUSDe and USDe on Aave (looping required)',
+  nativeAprRecord: {
+    description: 'Native supply APR for 0x4f5923fc5fd4a93352581b38b7cd26943012decf on Aave on chain 1',
+    timestamp: '1768400445',
+    title: 'Aave Supply Native APR - 0x4f5923fc5fd4a93352581b38b7cd26943012decf',
+    value: 1.714407691927801
+  },
+  protocol: {
+    banner: null,
+    description: 'A decentralized liquidity protocol where users can deposit and borrow',
+    icon: 'https://raw.githubusercontent.com/AngleProtocol/angle-token-list/main/src/assets/protocols/aave.svg',
+    id: 'aave',
+    name: 'Aave',
+    opportunityBannerDark: null,
+    opportunityBannerLight: null,
+    tags: [ 'LENDING', 'zksync', 'drip', 'plasma' ],
+    url: 'https://app.aave.com/'
+  },
+  rewardsRecord: {
+    breakdowns: [ [Object] ],
+    id: '5871637430894349963',
+    timestamp: '1768400646',
+    total: 92907.35152196624
+  },
+  status: 'LIVE',
+  tags: [ 'ethena-aci' ],
+  tokens: [
+    {
+      address: '0x9D39A5DE30e57443BfF2A8307A4256c8797A3497',
+      chainId: 1,
+      decimals: 18,
+      displaySymbol: 'sUSDe',
+      icon: 'https://storage.googleapis.com/merkl-static-assets/tokens/sUSDe.png',
+      id: '1009687949609727810',
+      isNative: false,
+      isTest: false,
+      name: 'Staked USDe',
+      price: 1.214467380271635,
+      priceSource: 'Price Source sUSDe',
+      symbol: 'sUSDe',
+      type: 'TOKEN',
+      updatedAt: 1768400469,
+      verified: true
+    },
+    {
+      address: '0x4F5923Fc5FD4a93352581b38B7cD26943012DECF',
+      chainId: 1,
+      decimals: 18,
+      icon: '',
+      id: '17880246127664837591',
+      isNative: false,
+      isTest: false,
+      name: 'Aave Ethereum USDe',
+      price: 1.000540708698098,
+      priceSource: 'Price Source aEthUSDe',
+      symbol: 'aEthUSDe',
+      type: 'TOKEN',
+      updatedAt: 1768400498,
+      verified: false
+    },
+    {
+      address: '0x4c9EDD5852cd905f086C759E8383e09bff1E68B3',
+      chainId: 1,
+      decimals: 18,
+      displaySymbol: 'USDe',
+      icon: 'https://storage.googleapis.com/merkl-static-assets/tokens/USDe.png',
+      id: '3886227253063060387',
+      isNative: false,
+      isTest: false,
+      name: 'USDe',
+      price: 1.000540708698098,
+      priceSource: 'Price Source USDe',
+      symbol: 'USDe',
+      type: 'TOKEN',
+      updatedAt: 1768400467,
+      verified: true
+    },
+    {
+      address: '0x4579a27aF00A62C0EB156349f31B345c08386419',
+      chainId: 1,
+      decimals: 18,
+      icon: '',
+      id: '9891486449584741297',
+      isNative: false,
+      isTest: false,
+      name: 'Aave Ethereum sUSDe',
+      price: 1.214467380271635,
+      priceSource: 'Price Source 0x4579a27aF00A62C0EB156349f31B345c08386419',
+      symbol: 'aEthsUSDe',
+      type: 'TOKEN',
+      updatedAt: 1768400504,
+      verified: false
+    }
+  ],
+  tvl: 728842718.4957119,
+  tvlRecord: {
+    breakdowns: [],
+    id: '5871637430894349963',
+    timestamp: '1768400646',
+    total: 728842718.4957119
+  },
+  type: 'MULTILOG_DUTCH'
+}

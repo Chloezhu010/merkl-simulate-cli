@@ -1,0 +1,3198 @@
+[
+  {
+    "action": "LEND",
+    "activePrograms": [],
+    "apr": 8.125088656924834,
+    "aprRecord": {
+      "breakdowns": [
+        {
+          "distributionType": "DUTCH_AUCTION",
+          "identifier": "0x97ee19c43592ad022eb21abb98173488b9c62d69a4c1c3926eae13eb699ec84e",
+          "timestamp": "1768470924",
+          "type": "CAMPAIGN",
+          "value": 8.125088656924834
+        }
+      ],
+      "cumulated": 8.125088656924834,
+      "timestamp": "1768470924"
+    },
+    "chain": {
+      "endOfDisputePeriod": 1768471200,
+      "explorers": [
+        {
+          "chainId": 143,
+          "id": "17242099373593364020",
+          "type": "ETHERSCAN",
+          "url": "https://monadvision.com"
+        }
+      ],
+      "icon": "https://raw.githubusercontent.com/AngleProtocol/angle-token-list/main/src/assets/chains/monad.svg",
+      "id": 143,
+      "liveCampaigns": 72,
+      "name": "Monad"
+    },
+    "chainId": 143,
+    "dailyRewards": 17317.73170453059,
+    "depositUrl": "https://app.upshift.finance/pools/143/0x36eDbF0C834591BFdfCaC0Ef9605528c75c406aA",
+    "description": "Earn rewards by depositing AUSD to the Upshift earnAUSD vault on Monad",
+    "explorerAddress": "0x103222f020e98Bba0AD9809A011FDF8e6F067496",
+    "howToSteps": [
+      "Lend assets on upshift.",
+      "Rewards accumulate automatically."
+    ],
+    "id": "10536719376278598912",
+    "identifier": "0x103222f020e98Bba0AD9809A011FDF8e6F067496",
+    "lastCampaignCreatedAt": 1768138229,
+    "liveCampaigns": 1,
+    "maxApr": 0,
+    "name": "Deposit AUSD to Upshift earnAUSD",
+    "protocol": {
+      "banner": null,
+      "description": "Upshift, built on prime brokerage August, lets retail access the high-yield strategies used by institutions. Maximize your APY for USDC, HYPE and more.",
+      "icon": "https://www.upshift.finance/assets/logos/upshift-logomark.svg",
+      "id": "upshift",
+      "name": "Upshift",
+      "opportunityBannerDark": null,
+      "opportunityBannerLight": null,
+      "tags": [
+        "LEND"
+      ],
+      "url": "https://www.upshift.finance/"
+    },
+    "rewardsRecord": {
+      "breakdowns": [
+        {
+          "amount": "17321428571",
+          "campaignId": "18356493943149123238",
+          "dailyRewardsRecordId": "5574515787455818890",
+          "distributionType": "DUTCH_AUCTION",
+          "id": "a5f2c02f-bd67-4b46-9463-2175130ba5b7",
+          "onChainCampaignId": "0x97ee19c43592ad022eb21abb98173488b9c62d69a4c1c3926eae13eb699ec84e",
+          "timestamp": "1768470924",
+          "token": {
+            "address": "0x00000000eFE302BEAA2b3e6e1b18d08D69a9012a",
+            "chainId": 143,
+            "decimals": 6,
+            "displaySymbol": "",
+            "icon": "https://storage.googleapis.com/merkl-static-assets/tokens/AgoraUSD.svg",
+            "id": "5265656046489301336",
+            "isNative": false,
+            "isTest": false,
+            "name": "AUSD",
+            "price": 0.9997865726574308,
+            "priceSource": "Price Source AUSD",
+            "symbol": "AUSD",
+            "type": "TOKEN",
+            "updatedAt": 1768470680,
+            "verified": true
+          },
+          "value": 17317.73170453059
+        }
+      ],
+      "id": "5574515787455818890",
+      "timestamp": "1768470924",
+      "total": 17317.73170453059
+    },
+    "status": "LIVE",
+    "tags": [],
+    "tokens": [
+      {
+        "address": "0x00000000eFE302BEAA2b3e6e1b18d08D69a9012a",
+        "chainId": 143,
+        "decimals": 6,
+        "icon": "https://storage.googleapis.com/merkl-static-assets/tokens/AgoraUSD.svg",
+        "id": "5265656046489301336",
+        "isNative": false,
+        "isTest": false,
+        "name": "AUSD",
+        "price": 0.9997865726574308,
+        "priceSource": "Price Source AUSD",
+        "symbol": "AUSD",
+        "type": "TOKEN",
+        "updatedAt": 1768470680,
+        "verified": true
+      }
+    ],
+    "tvl": 77795730.47201693,
+    "tvlRecord": {
+      "breakdowns": [
+        {
+          "identifier": "18095079019217889906",
+          "type": "TOKEN",
+          "value": 78130519.749142
+        }
+      ],
+      "id": "5574515787455818890",
+      "timestamp": "1768470924",
+      "total": 77795730.47201693
+    },
+    "type": "ERC20LOGPROCESSOR"
+  },
+  {
+    "action": "LEND",
+    "activePrograms": [],
+    "apr": 8.933202511408627,
+    "aprRecord": {
+      "breakdowns": [
+        {
+          "distributionType": "MAX_REWARD_VALUE_PER_LIQUIDITY_VALUE",
+          "identifier": "0xc49df1b2fe7442341eba1637ab7729c07fb5a01c2fc9186af2fb2a87e29afa7a",
+          "timestamp": "1768470924",
+          "type": "CAMPAIGN",
+          "value": 0.6653448973917601
+        },
+        {
+          "distributionType": "MAX_REWARD_VALUE_PER_LIQUIDITY_VALUE",
+          "identifier": "0xcb83191c1f012c60cc2c7f12ca7f6c5ddf1d7b91d20f5fe3b10ce7bb431ea326",
+          "timestamp": "1768470924",
+          "type": "CAMPAIGN",
+          "value": 0.0863989896931864
+        },
+        {
+          "distributionType": "DUTCH_AUCTION",
+          "identifier": "895100739237720230",
+          "timestamp": "1768470924",
+          "type": "CAMPAIGN",
+          "value": 8.04103954220602
+        },
+        {
+          "distributionType": "DUTCH_AUCTION",
+          "identifier": "5542921407786050264",
+          "timestamp": "1768470924",
+          "type": "CAMPAIGN",
+          "value": 0.1404190821176592
+        }
+      ],
+      "cumulated": 8.933202511408627,
+      "timestamp": "1768470924"
+    },
+    "chain": {
+      "endOfDisputePeriod": 1768471200,
+      "explorers": [
+        {
+          "chainId": 143,
+          "id": "17242099373593364020",
+          "type": "ETHERSCAN",
+          "url": "https://monadvision.com"
+        }
+      ],
+      "icon": "https://raw.githubusercontent.com/AngleProtocol/angle-token-list/main/src/assets/chains/monad.svg",
+      "id": 143,
+      "liveCampaigns": 72,
+      "name": "Monad"
+    },
+    "chainId": 143,
+    "dailyRewards": 6621.559881393253,
+    "depositUrl": "https://app.curvance.com/",
+    "description": "Earn rewards by supplying earnAUSD to Curvance earnAUSD/AUSD market on Monad",
+    "explorerAddress": "0x852FF1EC21D63b405eC431e04AE3AC760e29263D",
+    "howToSteps": [
+      "Lend assets on Curvance.",
+      "Rewards accumulate automatically."
+    ],
+    "id": "7446007760077034937",
+    "identifier": "0x852FF1EC21D63b405eC431e04AE3AC760e29263D",
+    "lastCampaignCreatedAt": 1768411098,
+    "liveCampaigns": 4,
+    "maxApr": 0.05,
+    "name": "Supply earnAUSD to Curvance earnAUSD/AUSD market",
+    "protocol": {
+      "banner": null,
+      "description": "Curvance is Monad’s hyper-efficient lending layer, helping users earn more yield and access simple, one-click leverage",
+      "icon": "https://storage.googleapis.com/merkl-static-assets/protocols/curvance.svg",
+      "id": "curvance",
+      "name": "Curvance",
+      "opportunityBannerDark": null,
+      "opportunityBannerLight": null,
+      "tags": [],
+      "url": "https://app.curvance.com/"
+    },
+    "rewardsRecord": {
+      "breakdowns": [
+        {
+          "amount": "4573869375744715522048",
+          "campaignId": "1591785885704028507",
+          "dailyRewardsRecordId": "10346574270593631126",
+          "distributionType": "DUTCH_AUCTION",
+          "id": "f32afc2b-c0cc-462c-be54-7a5a8787dfb3",
+          "onChainCampaignId": "5542921407786050264",
+          "timestamp": "1768470924",
+          "token": {
+            "address": "0x3bd359C1119dA7Da1D913D1C4D2B7c461115433A",
+            "chainId": 143,
+            "decimals": 18,
+            "displaySymbol": "",
+            "icon": "https://storage.googleapis.com/merkl-static-assets/tokens/WMON.svg",
+            "id": "14929705797398579126",
+            "isNative": false,
+            "isTest": false,
+            "name": "Wrapped MON",
+            "price": 0.02275597792925135,
+            "priceSource": "Price Source WMON",
+            "symbol": "WMON",
+            "type": "TOKEN",
+            "updatedAt": 1768470675,
+            "verified": true
+          },
+          "value": 104.08287056572539
+        },
+        {
+          "amount": "5961534060",
+          "campaignId": "2697802259483051747",
+          "dailyRewardsRecordId": "10346574270593631126",
+          "distributionType": "DUTCH_AUCTION",
+          "id": "aa590a4d-3e9a-444c-8c0e-0d7ba412a993",
+          "onChainCampaignId": "895100739237720230",
+          "timestamp": "1768470924",
+          "token": {
+            "address": "0x00000000eFE302BEAA2b3e6e1b18d08D69a9012a",
+            "chainId": 143,
+            "decimals": 6,
+            "displaySymbol": "",
+            "icon": "https://storage.googleapis.com/merkl-static-assets/tokens/AgoraUSD.svg",
+            "id": "5265656046489301336",
+            "isNative": false,
+            "isTest": false,
+            "name": "AUSD",
+            "price": 0.9997865726574308,
+            "priceSource": "Price Source AUSD",
+            "symbol": "AUSD",
+            "type": "TOKEN",
+            "updatedAt": 1768470680,
+            "verified": true
+          },
+          "value": 5960.261705627938
+        },
+        {
+          "amount": "62993571",
+          "campaignId": "8711299291527741309",
+          "dailyRewardsRecordId": "10346574270593631126",
+          "distributionType": "MAX_REWARD_VALUE_PER_LIQUIDITY_VALUE",
+          "id": "3e87b2e6-b74f-43ee-928b-6da05bc2d8e9",
+          "onChainCampaignId": "0xcb83191c1f012c60cc2c7f12ca7f6c5ddf1d7b91d20f5fe3b10ce7bb431ea326",
+          "timestamp": "1768470924",
+          "token": {
+            "address": "0xAd4AA2a713fB86FBb6b60dE2aF9E32a11DB6Abf2",
+            "chainId": 143,
+            "decimals": 6,
+            "displaySymbol": "cAUSD",
+            "icon": "https://storage.googleapis.com/merkl-static-assets/tokens/AgoraUSD.svg",
+            "id": "11478519700176734912",
+            "isNative": false,
+            "isTest": false,
+            "name": "Curvance AUSD",
+            "price": 1.016636193745427,
+            "priceSource": "Computed Price - 0x29c261cb2f999ef3d09baed40d99eefdb5ac52d0b1ae67cf88a4934c48f247d8 on chain 143",
+            "symbol": "cAUSD",
+            "type": "TOKEN",
+            "updatedAt": 1768470927,
+            "verified": true
+          },
+          "value": 64.04154425187231
+        },
+        {
+          "amount": "21417814285714282512384",
+          "campaignId": "5138608960092716371",
+          "dailyRewardsRecordId": "10346574270593631126",
+          "distributionType": "MAX_REWARD_VALUE_PER_LIQUIDITY_VALUE",
+          "id": "85a599de-5dd3-404c-838c-eb12f7c684b7",
+          "onChainCampaignId": "0xc49df1b2fe7442341eba1637ab7729c07fb5a01c2fc9186af2fb2a87e29afa7a",
+          "timestamp": "1768470924",
+          "token": {
+            "address": "0xE01d426B589c7834a5F6B20D7e992A705d3c22ED",
+            "chainId": 143,
+            "decimals": 18,
+            "displaySymbol": "cWMON",
+            "icon": "https://files.svgcdn.io/token-branded/monad.png",
+            "id": "7362831684031612782",
+            "isNative": false,
+            "isTest": false,
+            "name": "Curvance Wrapped MON",
+            "price": 0.02302633473092842,
+            "priceSource": "Computed Price - 0xeecb959229d6593c168ebc1634ba7340efbdaea383ff6694ff04467c0801c725 on chain 143",
+            "symbol": "cWMON",
+            "type": "TOKEN",
+            "updatedAt": 1768470927,
+            "verified": true
+          },
+          "value": 493.17376094771765
+        }
+      ],
+      "id": "10346574270593631126",
+      "timestamp": "1768470924",
+      "total": 6621.559881393253
+    },
+    "status": "LIVE",
+    "tags": [],
+    "tokens": [
+      {
+        "address": "0x852FF1EC21D63b405eC431e04AE3AC760e29263D",
+        "chainId": 143,
+        "decimals": 6,
+        "displaySymbol": "cearnAUSD",
+        "icon": "",
+        "id": "14016309464098017430",
+        "isNative": false,
+        "isTest": false,
+        "name": "Curvance earnAUSD",
+        "price": 1,
+        "priceSource": "Computed Price - 5542921407786050264 on chain 143",
+        "symbol": "cearnAUSD",
+        "type": "TOKEN",
+        "updatedAt": 1768470927,
+        "verified": false
+      },
+      {
+        "address": "0x103222f020e98Bba0AD9809A011FDF8e6F067496",
+        "chainId": 143,
+        "decimals": 6,
+        "displaySymbol": "earnAUSD",
+        "icon": "https://imagedelivery.net/cBNDGgkrsEA-b_ixIp9SkQ/upshift.jpg/public",
+        "id": "18095079019217889906",
+        "isNative": false,
+        "isTest": false,
+        "name": "earnAUSD",
+        "price": 1,
+        "priceSource": "Computed Price - 0x97ee19c43592ad022eb21abb98173488b9c62d69a4c1c3926eae13eb699ec84e on chain 143",
+        "symbol": "earnAUSD",
+        "type": "TOKEN",
+        "updatedAt": 1768470925,
+        "verified": false
+      }
+    ],
+    "tvl": 27054903.922999,
+    "tvlRecord": {
+      "breakdowns": [
+        {
+          "identifier": "18095079019217889906",
+          "type": "TOKEN",
+          "value": 27054903.922999
+        }
+      ],
+      "id": "10346574270593631126",
+      "timestamp": "1768470924",
+      "total": 27054903.922999
+    },
+    "type": "ERC20LOGPROCESSOR"
+  },
+  {
+    "action": "POOL",
+    "activePrograms": [],
+    "apr": 50.6039174413412,
+    "aprRecord": {
+      "breakdowns": [
+        {
+          "distributionType": "DUTCH_AUCTION",
+          "identifier": "0xf6c3e70a70bf403eee84e9ee096bc54683302d7b6e77cd78b6d78275ab82573b",
+          "timestamp": "1768470923",
+          "type": "CAMPAIGN",
+          "value": 50.6039174413412
+        }
+      ],
+      "cumulated": 50.6039174413412,
+      "timestamp": "1768470923"
+    },
+    "chain": {
+      "endOfDisputePeriod": 1768471200,
+      "explorers": [
+        {
+          "chainId": 143,
+          "id": "17242099373593364020",
+          "type": "ETHERSCAN",
+          "url": "https://monadvision.com"
+        }
+      ],
+      "icon": "https://raw.githubusercontent.com/AngleProtocol/angle-token-list/main/src/assets/chains/monad.svg",
+      "id": 143,
+      "liveCampaigns": 72,
+      "name": "Monad"
+    },
+    "chainId": 143,
+    "dailyRewards": 5550.833187742383,
+    "depositUrl": "https://app.uniswap.org/explore/pools/monad/0x18a9fc874581f3ba12b7898f80a683c66fd5877fd74b26a85ba9a3a79c549954",
+    "description": "Earn rewards by providing liquidity to the UniswapV3 MON pool on Monad",
+    "explorerAddress": "0x188d586Ddcf52439676Ca21A244753fA19F9Ea8e",
+    "howToSteps": [
+      "Provide liquidity on UniswapV3.",
+      "Earn rewards based on your liquidity position."
+    ],
+    "id": "8829080316986770972",
+    "identifier": "0x18a9fc874581f3ba12b7898f80a683c66fd5877fd74b26a85ba9a3a79c549954",
+    "lastCampaignCreatedAt": 1768232911,
+    "liveCampaigns": 1,
+    "maxApr": 0,
+    "name": "Provide liquidity to UniswapV4 MON-USDC 0.05%",
+    "protocol": {
+      "banner": null,
+      "description": "Swap anytime, anywhere",
+      "icon": "https://storage.googleapis.com/merkl-static-assets/protocols/uniswap.svg",
+      "id": "uniswap",
+      "name": "Uniswap",
+      "opportunityBannerDark": null,
+      "opportunityBannerLight": null,
+      "tags": [
+        "DEX",
+        "plasma"
+      ],
+      "url": "https://app.uniswap.org/"
+    },
+    "rewardsRecord": {
+      "breakdowns": [
+        {
+          "amount": "243928571428571380187136",
+          "campaignId": "12213196930553356800",
+          "dailyRewardsRecordId": "6923465395605468101",
+          "distributionType": "DUTCH_AUCTION",
+          "id": "c1f8fbd5-616e-4a22-874e-9e81bedfef01",
+          "onChainCampaignId": "0xf6c3e70a70bf403eee84e9ee096bc54683302d7b6e77cd78b6d78275ab82573b",
+          "timestamp": "1768470923",
+          "token": {
+            "address": "0x3bd359C1119dA7Da1D913D1C4D2B7c461115433A",
+            "chainId": 143,
+            "decimals": 18,
+            "displaySymbol": "",
+            "icon": "https://storage.googleapis.com/merkl-static-assets/tokens/WMON.svg",
+            "id": "14929705797398579126",
+            "isNative": false,
+            "isTest": false,
+            "name": "Wrapped MON",
+            "price": 0.02275597792925135,
+            "priceSource": "Price Source WMON",
+            "symbol": "WMON",
+            "type": "TOKEN",
+            "updatedAt": 1768470675,
+            "verified": true
+          },
+          "value": 5550.833187742382
+        }
+      ],
+      "id": "6923465395605468101",
+      "timestamp": "1768470923",
+      "total": 5550.833187742383
+    },
+    "status": "LIVE",
+    "tags": [
+      "upshift"
+    ],
+    "tokens": [
+      {
+        "address": "0x0000000000000000000000000000000000000000",
+        "chainId": 143,
+        "decimals": 18,
+        "icon": "https://files.svgcdn.io/token-branded/monad.png",
+        "id": "17707437124336115185",
+        "isNative": true,
+        "isTest": false,
+        "name": "MON",
+        "price": 0.02275597792925135,
+        "priceSource": "Price Source MON",
+        "symbol": "MON",
+        "type": "TOKEN",
+        "updatedAt": 1768470673,
+        "verified": false
+      },
+      {
+        "address": "0x754704Bc059F8C67012fEd69BC8A327a5aafb603",
+        "chainId": 143,
+        "decimals": 6,
+        "icon": "https://storage.googleapis.com/merkl-static-assets/tokens/USDC.svg",
+        "id": "5317111484270765404",
+        "isNative": false,
+        "isTest": false,
+        "name": "USDC",
+        "price": 0.9998123989421824,
+        "priceSource": "Price Source USDC",
+        "symbol": "USDC",
+        "type": "TOKEN",
+        "updatedAt": 1768470675,
+        "verified": true
+      }
+    ],
+    "tvl": 4003749.543450902,
+    "tvlRecord": {
+      "breakdowns": [
+        {
+          "identifier": "17707437124336115185",
+          "type": "TOKEN",
+          "value": 77512782.37460716
+        },
+        {
+          "identifier": "5317111484270765404",
+          "type": "TOKEN",
+          "value": 2240290.659397
+        }
+      ],
+      "id": "6923465395605468101",
+      "timestamp": "1768470923",
+      "total": 4003749.543450902
+    },
+    "type": "UNISWAP_V4"
+  },
+  {
+    "action": "POOL",
+    "activePrograms": [],
+    "apr": 48.18685223742131,
+    "aprRecord": {
+      "breakdowns": [
+        {
+          "distributionType": "DUTCH_AUCTION",
+          "identifier": "0x6cd7ccf71a9955b9e1502b819927bf2e40a0e6fa7ce85729122cf5d3495b0402",
+          "timestamp": "1768470923",
+          "type": "CAMPAIGN",
+          "value": 48.18685223742131
+        }
+      ],
+      "cumulated": 48.18685223742131,
+      "timestamp": "1768470923"
+    },
+    "chain": {
+      "endOfDisputePeriod": 1768471200,
+      "explorers": [
+        {
+          "chainId": 143,
+          "id": "17242099373593364020",
+          "type": "ETHERSCAN",
+          "url": "https://monadvision.com"
+        }
+      ],
+      "icon": "https://raw.githubusercontent.com/AngleProtocol/angle-token-list/main/src/assets/chains/monad.svg",
+      "id": 143,
+      "liveCampaigns": 72,
+      "name": "Monad"
+    },
+    "chainId": 143,
+    "dailyRewards": 4442.83324437817,
+    "depositUrl": "https://app.uniswap.org/explore/pools/monad/0xadaf30776f551bccdfb307c3fd8cdec198ca9a852434c8022ee32d1ccedd8219",
+    "description": "Earn rewards by providing liquidity to the Uniswap MON pool on Monad",
+    "explorerAddress": "0x188d586Ddcf52439676Ca21A244753fA19F9Ea8e",
+    "howToSteps": [
+      "Provide liquidity on Uniswap.",
+      "Earn rewards based on your liquidity position."
+    ],
+    "id": "11139939768879050316",
+    "identifier": "0xadaf30776f551bccdfb307c3fd8cdec198ca9a852434c8022ee32d1ccedd8219",
+    "lastCampaignCreatedAt": 1768232898,
+    "liveCampaigns": 1,
+    "maxApr": 0,
+    "name": "Provide liquidity to UniswapV4 MON-AUSD 0.05%",
+    "protocol": {
+      "banner": null,
+      "description": "Swap anytime, anywhere",
+      "icon": "https://storage.googleapis.com/merkl-static-assets/protocols/uniswap.svg",
+      "id": "uniswap",
+      "name": "Uniswap",
+      "opportunityBannerDark": null,
+      "opportunityBannerLight": null,
+      "tags": [
+        "DEX",
+        "plasma"
+      ],
+      "url": "https://app.uniswap.org/"
+    },
+    "rewardsRecord": {
+      "breakdowns": [
+        {
+          "amount": "195238071428571400765440",
+          "campaignId": "635670081355458130",
+          "dailyRewardsRecordId": "10583290464815424704",
+          "distributionType": "DUTCH_AUCTION",
+          "id": "6004fa23-a6e9-423e-9f07-f9fb3039ed75",
+          "onChainCampaignId": "0x6cd7ccf71a9955b9e1502b819927bf2e40a0e6fa7ce85729122cf5d3495b0402",
+          "timestamp": "1768470923",
+          "token": {
+            "address": "0x3bd359C1119dA7Da1D913D1C4D2B7c461115433A",
+            "chainId": 143,
+            "decimals": 18,
+            "displaySymbol": "",
+            "icon": "https://storage.googleapis.com/merkl-static-assets/tokens/WMON.svg",
+            "id": "14929705797398579126",
+            "isNative": false,
+            "isTest": false,
+            "name": "Wrapped MON",
+            "price": 0.02275597792925135,
+            "priceSource": "Price Source WMON",
+            "symbol": "WMON",
+            "type": "TOKEN",
+            "updatedAt": 1768470675,
+            "verified": true
+          },
+          "value": 4442.833244378169
+        }
+      ],
+      "id": "10583290464815424704",
+      "timestamp": "1768470923",
+      "total": 4442.83324437817
+    },
+    "status": "LIVE",
+    "tags": [
+      "upshift"
+    ],
+    "tokens": [
+      {
+        "address": "0x0000000000000000000000000000000000000000",
+        "chainId": 143,
+        "decimals": 18,
+        "icon": "https://files.svgcdn.io/token-branded/monad.png",
+        "id": "17707437124336115185",
+        "isNative": true,
+        "isTest": false,
+        "name": "MON",
+        "price": 0.02275597792925135,
+        "priceSource": "Price Source MON",
+        "symbol": "MON",
+        "type": "TOKEN",
+        "updatedAt": 1768470673,
+        "verified": false
+      },
+      {
+        "address": "0x00000000eFE302BEAA2b3e6e1b18d08D69a9012a",
+        "chainId": 143,
+        "decimals": 6,
+        "icon": "https://storage.googleapis.com/merkl-static-assets/tokens/AgoraUSD.svg",
+        "id": "5265656046489301336",
+        "isNative": false,
+        "isTest": false,
+        "name": "AUSD",
+        "price": 0.9997865726574308,
+        "priceSource": "Price Source AUSD",
+        "symbol": "AUSD",
+        "type": "TOKEN",
+        "updatedAt": 1768470680,
+        "verified": true
+      }
+    ],
+    "tvl": 3365304.141901784,
+    "tvlRecord": {
+      "breakdowns": [
+        {
+          "identifier": "17707437124336115185",
+          "type": "TOKEN",
+          "value": 62452616.74671637
+        },
+        {
+          "identifier": "5265656046489301336",
+          "type": "TOKEN",
+          "value": 1944548.793471
+        }
+      ],
+      "id": "10583290464815424704",
+      "timestamp": "1768470923",
+      "total": 3365304.141901784
+    },
+    "type": "UNISWAP_V4"
+  },
+  {
+    "action": "BORROW",
+    "activePrograms": [],
+    "apr": 5.436618018241602,
+    "aprRecord": {
+      "breakdowns": [
+        {
+          "distributionType": "MAX_REWARD_VALUE_PER_LIQUIDITY_VALUE",
+          "identifier": "0x6d7d8b85ecc04e0588556608fde9c8d2f6a24f83a5fa26570972d0f59c35d8d3",
+          "timestamp": "1768470924",
+          "type": "CAMPAIGN",
+          "value": 0.6248374905625547
+        },
+        {
+          "distributionType": "MAX_REWARD_VALUE_PER_LIQUIDITY_VALUE",
+          "identifier": "0xd6476095c92d29b97eca1382d196e660b64ef5336419aed8cfe63dad3e0dbaf1",
+          "timestamp": "1768470924",
+          "type": "CAMPAIGN",
+          "value": 4.811780527679048
+        }
+      ],
+      "cumulated": 5.436618018241602,
+      "timestamp": "1768470924"
+    },
+    "chain": {
+      "endOfDisputePeriod": 1768471200,
+      "explorers": [
+        {
+          "chainId": 143,
+          "id": "17242099373593364020",
+          "type": "ETHERSCAN",
+          "url": "https://monadvision.com"
+        }
+      ],
+      "icon": "https://raw.githubusercontent.com/AngleProtocol/angle-token-list/main/src/assets/chains/monad.svg",
+      "id": 143,
+      "liveCampaigns": 72,
+      "name": "Monad"
+    },
+    "chainId": 143,
+    "dailyRewards": 2600.335426961187,
+    "depositUrl": "https://app.curvance.com/",
+    "description": "Earn rewards by borrowing AUSD from Curvance earnAUSD/AUSD market on Monad",
+    "explorerAddress": "0xAd4AA2a713fB86FBb6b60dE2aF9E32a11DB6Abf2",
+    "howToSteps": [
+      "Borrow assets on Curvance.",
+      "Rewards accumulate automatically."
+    ],
+    "id": "2555813871763366694",
+    "identifier": "0xAd4AA2a713fB86FBb6b60dE2aF9E32a11DB6Abf2",
+    "lastCampaignCreatedAt": 1768339866,
+    "liveCampaigns": 2,
+    "maxApr": 0.06,
+    "name": "Borrow AUSD from Curvance earnAUSD/AUSD market",
+    "protocol": {
+      "banner": null,
+      "description": "Curvance is Monad’s hyper-efficient lending layer, helping users earn more yield and access simple, one-click leverage",
+      "icon": "https://storage.googleapis.com/merkl-static-assets/protocols/curvance.svg",
+      "id": "curvance",
+      "name": "Curvance",
+      "opportunityBannerDark": null,
+      "opportunityBannerLight": null,
+      "tags": [],
+      "url": "https://app.curvance.com/"
+    },
+    "rewardsRecord": {
+      "breakdowns": [
+        {
+          "amount": "99949800000000001835008",
+          "campaignId": "14504577648376205750",
+          "dailyRewardsRecordId": "4176418596149184987",
+          "distributionType": "MAX_REWARD_VALUE_PER_LIQUIDITY_VALUE",
+          "id": "a039b41f-e957-4287-857a-2189c3d8e89f",
+          "onChainCampaignId": "0xd6476095c92d29b97eca1382d196e660b64ef5336419aed8cfe63dad3e0dbaf1",
+          "timestamp": "1768470924",
+          "token": {
+            "address": "0xE01d426B589c7834a5F6B20D7e992A705d3c22ED",
+            "chainId": 143,
+            "decimals": 18,
+            "displaySymbol": "cWMON",
+            "icon": "https://files.svgcdn.io/token-branded/monad.png",
+            "id": "7362831684031612782",
+            "isNative": false,
+            "isTest": false,
+            "name": "Curvance Wrapped MON",
+            "price": 0.02302633473092842,
+            "priceSource": "Computed Price - 0xeecb959229d6593c168ebc1634ba7340efbdaea383ff6694ff04467c0801c725 on chain 143",
+            "symbol": "cWMON",
+            "type": "TOKEN",
+            "updatedAt": 1768470927,
+            "verified": true
+          },
+          "value": 2301.4775510893496
+        },
+        {
+          "amount": "293970000",
+          "campaignId": "1312698967148341004",
+          "dailyRewardsRecordId": "4176418596149184987",
+          "distributionType": "MAX_REWARD_VALUE_PER_LIQUIDITY_VALUE",
+          "id": "47541dab-894c-4c96-9f11-0eeed178b4bf",
+          "onChainCampaignId": "0x6d7d8b85ecc04e0588556608fde9c8d2f6a24f83a5fa26570972d0f59c35d8d3",
+          "timestamp": "1768470924",
+          "token": {
+            "address": "0xAd4AA2a713fB86FBb6b60dE2aF9E32a11DB6Abf2",
+            "chainId": 143,
+            "decimals": 6,
+            "displaySymbol": "cAUSD",
+            "icon": "https://storage.googleapis.com/merkl-static-assets/tokens/AgoraUSD.svg",
+            "id": "11478519700176734912",
+            "isNative": false,
+            "isTest": false,
+            "name": "Curvance AUSD",
+            "price": 1.016636193745427,
+            "priceSource": "Computed Price - 0x29c261cb2f999ef3d09baed40d99eefdb5ac52d0b1ae67cf88a4934c48f247d8 on chain 143",
+            "symbol": "cAUSD",
+            "type": "TOKEN",
+            "updatedAt": 1768470927,
+            "verified": true
+          },
+          "value": 298.8605418753432
+        }
+      ],
+      "id": "4176418596149184987",
+      "timestamp": "1768470924",
+      "total": 2600.335426961187
+    },
+    "status": "LIVE",
+    "tags": [],
+    "tokens": [
+      {
+        "address": "0xAd4AA2a713fB86FBb6b60dE2aF9E32a11DB6Abf2",
+        "chainId": 143,
+        "decimals": 6,
+        "displaySymbol": "cAUSD",
+        "icon": "https://storage.googleapis.com/merkl-static-assets/tokens/AgoraUSD.svg",
+        "id": "11478519700176734912",
+        "isNative": false,
+        "isTest": false,
+        "name": "Curvance AUSD",
+        "price": 1.016636193745427,
+        "priceSource": "Computed Price - 0x29c261cb2f999ef3d09baed40d99eefdb5ac52d0b1ae67cf88a4934c48f247d8 on chain 143",
+        "symbol": "cAUSD",
+        "type": "TOKEN",
+        "updatedAt": 1768470927,
+        "verified": true
+      },
+      {
+        "address": "0x00000000eFE302BEAA2b3e6e1b18d08D69a9012a",
+        "chainId": 143,
+        "decimals": 6,
+        "icon": "https://storage.googleapis.com/merkl-static-assets/tokens/AgoraUSD.svg",
+        "id": "5265656046489301336",
+        "isNative": false,
+        "isTest": false,
+        "name": "AUSD",
+        "price": 0.9997865726574308,
+        "priceSource": "Price Source AUSD",
+        "symbol": "AUSD",
+        "type": "TOKEN",
+        "updatedAt": 1768470680,
+        "verified": true
+      }
+    ],
+    "tvl": 17457956.9073314,
+    "tvlRecord": {
+      "breakdowns": [
+        {
+          "identifier": "5265656046489301336",
+          "type": "TOKEN",
+          "value": 17461683.708082
+        }
+      ],
+      "id": "4176418596149184987",
+      "timestamp": "1768470924",
+      "total": 17457956.9073314
+    },
+    "type": "CURVANCE"
+  },
+  {
+    "action": "HOLD",
+    "activePrograms": [],
+    "apr": 4.387841908696426,
+    "aprRecord": {
+      "breakdowns": [
+        {
+          "distributionType": "MAX_REWARD_VALUE_PER_LIQUIDITY_VALUE",
+          "identifier": "0xc8e3ac84b3df32ff54d943b91b39a504651fa055b47327b2f2fcd8f7c6569367",
+          "timestamp": "1768470924",
+          "type": "CAMPAIGN",
+          "value": 4.387841908696426
+        }
+      ],
+      "cumulated": 4.387841908696426,
+      "timestamp": "1768470924"
+    },
+    "chain": {
+      "endOfDisputePeriod": 1768471200,
+      "explorers": [
+        {
+          "chainId": 143,
+          "id": "17242099373593364020",
+          "type": "ETHERSCAN",
+          "url": "https://monadvision.com"
+        }
+      ],
+      "icon": "https://raw.githubusercontent.com/AngleProtocol/angle-token-list/main/src/assets/chains/monad.svg",
+      "id": 143,
+      "liveCampaigns": 72,
+      "name": "Monad"
+    },
+    "chainId": 143,
+    "dailyRewards": 2389.133868522149,
+    "depositUrl": "https://yield.accountable.capital/vaults/0xCb9c1Fbf1b8Fcd71a70A1A6551dcaaF9f7029c19",
+    "description": "Earn rewards by holding USDC",
+    "explorerAddress": "0x3a2c4aAae6776dC1c31316De559598f2f952E2cB",
+    "howToSteps": [
+      "Hold USDC.",
+      "Rewards accumulate automatically."
+    ],
+    "id": "9832594466779938683",
+    "identifier": "0x3a2c4aAae6776dC1c31316De559598f2f952E2cB",
+    "lastCampaignCreatedAt": 1768312634,
+    "liveCampaigns": 1,
+    "maxApr": 0.05,
+    "name": "Deposit USDC in Yuzu Money Vault",
+    "protocol": {
+      "banner": null,
+      "description": "The new standard for real-time financial verification that allows institutions to prove assets and liabilities privately.",
+      "icon": "https://pbs.twimg.com/profile_images/1910248229968490496/TZd8HlZa_400x400.jpg",
+      "id": "accountable",
+      "name": "Accountable",
+      "opportunityBannerDark": null,
+      "opportunityBannerLight": null,
+      "tags": [],
+      "url": "https://yield.accountable.capital/"
+    },
+    "rewardsRecord": {
+      "breakdowns": [
+        {
+          "amount": "104989285714285687734272",
+          "campaignId": "8553229106905869921",
+          "dailyRewardsRecordId": "14880765118056115442",
+          "distributionType": "MAX_REWARD_VALUE_PER_LIQUIDITY_VALUE",
+          "id": "13b4f774-0ee6-465c-8077-08ad7c7bbb7f",
+          "onChainCampaignId": "0xc8e3ac84b3df32ff54d943b91b39a504651fa055b47327b2f2fcd8f7c6569367",
+          "timestamp": "1768470924",
+          "token": {
+            "address": "0x3bd359C1119dA7Da1D913D1C4D2B7c461115433A",
+            "chainId": 143,
+            "decimals": 18,
+            "displaySymbol": "",
+            "icon": "https://storage.googleapis.com/merkl-static-assets/tokens/WMON.svg",
+            "id": "14929705797398579126",
+            "isNative": false,
+            "isTest": false,
+            "name": "Wrapped MON",
+            "price": 0.02275597792925135,
+            "priceSource": "Price Source WMON",
+            "symbol": "WMON",
+            "type": "TOKEN",
+            "updatedAt": 1768470675,
+            "verified": true
+          },
+          "value": 2389.1338685221494
+        }
+      ],
+      "id": "14880765118056115442",
+      "timestamp": "1768470924",
+      "total": 2389.133868522149
+    },
+    "status": "LIVE",
+    "tags": [],
+    "tokens": [
+      {
+        "address": "0x3a2c4aAae6776dC1c31316De559598f2f952E2cB",
+        "chainId": 143,
+        "decimals": 6,
+        "displaySymbol": "YZM",
+        "icon": "",
+        "id": "5131151999960344455",
+        "isNative": false,
+        "isTest": false,
+        "name": "Yuzu Money Vault",
+        "price": 1.00656647276441,
+        "priceSource": "Computed Price - 0xc8e3ac84b3df32ff54d943b91b39a504651fa055b47327b2f2fcd8f7c6569367 on chain 143",
+        "symbol": "YZM",
+        "type": "TOKEN",
+        "updatedAt": 1768470926,
+        "verified": false
+      },
+      {
+        "address": "0x754704Bc059F8C67012fEd69BC8A327a5aafb603",
+        "chainId": 143,
+        "decimals": 6,
+        "icon": "https://storage.googleapis.com/merkl-static-assets/tokens/USDC.svg",
+        "id": "5317111484270765404",
+        "isNative": false,
+        "isTest": false,
+        "name": "USDC",
+        "price": 0.9998123989421824,
+        "priceSource": "Price Source USDC",
+        "symbol": "USDC",
+        "type": "TOKEN",
+        "updatedAt": 1768470675,
+        "verified": true
+      }
+    ],
+    "tvl": 19873866.92948687,
+    "tvlRecord": {
+      "breakdowns": [
+        {
+          "identifier": "5317111484270765404",
+          "type": "TOKEN",
+          "value": 19877595.987521
+        }
+      ],
+      "id": "14880765118056115442",
+      "timestamp": "1768470924",
+      "total": 19873866.92948687
+    },
+    "type": "ERC20LOGPROCESSOR"
+  },
+  {
+    "action": "LEND",
+    "activePrograms": [],
+    "apr": 3.879497382357857,
+    "aprRecord": {
+      "breakdowns": [
+        {
+          "distributionType": "DUTCH_AUCTION",
+          "identifier": "0xd425f42a963f280a9c8da89961b261d0edbc603f8d216f6b5a3c97129ea8512c",
+          "timestamp": "1768470924",
+          "type": "CAMPAIGN",
+          "value": 3.879497382357857
+        }
+      ],
+      "cumulated": 3.879497382357857,
+      "timestamp": "1768470924"
+    },
+    "chain": {
+      "endOfDisputePeriod": 1768471200,
+      "explorers": [
+        {
+          "chainId": 143,
+          "id": "17242099373593364020",
+          "type": "ETHERSCAN",
+          "url": "https://monadvision.com"
+        }
+      ],
+      "icon": "https://raw.githubusercontent.com/AngleProtocol/angle-token-list/main/src/assets/chains/monad.svg",
+      "id": 143,
+      "liveCampaigns": 72,
+      "name": "Monad"
+    },
+    "chainId": 143,
+    "dailyRewards": 2085.274920659851,
+    "depositUrl": "https://app.gearbox.fi/pools/143/0x6B343F7B797f1488AA48C49d540690F2b2c89751",
+    "description": "Earn rewards by depositing USDC on Gearbox",
+    "explorerAddress": "0x6B343F7B797f1488AA48C49d540690F2b2c89751",
+    "howToSteps": [
+      "Lend assets on Gearbox.",
+      "Rewards accumulate automatically."
+    ],
+    "id": "5450504867483829661",
+    "identifier": "0x6B343F7B797f1488AA48C49d540690F2b2c89751",
+    "lastCampaignCreatedAt": 1768221552,
+    "liveCampaigns": 1,
+    "maxApr": 0,
+    "name": "Deposit USDC on the Gearbox EDGE UltraYield USDC vault",
+    "protocol": {
+      "banner": null,
+      "description": "Onchain Lending Reimagined",
+      "icon": "https://icons.llamao.fi/icons/protocols/gearbox?w=96&h=96",
+      "id": "gearbox",
+      "name": "Gearbox",
+      "opportunityBannerDark": null,
+      "opportunityBannerLight": null,
+      "tags": [
+        "LENDING",
+        "plasma"
+      ],
+      "url": "https://gearbox.fi/"
+    },
+    "rewardsRecord": {
+      "breakdowns": [
+        {
+          "amount": "91636357142857153249280",
+          "campaignId": "9628131499241587795",
+          "dailyRewardsRecordId": "12130985384057471448",
+          "distributionType": "DUTCH_AUCTION",
+          "id": "3dd1ba44-0de9-465e-a141-8542da34d3c7",
+          "onChainCampaignId": "0xd425f42a963f280a9c8da89961b261d0edbc603f8d216f6b5a3c97129ea8512c",
+          "timestamp": "1768470924",
+          "token": {
+            "address": "0x3bd359C1119dA7Da1D913D1C4D2B7c461115433A",
+            "chainId": 143,
+            "decimals": 18,
+            "displaySymbol": "",
+            "icon": "https://storage.googleapis.com/merkl-static-assets/tokens/WMON.svg",
+            "id": "14929705797398579126",
+            "isNative": false,
+            "isTest": false,
+            "name": "Wrapped MON",
+            "price": 0.02275597792925135,
+            "priceSource": "Price Source WMON",
+            "symbol": "WMON",
+            "type": "TOKEN",
+            "updatedAt": 1768470675,
+            "verified": true
+          },
+          "value": 2085.2749206598514
+        }
+      ],
+      "id": "12130985384057471448",
+      "timestamp": "1768470924",
+      "total": 2085.274920659851
+    },
+    "status": "LIVE",
+    "tags": [
+      "gearbox"
+    ],
+    "tokens": [
+      {
+        "address": "0x6B343F7B797f1488AA48C49d540690F2b2c89751",
+        "chainId": 143,
+        "decimals": 6,
+        "displaySymbol": "edgeUSDC",
+        "icon": "",
+        "id": "17124987633614811050",
+        "isNative": false,
+        "isTest": false,
+        "name": "EDGE UltraYield USDC",
+        "price": 0.9997000038980833,
+        "priceSource": "Computed Price - 0x2d29fe99121990190e08bbfbd8e3c26b1076f541a7d779ff37a4de64d9c28e46 on chain 143",
+        "symbol": "edgeUSDC",
+        "type": "TOKEN",
+        "updatedAt": 1764062048,
+        "verified": false
+      },
+      {
+        "address": "0x754704Bc059F8C67012fEd69BC8A327a5aafb603",
+        "chainId": 143,
+        "decimals": 6,
+        "icon": "https://storage.googleapis.com/merkl-static-assets/tokens/USDC.svg",
+        "id": "5317111484270765404",
+        "isNative": false,
+        "isTest": false,
+        "name": "USDC",
+        "price": 0.9998123989421824,
+        "priceSource": "Price Source USDC",
+        "symbol": "USDC",
+        "type": "TOKEN",
+        "updatedAt": 1768470675,
+        "verified": true
+      }
+    ],
+    "tvl": 19619174.11008159,
+    "tvlRecord": {
+      "breakdowns": [
+        {
+          "identifier": "5317111484270765404",
+          "type": "TOKEN",
+          "value": 19622855.378508
+        }
+      ],
+      "id": "12130985384057471448",
+      "timestamp": "1768470924",
+      "total": 19619174.11008159
+    },
+    "type": "ERC20LOGPROCESSOR"
+  },
+  {
+    "action": "POOL",
+    "activePrograms": [],
+    "apr": 56.05415923364632,
+    "aprRecord": {
+      "breakdowns": [
+        {
+          "distributionType": "DUTCH_AUCTION",
+          "identifier": "0xf841a501766b4f9621d2b07fbc564ee247ab239eb1ec2fd2af45e606b57e8514",
+          "timestamp": "1768470923",
+          "type": "CAMPAIGN",
+          "value": 56.05415923364632
+        }
+      ],
+      "cumulated": 56.05415923364632,
+      "timestamp": "1768470923"
+    },
+    "chain": {
+      "endOfDisputePeriod": 1768471200,
+      "explorers": [
+        {
+          "chainId": 143,
+          "id": "17242099373593364020",
+          "type": "ETHERSCAN",
+          "url": "https://monadvision.com"
+        }
+      ],
+      "icon": "https://raw.githubusercontent.com/AngleProtocol/angle-token-list/main/src/assets/chains/monad.svg",
+      "id": 143,
+      "liveCampaigns": 72,
+      "name": "Monad"
+    },
+    "chainId": 143,
+    "dailyRewards": 1787.969694441177,
+    "depositUrl": "https://app.uniswap.org/explore/pools/monad/0x1c93dd2f2f47439330150bf728c3beeaad71de45420a49183214898b044b65d1",
+    "description": "Earn rewards by providing liquidity to the Uniswap MON pool on Monad",
+    "explorerAddress": "0x188d586Ddcf52439676Ca21A244753fA19F9Ea8e",
+    "howToSteps": [
+      "Provide liquidity on Uniswap.",
+      "Earn rewards based on your liquidity position."
+    ],
+    "id": "10799262336420207535",
+    "identifier": "0x1c93dd2f2f47439330150bf728c3beeaad71de45420a49183214898b044b65d1",
+    "lastCampaignCreatedAt": 1768232901,
+    "liveCampaigns": 1,
+    "maxApr": 0,
+    "name": "Provide liquidity to UniswapV4 MON-WBTC 0.05%",
+    "protocol": {
+      "banner": null,
+      "description": "Swap anytime, anywhere",
+      "icon": "https://storage.googleapis.com/merkl-static-assets/protocols/uniswap.svg",
+      "id": "uniswap",
+      "name": "Uniswap",
+      "opportunityBannerDark": null,
+      "opportunityBannerLight": null,
+      "tags": [
+        "DEX",
+        "plasma"
+      ],
+      "url": "https://app.uniswap.org/"
+    },
+    "rewardsRecord": {
+      "breakdowns": [
+        {
+          "amount": "78571428571428560044032",
+          "campaignId": "1057585007739423180",
+          "dailyRewardsRecordId": "10120451088208097293",
+          "distributionType": "DUTCH_AUCTION",
+          "id": "7695cb21-2f29-438a-998e-21dd52046ec7",
+          "onChainCampaignId": "0xf841a501766b4f9621d2b07fbc564ee247ab239eb1ec2fd2af45e606b57e8514",
+          "timestamp": "1768470923",
+          "token": {
+            "address": "0x3bd359C1119dA7Da1D913D1C4D2B7c461115433A",
+            "chainId": 143,
+            "decimals": 18,
+            "displaySymbol": "",
+            "icon": "https://storage.googleapis.com/merkl-static-assets/tokens/WMON.svg",
+            "id": "14929705797398579126",
+            "isNative": false,
+            "isTest": false,
+            "name": "Wrapped MON",
+            "price": 0.02275597792925135,
+            "priceSource": "Price Source WMON",
+            "symbol": "WMON",
+            "type": "TOKEN",
+            "updatedAt": 1768470675,
+            "verified": true
+          },
+          "value": 1787.9696944411774
+        }
+      ],
+      "id": "10120451088208097293",
+      "timestamp": "1768470923",
+      "total": 1787.969694441177
+    },
+    "status": "LIVE",
+    "tags": [],
+    "tokens": [
+      {
+        "address": "0x0555E30da8f98308EdB960aa94C0Db47230d2B9c",
+        "chainId": 143,
+        "decimals": 8,
+        "displaySymbol": "WBTC",
+        "icon": "https://storage.googleapis.com/merkl-static-assets/tokens/WBTC.svg",
+        "id": "12613927189941758813",
+        "isNative": false,
+        "isTest": false,
+        "name": "Wrapped BTC",
+        "price": 96719.41310942559,
+        "priceSource": "Price Source WBTC",
+        "symbol": "WBTC",
+        "type": "TOKEN",
+        "updatedAt": 1768470675,
+        "verified": true
+      },
+      {
+        "address": "0x0000000000000000000000000000000000000000",
+        "chainId": 143,
+        "decimals": 18,
+        "icon": "https://files.svgcdn.io/token-branded/monad.png",
+        "id": "17707437124336115185",
+        "isNative": true,
+        "isTest": false,
+        "name": "MON",
+        "price": 0.02275597792925135,
+        "priceSource": "Price Source MON",
+        "symbol": "MON",
+        "type": "TOKEN",
+        "updatedAt": 1768470673,
+        "verified": false
+      }
+    ],
+    "tvl": 1164247.127052266,
+    "tvlRecord": {
+      "breakdowns": [
+        {
+          "identifier": "17707437124336115185",
+          "type": "TOKEN",
+          "value": 23982725.78370485
+        },
+        {
+          "identifier": "12613927189941758813",
+          "type": "TOKEN",
+          "value": 6.39475291
+        }
+      ],
+      "id": "10120451088208097293",
+      "timestamp": "1768470923",
+      "total": 1164247.127052266
+    },
+    "type": "UNISWAP_V4"
+  },
+  {
+    "action": "BORROW",
+    "activePrograms": [],
+    "apr": 1.495983321774351,
+    "aprRecord": {
+      "breakdowns": [
+        {
+          "distributionType": "DUTCH_AUCTION",
+          "identifier": "0x2a6fbdff2ea5bdeeb4fb86513bcecb19c6e102fcb4b7b62429dcdb2c7c4f5753",
+          "timestamp": "1768470922",
+          "type": "CAMPAIGN",
+          "value": 1.495983321774351
+        }
+      ],
+      "cumulated": 1.495983321774351,
+      "timestamp": "1768470922"
+    },
+    "chain": {
+      "endOfDisputePeriod": 1768471200,
+      "explorers": [
+        {
+          "chainId": 143,
+          "id": "17242099373593364020",
+          "type": "ETHERSCAN",
+          "url": "https://monadvision.com"
+        }
+      ],
+      "icon": "https://raw.githubusercontent.com/AngleProtocol/angle-token-list/main/src/assets/chains/monad.svg",
+      "id": 143,
+      "liveCampaigns": 72,
+      "name": "Monad"
+    },
+    "chainId": 143,
+    "dailyRewards": 1706.698344693851,
+    "depositUrl": "https://app.morpho.org/monad/borrow",
+    "description": "Earn rewards by borrowing AUSD on any whitelisted Morpho Market on Monad",
+    "explorerAddress": "0x00000000eFE302BEAA2b3e6e1b18d08D69a9012a",
+    "howToSteps": [
+      "Borrow assets on Morpho.",
+      "Rewards accumulate automatically."
+    ],
+    "id": "18381628476188136076",
+    "identifier": "0x00000000eFE302BEAA2b3e6e1b18d08D69a9012a",
+    "lastCampaignCreatedAt": 1768225338,
+    "liveCampaigns": 1,
+    "maxApr": 0,
+    "name": "Borrow AUSD on any Morpho Market",
+    "protocol": {
+      "banner": null,
+      "description": "Open infrastructure for onchain loans",
+      "icon": "https://storage.googleapis.com/merkl-static-assets/protocols/morpho.svg",
+      "id": "morpho",
+      "name": "Morpho",
+      "opportunityBannerDark": null,
+      "opportunityBannerLight": null,
+      "tags": [
+        "LENDING",
+        "drip"
+      ],
+      "url": "https://morpho.org/"
+    },
+    "rewardsRecord": {
+      "breakdowns": [
+        {
+          "amount": "75000000000000002097152",
+          "campaignId": "8603353610325081419",
+          "dailyRewardsRecordId": "11590175888996363274",
+          "distributionType": "DUTCH_AUCTION",
+          "id": "0dd7a1aa-b659-4eb4-a3ea-76267a3409c7",
+          "onChainCampaignId": "0x2a6fbdff2ea5bdeeb4fb86513bcecb19c6e102fcb4b7b62429dcdb2c7c4f5753",
+          "timestamp": "1768470922",
+          "token": {
+            "address": "0x3bd359C1119dA7Da1D913D1C4D2B7c461115433A",
+            "chainId": 143,
+            "decimals": 18,
+            "displaySymbol": "",
+            "icon": "https://storage.googleapis.com/merkl-static-assets/tokens/WMON.svg",
+            "id": "14929705797398579126",
+            "isNative": false,
+            "isTest": false,
+            "name": "Wrapped MON",
+            "price": 0.02275597792925135,
+            "priceSource": "Price Source WMON",
+            "symbol": "WMON",
+            "type": "TOKEN",
+            "updatedAt": 1768470675,
+            "verified": true
+          },
+          "value": 1706.6983446938511
+        }
+      ],
+      "id": "11590175888996363274",
+      "timestamp": "1768470922",
+      "total": 1706.698344693851
+    },
+    "status": "LIVE",
+    "tags": [],
+    "tokens": [
+      {
+        "address": "0x00000000eFE302BEAA2b3e6e1b18d08D69a9012a",
+        "chainId": 143,
+        "decimals": 6,
+        "icon": "https://storage.googleapis.com/merkl-static-assets/tokens/AgoraUSD.svg",
+        "id": "5265656046489301336",
+        "isNative": false,
+        "isTest": false,
+        "name": "AUSD",
+        "price": 0.9997865726574308,
+        "priceSource": "Price Source AUSD",
+        "symbol": "AUSD",
+        "type": "TOKEN",
+        "updatedAt": 1768470680,
+        "verified": true
+      }
+    ],
+    "tvl": 41641165.8302711,
+    "tvlRecord": {
+      "breakdowns": [
+        {
+          "identifier": "5265656046489301336",
+          "type": "TOKEN",
+          "value": 41650055.090847
+        }
+      ],
+      "id": "11590175888996363274",
+      "timestamp": "1768470922",
+      "total": 41641165.8302711
+    },
+    "type": "MORPHOBORROW_SINGLETOKEN"
+  },
+  {
+    "action": "LEND",
+    "activePrograms": [],
+    "apr": 7.990224309583437,
+    "aprRecord": {
+      "breakdowns": [
+        {
+          "distributionType": "DUTCH_AUCTION",
+          "identifier": "15958452974169211661",
+          "timestamp": "1768470923",
+          "type": "CAMPAIGN",
+          "value": 7.851299846697933
+        },
+        {
+          "distributionType": "DUTCH_AUCTION",
+          "identifier": "8309908274854174832",
+          "timestamp": "1768470923",
+          "type": "CAMPAIGN",
+          "value": 0.1389244628855039
+        }
+      ],
+      "cumulated": 7.990224309583437,
+      "timestamp": "1768470923"
+    },
+    "chain": {
+      "endOfDisputePeriod": 1768471200,
+      "explorers": [
+        {
+          "chainId": 143,
+          "id": "17242099373593364020",
+          "type": "ETHERSCAN",
+          "url": "https://monadvision.com"
+        }
+      ],
+      "icon": "https://raw.githubusercontent.com/AngleProtocol/angle-token-list/main/src/assets/chains/monad.svg",
+      "id": 143,
+      "liveCampaigns": 72,
+      "name": "Monad"
+    },
+    "chainId": 143,
+    "dailyRewards": 1705.161633975796,
+    "depositUrl": "https://app.neverland.money/markets",
+    "description": "Earn rewards by lending earnAUSD on Monad",
+    "explorerAddress": "0xaCaaA891b30E13D024AB67b6EcA9c2EcBD8cf52b",
+    "howToSteps": [
+      "Lend assets on.",
+      "Rewards accumulate automatically."
+    ],
+    "id": "3823743315751046048",
+    "identifier": "0xaCaaA891b30E13D024AB67b6EcA9c2EcBD8cf52b",
+    "lastCampaignCreatedAt": 1768411097,
+    "liveCampaigns": 2,
+    "maxApr": 0,
+    "name": "Lend earnAUSD",
+    "protocol": {
+      "banner": null,
+      "description": "Neverland is a lending protocol built on Aave's secure system, governed by the community, and powered by Monad's fast blockchain.",
+      "icon": "https://pbs.twimg.com/profile_images/1993662956098232320/UcnsahQh_400x400.jpg",
+      "id": "neverland",
+      "name": "neverland",
+      "opportunityBannerDark": null,
+      "opportunityBannerLight": null,
+      "tags": [
+        "LEND"
+      ],
+      "url": "https://neverland.money/"
+    },
+    "rewardsRecord": {
+      "breakdowns": [
+        {
+          "amount": "1302836159158513041408",
+          "campaignId": "9710374692163320006",
+          "dailyRewardsRecordId": "9732783659325313504",
+          "distributionType": "DUTCH_AUCTION",
+          "id": "d7892794-4971-4511-992a-ffe6f99d47d6",
+          "onChainCampaignId": "8309908274854174832",
+          "timestamp": "1768470923",
+          "token": {
+            "address": "0x3bd359C1119dA7Da1D913D1C4D2B7c461115433A",
+            "chainId": 143,
+            "decimals": 18,
+            "displaySymbol": "",
+            "icon": "https://storage.googleapis.com/merkl-static-assets/tokens/WMON.svg",
+            "id": "14929705797398579126",
+            "isNative": false,
+            "isTest": false,
+            "name": "Wrapped MON",
+            "price": 0.02275597792925135,
+            "priceSource": "Price Source WMON",
+            "symbol": "WMON",
+            "type": "TOKEN",
+            "updatedAt": 1768470675,
+            "verified": true
+          },
+          "value": 29.647310883241722
+        },
+        {
+          "amount": "1675872000",
+          "campaignId": "7041043070945953629",
+          "dailyRewardsRecordId": "9732783659325313504",
+          "distributionType": "DUTCH_AUCTION",
+          "id": "af093c8c-103a-453c-9573-28f06737892c",
+          "onChainCampaignId": "15958452974169211661",
+          "timestamp": "1768470923",
+          "token": {
+            "address": "0x00000000eFE302BEAA2b3e6e1b18d08D69a9012a",
+            "chainId": 143,
+            "decimals": 6,
+            "displaySymbol": "",
+            "icon": "https://storage.googleapis.com/merkl-static-assets/tokens/AgoraUSD.svg",
+            "id": "5265656046489301336",
+            "isNative": false,
+            "isTest": false,
+            "name": "AUSD",
+            "price": 0.9997865726574308,
+            "priceSource": "Price Source AUSD",
+            "symbol": "AUSD",
+            "type": "TOKEN",
+            "updatedAt": 1768470680,
+            "verified": true
+          },
+          "value": 1675.514323092554
+        }
+      ],
+      "id": "9732783659325313504",
+      "timestamp": "1768470923",
+      "total": 1705.161633975796
+    },
+    "status": "LIVE",
+    "tags": [
+      "upshift"
+    ],
+    "tokens": [
+      {
+        "address": "0xaCaaA891b30E13D024AB67b6EcA9c2EcBD8cf52b",
+        "chainId": 143,
+        "decimals": 6,
+        "displaySymbol": "nEARNAUSD",
+        "icon": "",
+        "id": "15843495575858700090",
+        "isNative": false,
+        "isTest": false,
+        "name": "Neverland Interest Bearing EARNAUSD",
+        "price": 1,
+        "priceSource": "Computed Price - 8309908274854174832 on chain 143",
+        "symbol": "nEARNAUSD",
+        "type": "TOKEN",
+        "updatedAt": 1768470924,
+        "verified": false
+      },
+      {
+        "address": "0x103222f020e98Bba0AD9809A011FDF8e6F067496",
+        "chainId": 143,
+        "decimals": 6,
+        "displaySymbol": "earnAUSD",
+        "icon": "https://imagedelivery.net/cBNDGgkrsEA-b_ixIp9SkQ/upshift.jpg/public",
+        "id": "18095079019217889906",
+        "isNative": false,
+        "isTest": false,
+        "name": "earnAUSD",
+        "price": 1,
+        "priceSource": "Computed Price - 0x97ee19c43592ad022eb21abb98173488b9c62d69a4c1c3926eae13eb699ec84e on chain 143",
+        "symbol": "earnAUSD",
+        "type": "TOKEN",
+        "updatedAt": 1768470925,
+        "verified": false
+      }
+    ],
+    "tvl": 7789318.200425,
+    "tvlRecord": {
+      "breakdowns": [
+        {
+          "identifier": "15843495575858700090",
+          "type": "TOKEN",
+          "value": 7789318.200425
+        }
+      ],
+      "id": "9732783659325313504",
+      "timestamp": "1768470923",
+      "total": 7789318.200425
+    },
+    "type": "AAVE_SUPPLY"
+  },
+  {
+    "action": "LEND",
+    "activePrograms": [],
+    "apr": 4.262620225210838,
+    "aprRecord": {
+      "breakdowns": [
+        {
+          "distributionType": "DUTCH_AUCTION",
+          "identifier": "0x15489273cc5aea24286a503e7b2caef93c06717b19a452c0b2d9264bcbbf4521",
+          "timestamp": "1768470922",
+          "type": "CAMPAIGN",
+          "value": 4.262620225210838
+        }
+      ],
+      "cumulated": 4.262620225210838,
+      "timestamp": "1768470922"
+    },
+    "chain": {
+      "endOfDisputePeriod": 1768471200,
+      "explorers": [
+        {
+          "chainId": 143,
+          "id": "17242099373593364020",
+          "type": "ETHERSCAN",
+          "url": "https://monadvision.com"
+        }
+      ],
+      "icon": "https://raw.githubusercontent.com/AngleProtocol/angle-token-list/main/src/assets/chains/monad.svg",
+      "id": 143,
+      "liveCampaigns": 72,
+      "name": "Monad"
+    },
+    "chainId": 143,
+    "dailyRewards": 1625.426994946525,
+    "depositUrl": "https://app.morpho.org/monad/earn",
+    "description": "Earn rewards by supplying USDC on any whitelisted Morpho Market on Monad",
+    "explorerAddress": "0x754704Bc059F8C67012fEd69BC8A327a5aafb603",
+    "howToSteps": [
+      "Lend assets on Morpho.",
+      "Rewards accumulate automatically."
+    ],
+    "id": "10638486709368469341",
+    "identifier": "0x754704Bc059F8C67012fEd69BC8A327a5aafb603",
+    "lastCampaignCreatedAt": 1768225335,
+    "liveCampaigns": 1,
+    "maxApr": 0,
+    "name": "Supply USDC on any Morpho Market",
+    "nativeAprRecord": {
+      "description": "TVL-weighted average supply APR across 8 Morpho market(s) for USDC on chain 143 (Total TVL: $14899591)",
+      "timestamp": "1768471266",
+      "title": "Morpho Native Supply APR - USDC",
+      "value": 3.06574056360326
+    },
+    "protocol": {
+      "banner": null,
+      "description": "Open infrastructure for onchain loans",
+      "icon": "https://storage.googleapis.com/merkl-static-assets/protocols/morpho.svg",
+      "id": "morpho",
+      "name": "Morpho",
+      "opportunityBannerDark": null,
+      "opportunityBannerLight": null,
+      "tags": [
+        "LENDING",
+        "drip"
+      ],
+      "url": "https://morpho.org/"
+    },
+    "rewardsRecord": {
+      "breakdowns": [
+        {
+          "amount": "71428571428571435761664",
+          "campaignId": "1978436353290732363",
+          "dailyRewardsRecordId": "2143249434810652956",
+          "distributionType": "DUTCH_AUCTION",
+          "id": "f30b8b93-6257-476b-9a2f-a121a4693f96",
+          "onChainCampaignId": "0x15489273cc5aea24286a503e7b2caef93c06717b19a452c0b2d9264bcbbf4521",
+          "timestamp": "1768470922",
+          "token": {
+            "address": "0x3bd359C1119dA7Da1D913D1C4D2B7c461115433A",
+            "chainId": 143,
+            "decimals": 18,
+            "displaySymbol": "",
+            "icon": "https://storage.googleapis.com/merkl-static-assets/tokens/WMON.svg",
+            "id": "14929705797398579126",
+            "isNative": false,
+            "isTest": false,
+            "name": "Wrapped MON",
+            "price": 0.02275597792925135,
+            "priceSource": "Price Source WMON",
+            "symbol": "WMON",
+            "type": "TOKEN",
+            "updatedAt": 1768470675,
+            "verified": true
+          },
+          "value": 1625.4269949465252
+        }
+      ],
+      "id": "2143249434810652956",
+      "timestamp": "1768470922",
+      "total": 1625.426994946525
+    },
+    "status": "LIVE",
+    "tags": [],
+    "tokens": [
+      {
+        "address": "0x754704Bc059F8C67012fEd69BC8A327a5aafb603",
+        "chainId": 143,
+        "decimals": 6,
+        "icon": "https://storage.googleapis.com/merkl-static-assets/tokens/USDC.svg",
+        "id": "5317111484270765404",
+        "isNative": false,
+        "isTest": false,
+        "name": "USDC",
+        "price": 0.9998123989421824,
+        "priceSource": "Price Source USDC",
+        "symbol": "USDC",
+        "type": "TOKEN",
+        "updatedAt": 1768470675,
+        "verified": true
+      }
+    ],
+    "tvl": 13918219.82278838,
+    "tvlRecord": {
+      "breakdowns": [
+        {
+          "identifier": "5317111484270765404",
+          "type": "TOKEN",
+          "value": 13920831.385482
+        }
+      ],
+      "id": "2143249434810652956",
+      "timestamp": "1768470922",
+      "total": 13918219.82278838
+    },
+    "type": "MORPHOSUPPLY_SINGLETOKEN"
+  },
+  {
+    "action": "POOL",
+    "activePrograms": [],
+    "apr": 47.50816420087812,
+    "aprRecord": {
+      "breakdowns": [
+        {
+          "distributionType": "DUTCH_AUCTION",
+          "identifier": "0xc9b8e6de0d7961aea627e197311fb83b84f4cfbae25af7354b616f148db7c2f9",
+          "timestamp": "1768470923",
+          "type": "CAMPAIGN",
+          "value": 47.50816420087812
+        }
+      ],
+      "cumulated": 47.50816420087812,
+      "timestamp": "1768470923"
+    },
+    "chain": {
+      "endOfDisputePeriod": 1768471200,
+      "explorers": [
+        {
+          "chainId": 143,
+          "id": "17242099373593364020",
+          "type": "ETHERSCAN",
+          "url": "https://monadvision.com"
+        }
+      ],
+      "icon": "https://raw.githubusercontent.com/AngleProtocol/angle-token-list/main/src/assets/chains/monad.svg",
+      "id": 143,
+      "liveCampaigns": 72,
+      "name": "Monad"
+    },
+    "chainId": 143,
+    "dailyRewards": 1523.837807762367,
+    "depositUrl": "https://app.uniswap.org/explore/pools/monad/0x3783b51e33900eb366a9e8473c76cda441e7170d2e5d96927f30c16a7add93aa",
+    "description": "Earn rewards by providing liquidity to the Uniswap MON pool on Monad",
+    "explorerAddress": "0x188d586Ddcf52439676Ca21A244753fA19F9Ea8e",
+    "howToSteps": [
+      "Provide liquidity on Uniswap.",
+      "Earn rewards based on your liquidity position."
+    ],
+    "id": "9177081393481432329",
+    "identifier": "0x3783b51e33900eb366a9e8473c76cda441e7170d2e5d96927f30c16a7add93aa",
+    "lastCampaignCreatedAt": 1768232903,
+    "liveCampaigns": 1,
+    "maxApr": 0,
+    "name": "Provide liquidity to UniswapV4 MON-WETH 0.05%",
+    "protocol": {
+      "banner": null,
+      "description": "Swap anytime, anywhere",
+      "icon": "https://storage.googleapis.com/merkl-static-assets/protocols/uniswap.svg",
+      "id": "uniswap",
+      "name": "Uniswap",
+      "opportunityBannerDark": null,
+      "opportunityBannerLight": null,
+      "tags": [
+        "DEX",
+        "plasma"
+      ],
+      "url": "https://app.uniswap.org/"
+    },
+    "rewardsRecord": {
+      "breakdowns": [
+        {
+          "amount": "66964285714285713162240",
+          "campaignId": "16095092539187901238",
+          "dailyRewardsRecordId": "8057805468872578509",
+          "distributionType": "DUTCH_AUCTION",
+          "id": "0e91a9a0-fe85-4942-9221-8fc7abdb4914",
+          "onChainCampaignId": "0xc9b8e6de0d7961aea627e197311fb83b84f4cfbae25af7354b616f148db7c2f9",
+          "timestamp": "1768470923",
+          "token": {
+            "address": "0x3bd359C1119dA7Da1D913D1C4D2B7c461115433A",
+            "chainId": 143,
+            "decimals": 18,
+            "displaySymbol": "",
+            "icon": "https://storage.googleapis.com/merkl-static-assets/tokens/WMON.svg",
+            "id": "14929705797398579126",
+            "isNative": false,
+            "isTest": false,
+            "name": "Wrapped MON",
+            "price": 0.02275597792925135,
+            "priceSource": "Price Source WMON",
+            "symbol": "WMON",
+            "type": "TOKEN",
+            "updatedAt": 1768470675,
+            "verified": true
+          },
+          "value": 1523.837807762367
+        }
+      ],
+      "id": "8057805468872578509",
+      "timestamp": "1768470923",
+      "total": 1523.837807762367
+    },
+    "status": "LIVE",
+    "tags": [],
+    "tokens": [
+      {
+        "address": "0xEE8c0E9f1BFFb4Eb878d8f15f368A02a35481242",
+        "chainId": 143,
+        "decimals": 18,
+        "displaySymbol": "WETH",
+        "icon": "https://storage.googleapis.com/merkl-static-assets/tokens/WETH.svg",
+        "id": "13459840062726624416",
+        "isNative": false,
+        "isTest": false,
+        "name": "Wrapped Ether",
+        "price": 3363.271012611963,
+        "priceSource": "Price Source 0xEE8c0E9f1BFFb4Eb878d8f15f368A02a35481242",
+        "symbol": "WETH",
+        "type": "TOKEN",
+        "updatedAt": 1768470735,
+        "verified": true
+      },
+      {
+        "address": "0x0000000000000000000000000000000000000000",
+        "chainId": 143,
+        "decimals": 18,
+        "icon": "https://files.svgcdn.io/token-branded/monad.png",
+        "id": "17707437124336115185",
+        "isNative": true,
+        "isTest": false,
+        "name": "MON",
+        "price": 0.02275597792925135,
+        "priceSource": "Price Source MON",
+        "symbol": "MON",
+        "type": "TOKEN",
+        "updatedAt": 1768470673,
+        "verified": false
+      }
+    ],
+    "tvl": 1170747.826587211,
+    "tvlRecord": {
+      "breakdowns": [
+        {
+          "identifier": "17707437124336115185",
+          "type": "TOKEN",
+          "value": 24579840.2376016
+        },
+        {
+          "identifier": "13459840062726624416",
+          "type": "TOKEN",
+          "value": 181.7901448747645
+        }
+      ],
+      "id": "8057805468872578509",
+      "timestamp": "1768470923",
+      "total": 1170747.826587211
+    },
+    "type": "UNISWAP_V4"
+  },
+  {
+    "action": "LEND",
+    "activePrograms": [],
+    "apr": 3.953400537352487,
+    "aprRecord": {
+      "breakdowns": [
+        {
+          "distributionType": "DUTCH_AUCTION",
+          "identifier": "12575799818492745161",
+          "timestamp": "1768470923",
+          "type": "CAMPAIGN",
+          "value": 3.953400537352487
+        }
+      ],
+      "cumulated": 3.953400537352487,
+      "timestamp": "1768470923"
+    },
+    "chain": {
+      "endOfDisputePeriod": 1768471200,
+      "explorers": [
+        {
+          "chainId": 143,
+          "id": "17242099373593364020",
+          "type": "ETHERSCAN",
+          "url": "https://monadvision.com"
+        }
+      ],
+      "icon": "https://raw.githubusercontent.com/AngleProtocol/angle-token-list/main/src/assets/chains/monad.svg",
+      "id": 143,
+      "liveCampaigns": 72,
+      "name": "Monad"
+    },
+    "chainId": 143,
+    "dailyRewards": 1418.496656727095,
+    "depositUrl": "https://app.morpho.org/monad/vault/0xbeEFf443C3CbA3E369DA795002243BeaC311aB83/steakhouse-high-yield-usdc",
+    "description": "Earn rewards by supplying to the Steakhouse High Yield USDC vault on Morpho on Monad",
+    "explorerAddress": "0x802c91d807A8DaCA257c4708ab264B6520964e44",
+    "howToSteps": [
+      "Lend assets on Morpho.",
+      "Rewards accumulate automatically."
+    ],
+    "id": "13358823472980524116",
+    "identifier": "0x802c91d807A8DaCA257c4708ab264B6520964e44",
+    "lastCampaignCreatedAt": 1768231113,
+    "liveCampaigns": 1,
+    "maxApr": 0,
+    "name": "Supply to the Steakhouse High Yield USDC vault on Morpho on Monad",
+    "nativeAprRecord": {
+      "description": "Native APR (without rewards) for Morpho vault Steakhouse High Yield USDC (0x802c91d807a8daca257c4708ab264b6520964e44) on chain 143",
+      "timestamp": "1768471263",
+      "title": "Morpho Vault Native APR - Steakhouse High Yield USDC",
+      "value": 2.774163129851683
+    },
+    "protocol": {
+      "banner": null,
+      "description": "Open infrastructure for onchain loans",
+      "icon": "https://storage.googleapis.com/merkl-static-assets/protocols/morpho.svg",
+      "id": "morpho",
+      "name": "Morpho",
+      "opportunityBannerDark": null,
+      "opportunityBannerLight": null,
+      "tags": [
+        "LENDING",
+        "drip"
+      ],
+      "url": "https://morpho.org/"
+    },
+    "rewardsRecord": {
+      "breakdowns": [
+        {
+          "amount": "62335121836434387894272",
+          "campaignId": "6040259841730634118",
+          "dailyRewardsRecordId": "653682739525235207",
+          "distributionType": "DUTCH_AUCTION",
+          "id": "5f3c1d16-e3bf-45fe-a196-3832d35a2c9a",
+          "onChainCampaignId": "12575799818492745161",
+          "timestamp": "1768470923",
+          "token": {
+            "address": "0x3bd359C1119dA7Da1D913D1C4D2B7c461115433A",
+            "chainId": 143,
+            "decimals": 18,
+            "displaySymbol": "",
+            "icon": "https://storage.googleapis.com/merkl-static-assets/tokens/WMON.svg",
+            "id": "14929705797398579126",
+            "isNative": false,
+            "isTest": false,
+            "name": "Wrapped MON",
+            "price": 0.02275597792925135,
+            "priceSource": "Price Source WMON",
+            "symbol": "WMON",
+            "type": "TOKEN",
+            "updatedAt": 1768470675,
+            "verified": true
+          },
+          "value": 1418.496656727095
+        }
+      ],
+      "id": "653682739525235207",
+      "timestamp": "1768470923",
+      "total": 1418.496656727095
+    },
+    "status": "LIVE",
+    "tags": [],
+    "tokens": [
+      {
+        "address": "0x802c91d807A8DaCA257c4708ab264B6520964e44",
+        "chainId": 143,
+        "decimals": 18,
+        "displaySymbol": "bbqUSDC",
+        "icon": "",
+        "id": "3635056894066731649",
+        "isNative": false,
+        "isTest": false,
+        "name": "Steakhouse High Yield USDC",
+        "price": 1.003525264454918,
+        "priceSource": "Computed Price - 12575799818492745161 on chain 143",
+        "symbol": "bbqUSDC",
+        "type": "TOKEN",
+        "updatedAt": 1768470924,
+        "verified": false
+      },
+      {
+        "address": "0x754704Bc059F8C67012fEd69BC8A327a5aafb603",
+        "chainId": 143,
+        "decimals": 6,
+        "icon": "https://storage.googleapis.com/merkl-static-assets/tokens/USDC.svg",
+        "id": "5317111484270765404",
+        "isNative": false,
+        "isTest": false,
+        "name": "USDC",
+        "price": 0.9998123989421824,
+        "priceSource": "Price Source USDC",
+        "symbol": "USDC",
+        "type": "TOKEN",
+        "updatedAt": 1768470675,
+        "verified": true
+      }
+    ],
+    "tvl": 13096352.74274833,
+    "tvlRecord": {
+      "breakdowns": [
+        {
+          "identifier": "5317111484270765404",
+          "type": "TOKEN",
+          "value": 13098810.093378
+        }
+      ],
+      "id": "653682739525235207",
+      "timestamp": "1768470923",
+      "total": 13096352.74274833
+    },
+    "type": "MORPHOVAULT"
+  },
+  {
+    "action": "HOLD",
+    "activePrograms": [],
+    "apr": 3.953360265683401,
+    "aprRecord": {
+      "breakdowns": [
+        {
+          "distributionType": "DUTCH_AUCTION",
+          "identifier": "5362126541821262240",
+          "timestamp": "1768470924",
+          "type": "CAMPAIGN",
+          "value": 3.953360265683401
+        }
+      ],
+      "cumulated": 3.953360265683401,
+      "timestamp": "1768470924"
+    },
+    "chain": {
+      "endOfDisputePeriod": 1768471200,
+      "explorers": [
+        {
+          "chainId": 143,
+          "id": "17242099373593364020",
+          "type": "ETHERSCAN",
+          "url": "https://monadvision.com"
+        }
+      ],
+      "icon": "https://raw.githubusercontent.com/AngleProtocol/angle-token-list/main/src/assets/chains/monad.svg",
+      "id": 143,
+      "liveCampaigns": 72,
+      "name": "Monad"
+    },
+    "chainId": 143,
+    "dailyRewards": 1418.058601509993,
+    "description": "Earn rewards by holding bbqUSDC",
+    "explorerAddress": "0xbeEFf443C3CbA3E369DA795002243BeaC311aB83",
+    "howToSteps": [
+      "Hold bbqUSDC.",
+      "Rewards accumulate automatically."
+    ],
+    "id": "14011961720810116637",
+    "identifier": "0xbeEFf443C3CbA3E369DA795002243BeaC311aB83",
+    "lastCampaignCreatedAt": 1768231173,
+    "liveCampaigns": 1,
+    "maxApr": 0,
+    "name": "Hold Steakhouse High Yield USDC (bbqUSDC)",
+    "rewardsRecord": {
+      "breakdowns": [
+        {
+          "amount": "62315871720334656798720",
+          "campaignId": "2220909288016959716",
+          "dailyRewardsRecordId": "15309249546416654505",
+          "distributionType": "DUTCH_AUCTION",
+          "id": "1520c282-4556-443b-a0ec-12b2ef73ec5f",
+          "onChainCampaignId": "5362126541821262240",
+          "timestamp": "1768470924",
+          "token": {
+            "address": "0x3bd359C1119dA7Da1D913D1C4D2B7c461115433A",
+            "chainId": 143,
+            "decimals": 18,
+            "displaySymbol": "",
+            "icon": "https://storage.googleapis.com/merkl-static-assets/tokens/WMON.svg",
+            "id": "14929705797398579126",
+            "isNative": false,
+            "isTest": false,
+            "name": "Wrapped MON",
+            "price": 0.02275597792925135,
+            "priceSource": "Price Source WMON",
+            "symbol": "WMON",
+            "type": "TOKEN",
+            "updatedAt": 1768470675,
+            "verified": true
+          },
+          "value": 1418.0586015099937
+        }
+      ],
+      "id": "15309249546416654505",
+      "timestamp": "1768470924",
+      "total": 1418.058601509993
+    },
+    "status": "LIVE",
+    "tags": [],
+    "tokens": [
+      {
+        "address": "0x754704Bc059F8C67012fEd69BC8A327a5aafb603",
+        "chainId": 143,
+        "decimals": 6,
+        "icon": "https://storage.googleapis.com/merkl-static-assets/tokens/USDC.svg",
+        "id": "5317111484270765404",
+        "isNative": false,
+        "isTest": false,
+        "name": "USDC",
+        "price": 0.9998123989421824,
+        "priceSource": "Price Source USDC",
+        "symbol": "USDC",
+        "type": "TOKEN",
+        "updatedAt": 1768470675,
+        "verified": true
+      },
+      {
+        "address": "0xbeEFf443C3CbA3E369DA795002243BeaC311aB83",
+        "chainId": 143,
+        "decimals": 18,
+        "displaySymbol": "bbqUSDC",
+        "icon": "",
+        "id": "5668354768866192381",
+        "isNative": false,
+        "isTest": false,
+        "name": "Steakhouse High Yield USDC",
+        "price": 1.003519286897761,
+        "priceSource": "Computed Price - 5362126541821262240 on chain 143",
+        "symbol": "bbqUSDC",
+        "type": "TOKEN",
+        "updatedAt": 1768470924,
+        "verified": false
+      }
+    ],
+    "tvl": 13092441.73985428,
+    "tvlRecord": {
+      "breakdowns": [
+        {
+          "identifier": "5317111484270765404",
+          "type": "TOKEN",
+          "value": 13094898.356638
+        }
+      ],
+      "id": "15309249546416654505",
+      "timestamp": "1768470924",
+      "total": 13092441.73985428
+    },
+    "type": "ERC20LOGPROCESSOR"
+  },
+  {
+    "action": "POOL",
+    "activePrograms": [],
+    "apr": 284.589223961147,
+    "aprRecord": {
+      "breakdowns": [
+        {
+          "distributionType": "DUTCH_AUCTION",
+          "identifier": "0xccf25f938b36b6b0ba3d29ff2428c2cb812fd809a774fa92f8511049ba0e57f3",
+          "timestamp": "1768470926",
+          "type": "CAMPAIGN",
+          "value": 284.589223961147
+        }
+      ],
+      "cumulated": 284.589223961147,
+      "timestamp": "1768470926"
+    },
+    "chain": {
+      "endOfDisputePeriod": 1768471200,
+      "explorers": [
+        {
+          "chainId": 143,
+          "id": "17242099373593364020",
+          "type": "ETHERSCAN",
+          "url": "https://monadvision.com"
+        }
+      ],
+      "icon": "https://raw.githubusercontent.com/AngleProtocol/angle-token-list/main/src/assets/chains/monad.svg",
+      "id": 143,
+      "liveCampaigns": 72,
+      "name": "Monad"
+    },
+    "chainId": 143,
+    "dailyRewards": 1399.701201720403,
+    "depositUrl": "https://app.uniswap.org/explore/pools/monad/0xd15965968fe8bf2babbe39b2fc5de1ab6749141f",
+    "description": "Earn rewards by providing liquidity to the UniswapV3 AUSD pool on Monad",
+    "explorerAddress": "0xD15965968fe8BF2BAbbe39b2FC5de1Ab6749141F",
+    "howToSteps": [
+      "Provide liquidity on UniswapV3.",
+      "Earn rewards based on your liquidity position."
+    ],
+    "id": "15860814210122191473",
+    "identifier": "0xD15965968fe8BF2BAbbe39b2FC5de1Ab6749141F",
+    "lastCampaignCreatedAt": 1768427138,
+    "liveCampaigns": 1,
+    "maxApr": 0,
+    "name": "Provide liquidity to  UniswapV3 AUSD-DUST 1%",
+    "protocol": {
+      "banner": null,
+      "description": "Swap anytime, anywhere",
+      "icon": "https://storage.googleapis.com/merkl-static-assets/protocols/uniswap.svg",
+      "id": "uniswap",
+      "name": "Uniswap",
+      "opportunityBannerDark": null,
+      "opportunityBannerLight": null,
+      "tags": [
+        "DEX",
+        "plasma"
+      ],
+      "url": "https://app.uniswap.org/"
+    },
+    "rewardsRecord": {
+      "breakdowns": [
+        {
+          "amount": "1400000000",
+          "campaignId": "11993597095621725174",
+          "dailyRewardsRecordId": "7273211221786788183",
+          "distributionType": "DUTCH_AUCTION",
+          "id": "4ffc1b15-141a-4900-8c4c-ae18c0bebc56",
+          "onChainCampaignId": "0xccf25f938b36b6b0ba3d29ff2428c2cb812fd809a774fa92f8511049ba0e57f3",
+          "timestamp": "1768470926",
+          "token": {
+            "address": "0x00000000eFE302BEAA2b3e6e1b18d08D69a9012a",
+            "chainId": 143,
+            "decimals": 6,
+            "displaySymbol": "",
+            "icon": "https://storage.googleapis.com/merkl-static-assets/tokens/AgoraUSD.svg",
+            "id": "5265656046489301336",
+            "isNative": false,
+            "isTest": false,
+            "name": "AUSD",
+            "price": 0.9997865726574308,
+            "priceSource": "Price Source AUSD",
+            "symbol": "AUSD",
+            "type": "TOKEN",
+            "updatedAt": 1768470680,
+            "verified": true
+          },
+          "value": 1399.701201720403
+        }
+      ],
+      "id": "7273211221786788183",
+      "timestamp": "1768470926",
+      "total": 1399.701201720403
+    },
+    "status": "LIVE",
+    "tags": [],
+    "tokens": [
+      {
+        "address": "0x00000000eFE302BEAA2b3e6e1b18d08D69a9012a",
+        "chainId": 143,
+        "decimals": 6,
+        "icon": "https://storage.googleapis.com/merkl-static-assets/tokens/AgoraUSD.svg",
+        "id": "5265656046489301336",
+        "isNative": false,
+        "isTest": false,
+        "name": "AUSD",
+        "price": 0.9997865726574308,
+        "priceSource": "Price Source AUSD",
+        "symbol": "AUSD",
+        "type": "TOKEN",
+        "updatedAt": 1768470680,
+        "verified": true
+      },
+      {
+        "address": "0xAD96C3dffCD6374294e2573A7fBBA96097CC8d7c",
+        "chainId": 143,
+        "decimals": 18,
+        "displaySymbol": "DUST",
+        "icon": "https://cdn.dexscreener.com/cms/images/a7efe29afe139ac03be1028f0a76ec91169a6961bbda55b70060a8692ba7d09e?width=64&height=64&fit=crop&quality=95&format=auto",
+        "id": "5400103742450245725",
+        "isNative": false,
+        "isTest": false,
+        "name": "Pixie Dust",
+        "price": 0.7051,
+        "priceSource": "Price Source 0xAD96C3dffCD6374294e2573A7fBBA96097CC8d7c",
+        "symbol": "DUST",
+        "type": "TOKEN",
+        "updatedAt": 1768470698,
+        "verified": false
+      }
+    ],
+    "tvl": 179518.7222892514,
+    "tvlRecord": {
+      "breakdowns": [
+        {
+          "identifier": "0x00000000eFE302BEAA2b3e6e1b18d08D69a9012a",
+          "type": "TOKEN",
+          "value": 133851.123515
+        },
+        {
+          "identifier": "0xAD96C3dffCD6374294e2573A7fBBA96097CC8d7c",
+          "type": "TOKEN",
+          "value": 64808.06447857476
+        }
+      ],
+      "id": "7273211221786788183",
+      "timestamp": "1768470926",
+      "total": 179518.7222892514
+    },
+    "type": "CLAMM"
+  },
+  {
+    "action": "LEND",
+    "activePrograms": [],
+    "apr": 7.001386866104657,
+    "aprRecord": {
+      "breakdowns": [
+        {
+          "distributionType": "DUTCH_AUCTION",
+          "identifier": "0xe9c8b89a3570776e7f15b74c19355483060d90032f40840c32b459dd71319b9e",
+          "timestamp": "1768470924",
+          "type": "CAMPAIGN",
+          "value": 7.001386866104657
+        }
+      ],
+      "cumulated": 7.001386866104657,
+      "timestamp": "1768470924"
+    },
+    "chain": {
+      "endOfDisputePeriod": 1768471200,
+      "explorers": [
+        {
+          "chainId": 143,
+          "id": "17242099373593364020",
+          "type": "ETHERSCAN",
+          "url": "https://monadvision.com"
+        }
+      ],
+      "icon": "https://raw.githubusercontent.com/AngleProtocol/angle-token-list/main/src/assets/chains/monad.svg",
+      "id": 143,
+      "liveCampaigns": 72,
+      "name": "Monad"
+    },
+    "chainId": 143,
+    "dailyRewards": 1219.070246209894,
+    "depositUrl": "https://app.euler.finance/earn/0xA981f053C118FE4dB0e1aEBA192AAD20Ec7F7801?network=Monad",
+    "description": "Earn rewards by providing liquidity to the Euler Earn USDC vault on Euler on Monad",
+    "explorerAddress": "0xA981f053C118FE4dB0e1aEBA192AAD20Ec7F7801",
+    "howToSteps": [
+      "Lend assets on undefined.",
+      "Rewards accumulate automatically."
+    ],
+    "id": "8161477762679356772",
+    "identifier": "0xA981f053C118FE4dB0e1aEBA192AAD20Ec7F7801",
+    "lastCampaignCreatedAt": 1768226072,
+    "liveCampaigns": 1,
+    "maxApr": 0,
+    "name": "Deposit into the Euler Earn USDC vault",
+    "nativeAprRecord": {
+      "description": "Native APR for Euler Earn vault 0xa981f053c118fe4db0e1aeba192aad20ec7f7801 (eeUSDC) on chain 143",
+      "timestamp": "1768471262",
+      "title": "Euler Earn APR - eeUSDC",
+      "value": 1.182799933125733
+    },
+    "protocol": {
+      "banner": null,
+      "description": "Permissionless lending, borrowing, and leveraged yield strategies",
+      "icon": "https://raw.githubusercontent.com/AngleProtocol/angle-token-list/main/src/assets/protocols/euler.svg",
+      "id": "euler",
+      "name": "Euler",
+      "opportunityBannerDark": null,
+      "opportunityBannerLight": null,
+      "tags": [
+        "LENDING",
+        "bob",
+        "drip",
+        "plasma"
+      ],
+      "url": "https://app.euler.finance/"
+    },
+    "rewardsRecord": {
+      "breakdowns": [
+        {
+          "amount": "53571428571428570529792",
+          "campaignId": "5509924016710216100",
+          "dailyRewardsRecordId": "2246648697105603248",
+          "distributionType": "DUTCH_AUCTION",
+          "id": "47769ae7-f946-4110-8fc8-26c4aaeca16e",
+          "onChainCampaignId": "0xe9c8b89a3570776e7f15b74c19355483060d90032f40840c32b459dd71319b9e",
+          "timestamp": "1768470924",
+          "token": {
+            "address": "0x3bd359C1119dA7Da1D913D1C4D2B7c461115433A",
+            "chainId": 143,
+            "decimals": 18,
+            "displaySymbol": "",
+            "icon": "https://storage.googleapis.com/merkl-static-assets/tokens/WMON.svg",
+            "id": "14929705797398579126",
+            "isNative": false,
+            "isTest": false,
+            "name": "Wrapped MON",
+            "price": 0.02275597792925135,
+            "priceSource": "Price Source WMON",
+            "symbol": "WMON",
+            "type": "TOKEN",
+            "updatedAt": 1768470675,
+            "verified": true
+          },
+          "value": 1219.0702462098939
+        }
+      ],
+      "id": "2246648697105603248",
+      "timestamp": "1768470924",
+      "total": 1219.070246209894
+    },
+    "status": "LIVE",
+    "tags": [],
+    "tokens": [
+      {
+        "address": "0xA981f053C118FE4dB0e1aEBA192AAD20Ec7F7801",
+        "chainId": 143,
+        "decimals": 6,
+        "displaySymbol": "eeUSDC",
+        "icon": "",
+        "id": "4031262705671450862",
+        "isNative": false,
+        "isTest": false,
+        "name": "Euler Earn USDC",
+        "price": 1.000035683313794,
+        "priceSource": "Computed Price - 0xe9c8b89a3570776e7f15b74c19355483060d90032f40840c32b459dd71319b9e on chain 143",
+        "symbol": "eeUSDC",
+        "type": "TOKEN",
+        "updatedAt": 1768470925,
+        "verified": false
+      },
+      {
+        "address": "0x754704Bc059F8C67012fEd69BC8A327a5aafb603",
+        "chainId": 143,
+        "decimals": 6,
+        "icon": "https://storage.googleapis.com/merkl-static-assets/tokens/USDC.svg",
+        "id": "5317111484270765404",
+        "isNative": false,
+        "isTest": false,
+        "name": "USDC",
+        "price": 0.9998123989421824,
+        "priceSource": "Price Source USDC",
+        "symbol": "USDC",
+        "type": "TOKEN",
+        "updatedAt": 1768470675,
+        "verified": true
+      }
+    ],
+    "tvl": 6355321.4295409,
+    "tvlRecord": {
+      "breakdowns": [
+        {
+          "identifier": "5317111484270765404",
+          "type": "TOKEN",
+          "value": 6356513.918276
+        }
+      ],
+      "id": "2246648697105603248",
+      "timestamp": "1768470924",
+      "total": 6355321.4295409
+    },
+    "type": "ERC20LOGPROCESSOR"
+  },
+  {
+    "action": "POOL",
+    "activePrograms": [],
+    "apr": 56.23311696388721,
+    "aprRecord": {
+      "breakdowns": [
+        {
+          "distributionType": "DUTCH_AUCTION",
+          "identifier": "0x7e00aa334f9ff00a0bd26d49e5f06e4bbbe618d22ba9beb795d429863085a58b",
+          "timestamp": "1768470925",
+          "type": "CAMPAIGN",
+          "value": 56.23311696388721
+        }
+      ],
+      "cumulated": 56.23311696388721,
+      "timestamp": "1768470925"
+    },
+    "chain": {
+      "endOfDisputePeriod": 1768471200,
+      "explorers": [
+        {
+          "chainId": 143,
+          "id": "17242099373593364020",
+          "type": "ETHERSCAN",
+          "url": "https://monadvision.com"
+        }
+      ],
+      "icon": "https://raw.githubusercontent.com/AngleProtocol/angle-token-list/main/src/assets/chains/monad.svg",
+      "id": 143,
+      "liveCampaigns": 72,
+      "name": "Monad"
+    },
+    "chainId": 143,
+    "dailyRewards": 1137.798896462567,
+    "depositUrl": "https://pancakeswap.finance/add/0x3bd359C1119dA7Da1D913D1C4D2B7c461115433A/0x754704Bc059F8C67012fEd69BC8A327a5aafb603/500?chain=monad",
+    "description": "Earn rewards by providing liquidity to the PancakeSwap WMON pool on Monad",
+    "explorerAddress": "0x63e48B725540A3Db24ACF6682a29f877808C53F2",
+    "howToSteps": [
+      "Provide liquidity on PancakeSwap.",
+      "Earn rewards based on your liquidity position."
+    ],
+    "id": "4060541830684658568",
+    "identifier": "0x63e48B725540A3Db24ACF6682a29f877808C53F2",
+    "lastCampaignCreatedAt": 1767678888,
+    "liveCampaigns": 1,
+    "maxApr": 0,
+    "name": "Provide liquidity to  PancakeSwapV3 WMON-USDC 0.05%",
+    "protocol": {
+      "banner": null,
+      "description": "A decentralized exchange for seamless token swaps, thanks to low fees and high liquidity",
+      "icon": "https://raw.githubusercontent.com/AngleProtocol/angle-token-list/main/src/assets/protocols/pancakeswap.svg",
+      "id": "pancake-swap",
+      "name": "PancakeSwap",
+      "opportunityBannerDark": null,
+      "opportunityBannerLight": null,
+      "tags": [
+        "DEX",
+        "AMM",
+        "zksync"
+      ],
+      "url": "https://pancakeswap.finance/liquidity/pools?network=324"
+    },
+    "rewardsRecord": {
+      "breakdowns": [
+        {
+          "amount": "49999999999999995805696",
+          "campaignId": "8081069488681691701",
+          "dailyRewardsRecordId": "16819399468041814324",
+          "distributionType": "DUTCH_AUCTION",
+          "id": "a96577bf-5c19-42bc-a602-28e42af1b07c",
+          "onChainCampaignId": "0x7e00aa334f9ff00a0bd26d49e5f06e4bbbe618d22ba9beb795d429863085a58b",
+          "timestamp": "1768470925",
+          "token": {
+            "address": "0x3bd359C1119dA7Da1D913D1C4D2B7c461115433A",
+            "chainId": 143,
+            "decimals": 18,
+            "displaySymbol": "",
+            "icon": "https://storage.googleapis.com/merkl-static-assets/tokens/WMON.svg",
+            "id": "14929705797398579126",
+            "isNative": false,
+            "isTest": false,
+            "name": "Wrapped MON",
+            "price": 0.02275597792925135,
+            "priceSource": "Price Source WMON",
+            "symbol": "WMON",
+            "type": "TOKEN",
+            "updatedAt": 1768470675,
+            "verified": true
+          },
+          "value": 1137.7988964625674
+        }
+      ],
+      "id": "16819399468041814324",
+      "timestamp": "1768470925",
+      "total": 1137.798896462567
+    },
+    "status": "LIVE",
+    "tags": [],
+    "tokens": [
+      {
+        "address": "0x3bd359C1119dA7Da1D913D1C4D2B7c461115433A",
+        "chainId": 143,
+        "decimals": 18,
+        "icon": "https://storage.googleapis.com/merkl-static-assets/tokens/WMON.svg",
+        "id": "14929705797398579126",
+        "isNative": false,
+        "isTest": false,
+        "name": "Wrapped MON",
+        "price": 0.02275597792925135,
+        "priceSource": "Price Source WMON",
+        "symbol": "WMON",
+        "type": "TOKEN",
+        "updatedAt": 1768470675,
+        "verified": true
+      },
+      {
+        "address": "0x754704Bc059F8C67012fEd69BC8A327a5aafb603",
+        "chainId": 143,
+        "decimals": 6,
+        "icon": "https://storage.googleapis.com/merkl-static-assets/tokens/USDC.svg",
+        "id": "5317111484270765404",
+        "isNative": false,
+        "isTest": false,
+        "name": "USDC",
+        "price": 0.9998123989421824,
+        "priceSource": "Price Source USDC",
+        "symbol": "USDC",
+        "type": "TOKEN",
+        "updatedAt": 1768470675,
+        "verified": true
+      }
+    ],
+    "tvl": 726419.729735625,
+    "tvlRecord": {
+      "breakdowns": [
+        {
+          "identifier": "0x3bd359C1119dA7Da1D913D1C4D2B7c461115433A",
+          "type": "TOKEN",
+          "value": 20335775.25253423
+        },
+        {
+          "identifier": "0x754704Bc059F8C67012fEd69BC8A327a5aafb603",
+          "type": "TOKEN",
+          "value": 263708.748955
+        }
+      ],
+      "id": "16819399468041814324",
+      "timestamp": "1768470925",
+      "total": 726419.729735625
+    },
+    "type": "CLAMM"
+  },
+  {
+    "action": "POOL",
+    "activePrograms": [],
+    "apr": 37.95554903261119,
+    "aprRecord": {
+      "breakdowns": [
+        {
+          "distributionType": "DUTCH_AUCTION",
+          "identifier": "0x34b0bfba58380be63500bac63ab021de5fd4cd27b491c169489fc88a9c490700",
+          "timestamp": "1768470924",
+          "type": "CAMPAIGN",
+          "value": 13.54449625604486
+        },
+        {
+          "distributionType": "DUTCH_AUCTION",
+          "identifier": "0x7c471c55d14e59a3394c4d06ea33a14ad99f7ea4ee53405e0812b7dedbe944fe",
+          "timestamp": "1768470924",
+          "type": "CAMPAIGN",
+          "value": 24.41105277656633
+        }
+      ],
+      "cumulated": 37.95554903261119,
+      "timestamp": "1768470924"
+    },
+    "chain": {
+      "endOfDisputePeriod": 1768471200,
+      "explorers": [
+        {
+          "chainId": 143,
+          "id": "17242099373593364020",
+          "type": "ETHERSCAN",
+          "url": "https://monadvision.com"
+        }
+      ],
+      "icon": "https://raw.githubusercontent.com/AngleProtocol/angle-token-list/main/src/assets/chains/monad.svg",
+      "id": 143,
+      "liveCampaigns": 72,
+      "name": "Monad"
+    },
+    "chainId": 143,
+    "dailyRewards": 1110.370799560064,
+    "depositUrl": "https://www.kuru.io/vaults/0x4869a4c7657cef5e5496c9ce56dde4cd593e4923",
+    "description": "Earn rewards by providing liquidity to the Kuru MON-AUSD vault on Monad",
+    "explorerAddress": "0x4869A4C7657cEf5E5496C9cE56DDe4CD593e4923",
+    "howToSteps": [
+      "Provide liquidity on undefined.",
+      "Earn rewards based on your liquidity position."
+    ],
+    "id": "2890585770665935535",
+    "identifier": "0x4869A4C7657cEf5E5496C9cE56DDe4CD593e4923",
+    "lastCampaignCreatedAt": 1768310540,
+    "liveCampaigns": 2,
+    "maxApr": 0,
+    "name": "Provide liquidity to Kuru MON-AUSD vault",
+    "protocol": {
+      "banner": null,
+      "description": "",
+      "icon": "https://storage.googleapis.com/merkl-static-assets/protocols/kuru.jpg",
+      "id": "kuru",
+      "name": "kuru",
+      "opportunityBannerDark": null,
+      "opportunityBannerLight": null,
+      "tags": [
+        "POOL"
+      ],
+      "url": ""
+    },
+    "rewardsRecord": {
+      "breakdowns": [
+        {
+          "amount": "714285714",
+          "campaignId": "5430780776104415677",
+          "dailyRewardsRecordId": "9526357388491375352",
+          "distributionType": "DUTCH_AUCTION",
+          "id": "94e656aa-15fc-423c-9944-81f36d63bf4f",
+          "onChainCampaignId": "0x7c471c55d14e59a3394c4d06ea33a14ad99f7ea4ee53405e0812b7dedbe944fe",
+          "timestamp": "1768470924",
+          "token": {
+            "address": "0x00000000eFE302BEAA2b3e6e1b18d08D69a9012a",
+            "chainId": 143,
+            "decimals": 6,
+            "displaySymbol": "",
+            "icon": "https://storage.googleapis.com/merkl-static-assets/tokens/AgoraUSD.svg",
+            "id": "5265656046489301336",
+            "isNative": false,
+            "isTest": false,
+            "name": "AUSD",
+            "price": 0.9997865726574308,
+            "priceSource": "Price Source AUSD",
+            "symbol": "AUSD",
+            "type": "TOKEN",
+            "updatedAt": 1768470680,
+            "verified": true
+          },
+          "value": 714.1332658982258
+        },
+        {
+          "amount": "17412459042355640532992",
+          "campaignId": "4408391351012148100",
+          "dailyRewardsRecordId": "9526357388491375352",
+          "distributionType": "DUTCH_AUCTION",
+          "id": "f1e29131-f4f1-40ab-8858-65942c0d538d",
+          "onChainCampaignId": "0x34b0bfba58380be63500bac63ab021de5fd4cd27b491c169489fc88a9c490700",
+          "timestamp": "1768470924",
+          "token": {
+            "address": "0x3bd359C1119dA7Da1D913D1C4D2B7c461115433A",
+            "chainId": 143,
+            "decimals": 18,
+            "displaySymbol": "",
+            "icon": "https://storage.googleapis.com/merkl-static-assets/tokens/WMON.svg",
+            "id": "14929705797398579126",
+            "isNative": false,
+            "isTest": false,
+            "name": "Wrapped MON",
+            "price": 0.02275597792925135,
+            "priceSource": "Price Source WMON",
+            "symbol": "WMON",
+            "type": "TOKEN",
+            "updatedAt": 1768470675,
+            "verified": true
+          },
+          "value": 396.23753366183803
+        }
+      ],
+      "id": "9526357388491375352",
+      "timestamp": "1768470924",
+      "total": 1110.370799560064
+    },
+    "status": "LIVE",
+    "tags": [],
+    "tokens": [
+      {
+        "address": "0x0000000000000000000000000000000000000000",
+        "chainId": 143,
+        "decimals": 18,
+        "icon": "https://files.svgcdn.io/token-branded/monad.png",
+        "id": "17707437124336115185",
+        "isNative": true,
+        "isTest": false,
+        "name": "MON",
+        "price": 0.02275597792925135,
+        "priceSource": "Price Source MON",
+        "symbol": "MON",
+        "type": "TOKEN",
+        "updatedAt": 1768470673,
+        "verified": false
+      },
+      {
+        "address": "0x00000000eFE302BEAA2b3e6e1b18d08D69a9012a",
+        "chainId": 143,
+        "decimals": 6,
+        "icon": "https://storage.googleapis.com/merkl-static-assets/tokens/AgoraUSD.svg",
+        "id": "5265656046489301336",
+        "isNative": false,
+        "isTest": false,
+        "name": "AUSD",
+        "price": 0.9997865726574308,
+        "priceSource": "Price Source AUSD",
+        "symbol": "AUSD",
+        "type": "TOKEN",
+        "updatedAt": 1768470680,
+        "verified": true
+      }
+    ],
+    "tvl": 1067789.433084487,
+    "tvlRecord": {
+      "breakdowns": [
+        {
+          "identifier": "17707437124336115185",
+          "type": "TOKEN",
+          "value": 22919272.92954353
+        },
+        {
+          "identifier": "5265656046489301336",
+          "type": "TOKEN",
+          "value": 546355.571363
+        }
+      ],
+      "id": "9526357388491375352",
+      "timestamp": "1768470924",
+      "total": 1067789.433084487
+    },
+    "type": "ERC20LOGPROCESSOR"
+  },
+  {
+    "action": "LEND",
+    "activePrograms": [],
+    "apr": 4.664191237262298,
+    "aprRecord": {
+      "breakdowns": [
+        {
+          "distributionType": "DUTCH_AUCTION",
+          "identifier": "0x189d835ea5b735e34c1710820480927e0773a09e038ed3bee9ed7f3a625b0952",
+          "timestamp": "1768470924",
+          "type": "CAMPAIGN",
+          "value": 4.664191237262298
+        }
+      ],
+      "cumulated": 4.664191237262298,
+      "timestamp": "1768470924"
+    },
+    "chain": {
+      "endOfDisputePeriod": 1768471200,
+      "explorers": [
+        {
+          "chainId": 143,
+          "id": "17242099373593364020",
+          "type": "ETHERSCAN",
+          "url": "https://monadvision.com"
+        }
+      ],
+      "icon": "https://raw.githubusercontent.com/AngleProtocol/angle-token-list/main/src/assets/chains/monad.svg",
+      "id": 143,
+      "liveCampaigns": 72,
+      "name": "Monad"
+    },
+    "chainId": 143,
+    "dailyRewards": 933.7232863930413,
+    "depositUrl": "https://app.gearbox.fi/pools/143/0xc4173359087CE643235420b7bC610d9B0CF2B82D",
+    "description": "Earn rewards by depositing AUSD on Gearbox",
+    "explorerAddress": "0xc4173359087CE643235420b7bC610d9B0CF2B82D",
+    "howToSteps": [
+      "Lend assets on Gearbox.",
+      "Rewards accumulate automatically."
+    ],
+    "id": "15451735278627040969",
+    "identifier": "0xc4173359087CE643235420b7bC610d9B0CF2B82D",
+    "lastCampaignCreatedAt": 1768221733,
+    "liveCampaigns": 1,
+    "maxApr": 0,
+    "name": "Deposit AUSD on the Gearbox EDGE UltraYield AUSD vault",
+    "protocol": {
+      "banner": null,
+      "description": "Onchain Lending Reimagined",
+      "icon": "https://icons.llamao.fi/icons/protocols/gearbox?w=96&h=96",
+      "id": "gearbox",
+      "name": "Gearbox",
+      "opportunityBannerDark": null,
+      "opportunityBannerLight": null,
+      "tags": [
+        "LENDING",
+        "plasma"
+      ],
+      "url": "https://gearbox.fi/"
+    },
+    "rewardsRecord": {
+      "breakdowns": [
+        {
+          "amount": "0",
+          "campaignId": "11806258010623869253",
+          "dailyRewardsRecordId": "3799126214666061417",
+          "distributionType": "DUTCH_AUCTION",
+          "id": "e023db97-d45e-41ba-acdd-b5aaa216f251",
+          "onChainCampaignId": "0x3f62af77493f27d911589dd1a0da1dcf4da18dece8f356a97bedf5df4bc9c144",
+          "timestamp": "1768470924",
+          "token": {
+            "address": "0x3bd359C1119dA7Da1D913D1C4D2B7c461115433A",
+            "chainId": 143,
+            "decimals": 18,
+            "displaySymbol": "",
+            "icon": "https://storage.googleapis.com/merkl-static-assets/tokens/WMON.svg",
+            "id": "14929705797398579126",
+            "isNative": false,
+            "isTest": false,
+            "name": "Wrapped MON",
+            "price": 0.02275597792925135,
+            "priceSource": "Price Source WMON",
+            "symbol": "WMON",
+            "type": "TOKEN",
+            "updatedAt": 1768470675,
+            "verified": true
+          },
+          "value": 0
+        },
+        {
+          "amount": "41031999999999997902848",
+          "campaignId": "14670614106451732206",
+          "dailyRewardsRecordId": "3799126214666061417",
+          "distributionType": "DUTCH_AUCTION",
+          "id": "05a8bf53-049b-438b-b6a8-1bdedb5fb43b",
+          "onChainCampaignId": "0x189d835ea5b735e34c1710820480927e0773a09e038ed3bee9ed7f3a625b0952",
+          "timestamp": "1768470924",
+          "token": {
+            "address": "0x3bd359C1119dA7Da1D913D1C4D2B7c461115433A",
+            "chainId": 143,
+            "decimals": 18,
+            "displaySymbol": "",
+            "icon": "https://storage.googleapis.com/merkl-static-assets/tokens/WMON.svg",
+            "id": "14929705797398579126",
+            "isNative": false,
+            "isTest": false,
+            "name": "Wrapped MON",
+            "price": 0.02275597792925135,
+            "priceSource": "Price Source WMON",
+            "symbol": "WMON",
+            "type": "TOKEN",
+            "updatedAt": 1768470675,
+            "verified": true
+          },
+          "value": 933.7232863930413
+        }
+      ],
+      "id": "3799126214666061417",
+      "timestamp": "1768470924",
+      "total": 933.7232863930413
+    },
+    "status": "LIVE",
+    "tags": [
+      "gearbox"
+    ],
+    "tokens": [
+      {
+        "address": "0xc4173359087CE643235420b7bC610d9B0CF2B82D",
+        "chainId": 143,
+        "decimals": 6,
+        "displaySymbol": "edgeAUSD",
+        "icon": "",
+        "id": "16575665795120880830",
+        "isNative": false,
+        "isTest": false,
+        "name": "EDGE UltraYield AUSD",
+        "symbol": "edgeAUSD",
+        "type": "TOKEN",
+        "verified": false
+      },
+      {
+        "address": "0x00000000eFE302BEAA2b3e6e1b18d08D69a9012a",
+        "chainId": 143,
+        "decimals": 6,
+        "icon": "https://storage.googleapis.com/merkl-static-assets/tokens/AgoraUSD.svg",
+        "id": "5265656046489301336",
+        "isNative": false,
+        "isTest": false,
+        "name": "AUSD",
+        "price": 0.9997865726574308,
+        "priceSource": "Price Source AUSD",
+        "symbol": "AUSD",
+        "type": "TOKEN",
+        "updatedAt": 1768470680,
+        "verified": true
+      }
+    ],
+    "tvl": 7306925.942717175,
+    "tvlRecord": {
+      "breakdowns": [
+        {
+          "identifier": "5265656046489301336",
+          "type": "TOKEN",
+          "value": 7308485.773414
+        }
+      ],
+      "id": "3799126214666061417",
+      "timestamp": "1768470924",
+      "total": 7306925.942717175
+    },
+    "type": "ERC20LOGPROCESSOR"
+  },
+  {
+    "action": "POOL",
+    "activePrograms": [],
+    "apr": 53.7408107351734,
+    "aprRecord": {
+      "breakdowns": [
+        {
+          "distributionType": "DUTCH_AUCTION",
+          "identifier": "0x38f89b847329753d8e497982c281bc9fca89058065666110de83291ac58b0171",
+          "timestamp": "1768470925",
+          "type": "CAMPAIGN",
+          "value": 4.042391958334227
+        },
+        {
+          "distributionType": "DUTCH_AUCTION",
+          "identifier": "0xdfe72f6608bc17b16f87434a6a9308762f870a3a51a28bcd99295fea667d5e94",
+          "timestamp": "1768470925",
+          "type": "CAMPAIGN",
+          "value": 49.69841877683918
+        }
+      ],
+      "cumulated": 53.7408107351734,
+      "timestamp": "1768470925"
+    },
+    "chain": {
+      "endOfDisputePeriod": 1768471200,
+      "explorers": [
+        {
+          "chainId": 143,
+          "id": "17242099373593364020",
+          "type": "ETHERSCAN",
+          "url": "https://monadvision.com"
+        }
+      ],
+      "icon": "https://raw.githubusercontent.com/AngleProtocol/angle-token-list/main/src/assets/chains/monad.svg",
+      "id": 143,
+      "liveCampaigns": 72,
+      "name": "Monad"
+    },
+    "chainId": 143,
+    "dailyRewards": 893.8159230947118,
+    "depositUrl": "https://pancakeswap.finance/add/0x111111d2bf19e43C34263401e0CAd979eD1cdb61/0x3bd359C1119dA7Da1D913D1C4D2B7c461115433A/2500?chain=monad",
+    "description": "Earn rewards by providing liquidity to the PancakeSwap USD1 pool on Monad",
+    "explorerAddress": "0xE4228db368740B2DE03174EB2f98D7976fF1E8FA",
+    "howToSteps": [
+      "Provide liquidity on PancakeSwap.",
+      "Earn rewards based on your liquidity position."
+    ],
+    "id": "13157089094346084035",
+    "identifier": "0xE4228db368740B2DE03174EB2f98D7976fF1E8FA",
+    "lastCampaignCreatedAt": 1767679579,
+    "liveCampaigns": 2,
+    "maxApr": 0,
+    "name": "Provide liquidity to  PancakeSwapV3 USD1-WMON 0.25%",
+    "protocol": {
+      "banner": null,
+      "description": "A decentralized exchange for seamless token swaps, thanks to low fees and high liquidity",
+      "icon": "https://raw.githubusercontent.com/AngleProtocol/angle-token-list/main/src/assets/protocols/pancakeswap.svg",
+      "id": "pancake-swap",
+      "name": "PancakeSwap",
+      "opportunityBannerDark": null,
+      "opportunityBannerLight": null,
+      "tags": [
+        "DEX",
+        "AMM",
+        "zksync"
+      ],
+      "url": "https://pancakeswap.finance/liquidity/pools?network=324"
+    },
+    "rewardsRecord": {
+      "breakdowns": [
+        {
+          "amount": "36278290999999996100608",
+          "campaignId": "12289674106229075793",
+          "dailyRewardsRecordId": "10872220484895756361",
+          "distributionType": "DUTCH_AUCTION",
+          "id": "d664e0b1-70ee-4f84-bb06-818cf5ebdd79",
+          "onChainCampaignId": "0xdfe72f6608bc17b16f87434a6a9308762f870a3a51a28bcd99295fea667d5e94",
+          "timestamp": "1768470925",
+          "token": {
+            "address": "0x3bd359C1119dA7Da1D913D1C4D2B7c461115433A",
+            "chainId": 143,
+            "decimals": 18,
+            "displaySymbol": "",
+            "icon": "https://storage.googleapis.com/merkl-static-assets/tokens/WMON.svg",
+            "id": "14929705797398579126",
+            "isNative": false,
+            "isTest": false,
+            "name": "Wrapped MON",
+            "price": 0.02275597792925135,
+            "priceSource": "Price Source WMON",
+            "symbol": "WMON",
+            "type": "TOKEN",
+            "updatedAt": 1768470675,
+            "verified": true
+          },
+          "value": 825.5479893069578
+        },
+        {
+          "amount": "3000000000000000000000",
+          "campaignId": "528240206879091198",
+          "dailyRewardsRecordId": "10872220484895756361",
+          "distributionType": "DUTCH_AUCTION",
+          "id": "fdd60fb0-c460-4e69-b371-acdce04a4705",
+          "onChainCampaignId": "0x38f89b847329753d8e497982c281bc9fca89058065666110de83291ac58b0171",
+          "timestamp": "1768470925",
+          "token": {
+            "address": "0x3bd359C1119dA7Da1D913D1C4D2B7c461115433A",
+            "chainId": 143,
+            "decimals": 18,
+            "displaySymbol": "",
+            "icon": "https://storage.googleapis.com/merkl-static-assets/tokens/WMON.svg",
+            "id": "14929705797398579126",
+            "isNative": false,
+            "isTest": false,
+            "name": "Wrapped MON",
+            "price": 0.02275597792925135,
+            "priceSource": "Price Source WMON",
+            "symbol": "WMON",
+            "type": "TOKEN",
+            "updatedAt": 1768470675,
+            "verified": true
+          },
+          "value": 68.26793378775405
+        }
+      ],
+      "id": "10872220484895756361",
+      "timestamp": "1768470925",
+      "total": 893.8159230947118
+    },
+    "status": "LIVE",
+    "tags": [
+      "pcs"
+    ],
+    "tokens": [
+      {
+        "address": "0x111111d2bf19e43C34263401e0CAd979eD1cdb61",
+        "chainId": 143,
+        "decimals": 6,
+        "displaySymbol": "USD1",
+        "icon": "https://s2.coinmarketcap.com/static/img/coins/200x200/36148.png",
+        "id": "12623592537833471084",
+        "isNative": false,
+        "isTest": false,
+        "name": "World Liberty Financial USD",
+        "price": 1,
+        "priceSource": "Price Source USD1",
+        "symbol": "USD1",
+        "type": "TOKEN",
+        "updatedAt": 1768470665,
+        "verified": false
+      },
+      {
+        "address": "0x3bd359C1119dA7Da1D913D1C4D2B7c461115433A",
+        "chainId": 143,
+        "decimals": 18,
+        "icon": "https://storage.googleapis.com/merkl-static-assets/tokens/WMON.svg",
+        "id": "14929705797398579126",
+        "isNative": false,
+        "isTest": false,
+        "name": "Wrapped MON",
+        "price": 0.02275597792925135,
+        "priceSource": "Price Source WMON",
+        "symbol": "WMON",
+        "type": "TOKEN",
+        "updatedAt": 1768470675,
+        "verified": true
+      }
+    ],
+    "tvl": 606307.0486207609,
+    "tvlRecord": {
+      "breakdowns": [
+        {
+          "identifier": "0x111111d2bf19e43C34263401e0CAd979eD1cdb61",
+          "type": "TOKEN",
+          "value": 231463.829397
+        },
+        {
+          "identifier": "0x3bd359C1119dA7Da1D913D1C4D2B7c461115433A",
+          "type": "TOKEN",
+          "value": 16472296.65932854
+        }
+      ],
+      "id": "10872220484895756361",
+      "timestamp": "1768470925",
+      "total": 606307.0486207609
+    },
+    "type": "CLAMM"
+  }
+]

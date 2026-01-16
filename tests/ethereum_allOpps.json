@@ -1,0 +1,142 @@
+Fetching ALL opportunities on chain 1...
+{
+  chainId: 1,
+  chainName: undefined,
+  summary: {
+    totalOpportunities: 318,
+    totalTvl: 6982612186.342639,
+    totalDailyRewards: 845586.7623315755,
+    avgApr: 4.923027074773734,
+    weightedAvgApr: 2.425604041239374,
+    totalLiveCampaigns: 337
+  },
+  byAction: [
+    {
+      action: 'LEND',
+      count: 146,
+      totalTvl: 6249467995.949218,
+      avgApr: 1.9099810104679342,
+      weightedAvgApr: 2.4570390433572564
+    },
+    {
+      action: 'HOLD',
+      count: 80,
+      totalTvl: 485994983.4107522,
+      avgApr: 5.540859461278627,
+      weightedAvgApr: 1.84423762349243
+    },
+    {
+      action: 'POOL',
+      count: 74,
+      totalTvl: 115331741.97808991,
+      avgApr: 10.813103114729799,
+      weightedAvgApr: 3.190320033037689
+    },
+    {
+      action: 'BORROW',
+      count: 12,
+      totalTvl: 108957986.23927614,
+      avgApr: 3.6007519613999786,
+      weightedAvgApr: 2.9117612595547593
+    },
+    {
+      action: 'STAKE',
+      count: 6,
+      totalTvl: 22859478.765309334,
+      avgApr: 0.0029952201057439815,
+      weightedAvgApr: 0.016204567995732937
+    }
+  ],
+  topPoolsByTvl: [
+    {
+      identifier: '0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48',
+      name: 'Supply USDC on any Morpho Market',
+      action: 'LEND',
+      tvl: 1224820771.673251,
+      apr: 0.3118174615586947,
+      dailyRewards: 10463.57544897301,
+      liveCampaigns: 1
+    },
+    {
+      identifier: '0x8014e0076e5393e62c49a7134070d8fccc922e46BORROW_BL',
+      name: 'Lend sUSDe and USDe on Aave (looping required)',
+      action: 'LEND',
+      tvl: 747485163.7833526,
+      apr: 5,
+      dailyRewards: 102395.2279155278,
+      liveCampaigns: 1
+    },
+    {
+      identifier: '0x03264f03de18e61b49c95d9adfcdfd180d2e5d85',
+      name: 'Lend RLUSD on Aave Core (net lending)',
+      action: 'LEND',
+      tvl: 601591611.472812,
+      apr: 5,
+      dailyRewards: 82409.80979079618,
+      liveCampaigns: 1
+    },
+    {
+      identifier: '0xBEEF01735c132Ada46AA9aA4c54623cAA92A64CB',
+      name: 'Supply to the Steakhouse USDC vault on Morpho on Ethereum',
+      action: 'LEND',
+      tvl: 437024074.0698782,
+      apr: 0.3000651295886594,
+      dailyRewards: 3592.758504634025,
+      liveCampaigns: 1
+    },
+    {
+      identifier: '0x784f4b9b2350ba51bdb175d19f68ecd2841e0e1a',
+      name: 'Lend PYUSD on Aave (net lending)',
+      action: 'LEND',
+      tvl: 400687765.065646,
+      apr: 3.864180878461143,
+      dailyRewards: 42420,
+      liveCampaigns: 1
+    },
+    {
+      identifier: '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2',
+      name: 'Supply WETH on any Morpho Market',
+      action: 'LEND',
+      tvl: 298143806.2402434,
+      apr: 0.1014120454344259,
+      dailyRewards: 828.3663897103629,
+      liveCampaigns: 1
+    },
+    {
+      identifier: '0xba98fC35C9dfd69178AD5dcE9FA29c64554783b5',
+      name: 'Supply PYUSD on Sentora PYUSD PYUSD vault ',
+      action: 'LEND',
+      tvl: 220031532.26714,
+      apr: 6.347127613441006,
+      dailyRewards: 38262.142857,
+      liveCampaigns: 1
+    },
+    {
+      identifier: '0xa52b48680b066d23acfcb1ee16ab097e244ad500',
+      name: 'Lend RLUSD on Aave Horizon (net lending)',
+      action: 'LEND',
+      tvl: 195419294.3831128,
+      apr: 4.399999999999999,
+      dailyRewards: 23557.39439138895,
+      liveCampaigns: 1
+    },
+    {
+      identifier: '0xdAC17F958D2ee523a2206206994597C13D831ec7',
+      name: 'Supply USDT on any Morpho Market',
+      action: 'LEND',
+      tvl: 192909474.753849,
+      apr: 0.7011760929114034,
+      dailyRewards: 3705.84963817794,
+      liveCampaigns: 1
+    },
+    {
+      identifier: '0xaF5372792a29dC6b296d6FFD4AA3386aff8f9BB2',
+      name: 'Supply RLUSD on Sentora RLUSD vault ',
+      action: 'LEND',
+      tvl: 189907964.8181893,
+      apr: 6.353591054080759,
+      dailyRewards: 33057.46702376797,
+      liveCampaigns: 1
+    }
+  ]
+}

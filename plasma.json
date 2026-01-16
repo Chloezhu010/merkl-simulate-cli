@@ -1,0 +1,3546 @@
+[
+  {
+    "chainId": 9745,
+    "type": "MULTILOG_DUTCH",
+    "identifier": "0xc5b5dcb9552773c51838559cca8939ed9811a593",
+    "name": "Lend USDT0 on Aave (net lending)",
+    "description": "Earn rewards by lending USDT0 on Aave",
+    "howToSteps": [
+      "Lend assets on Aave.",
+      "Rewards accumulate automatically."
+    ],
+    "status": "LIVE",
+    "action": "LEND",
+    "tvl": 2337114663.988919,
+    "apr": 0.8112791765095776,
+    "maxApr": 0,
+    "dailyRewards": 51946.64273998324,
+    "tags": [
+      "aave"
+    ],
+    "liveCampaigns": 1,
+    "id": "8915897169124342183",
+    "depositUrl": "https://app.aave.com/reserve-overview/?underlyingAsset=0xb8ce59fc3717ada4c02eadf9682a9e934f625ebb&marketName=proto_plasma_v3",
+    "explorerAddress": "0x5D72a9d9A9510Cd8cBdBA12aC62593A58930a948",
+    "lastCampaignCreatedAt": 1764807697,
+    "tokens": [
+      {
+        "id": "12173189759084764841",
+        "name": "Aave Plasma USDT0",
+        "chainId": 9745,
+        "address": "0x5D72a9d9A9510Cd8cBdBA12aC62593A58930a948",
+        "decimals": 6,
+        "symbol": "aPlaUSDT0",
+        "icon": "",
+        "verified": false,
+        "isNative": false,
+        "isTest": false,
+        "type": "TOKEN",
+        "price": 0.9999969677145352,
+        "updatedAt": 1768418528,
+        "priceSource": "Price Source 0x5D72a9d9A9510Cd8cBdBA12aC62593A58930a948"
+      },
+      {
+        "id": "7813912985197822726",
+        "name": "USD₮0",
+        "chainId": 57073,
+        "address": "0x0200C29006150606B650577BBE7B6248F58470c1",
+        "decimals": 6,
+        "symbol": "USD₮0",
+        "icon": "https://storage.googleapis.com/merkl-static-assets/tokens/USD%E2%82%AE.svg",
+        "verified": false,
+        "isNative": false,
+        "isTest": false,
+        "type": "TOKEN",
+        "price": 0.9999969677145352,
+        "updatedAt": 1768418524,
+        "priceSource": "Price Source USD₮0"
+      }
+    ],
+    "chain": {
+      "id": 9745,
+      "name": "Plasma",
+      "icon": "https://raw.githubusercontent.com/AngleProtocol/angle-token-list/main/src/assets/chains/plasma.png",
+      "liveCampaigns": 40,
+      "endOfDisputePeriod": 1768410000,
+      "explorers": [
+        {
+          "id": "14261454752756197884",
+          "type": "ETHERSCAN",
+          "url": "https://plasmascan.to/",
+          "chainId": 9745
+        }
+      ]
+    },
+    "protocol": {
+      "id": "aave",
+      "tags": [
+        "LENDING",
+        "zksync",
+        "drip",
+        "plasma"
+      ],
+      "name": "Aave",
+      "description": "A decentralized liquidity protocol where users can deposit and borrow",
+      "url": "https://app.aave.com/",
+      "icon": "https://raw.githubusercontent.com/AngleProtocol/angle-token-list/main/src/assets/protocols/aave.svg",
+      "banner": null,
+      "opportunityBannerLight": null,
+      "opportunityBannerDark": null
+    },
+    "activePrograms": [],
+    "aprRecord": {
+      "cumulated": 0.8112791765095776,
+      "timestamp": "1768418676",
+      "breakdowns": [
+        {
+          "distributionType": "DUTCH_AUCTION",
+          "identifier": "0x46ca3a646e8c4ea72219f7a43d5f8180dd0d94a3eee59f22e6b7654e6feb76ee",
+          "type": "CAMPAIGN",
+          "value": 0.8112791765095776,
+          "timestamp": "1768418676"
+        }
+      ]
+    },
+    "nativeAprRecord": {
+      "title": "Aave Supply Native APR - 0x5d72a9d9a9510cd8cbdba12ac62593a58930a948",
+      "description": "Native supply APR for 0x5d72a9d9a9510cd8cbdba12ac62593a58930a948 on Aave on chain 9745",
+      "value": 3.160115720303541,
+      "timestamp": "1768419655"
+    },
+    "tvlRecord": {
+      "id": "14301958215500155333",
+      "total": 2337114663.988919,
+      "timestamp": "1768418676",
+      "breakdowns": []
+    },
+    "rewardsRecord": {
+      "id": "14301958215500155333",
+      "total": 51946.64273998324,
+      "timestamp": "1768418676",
+      "breakdowns": [
+        {
+          "token": {
+            "id": "9177007823639843523",
+            "name": "Wrapped XPL",
+            "chainId": 9745,
+            "address": "0x6100E367285b01F48D07953803A2d8dCA5D19873",
+            "decimals": 18,
+            "symbol": "WXPL",
+            "displaySymbol": "",
+            "icon": "https://storage.googleapis.com/merkl-static-assets/tokens/XPL.png",
+            "verified": true,
+            "isTest": false,
+            "type": "TOKEN",
+            "isNative": false,
+            "price": 0.166835359612943,
+            "updatedAt": 1768418530,
+            "priceSource": "Price Source WXPL"
+          },
+          "amount": "311364706261904656433152",
+          "value": 51946.64273998323,
+          "distributionType": "DUTCH_AUCTION",
+          "onChainCampaignId": "0x46ca3a646e8c4ea72219f7a43d5f8180dd0d94a3eee59f22e6b7654e6feb76ee",
+          "id": "a17eb366-8f35-4e8b-8391-2203b0e084a3",
+          "timestamp": "1768418676",
+          "campaignId": "16364793202953999984",
+          "dailyRewardsRecordId": "14301958215500155333"
+        }
+      ]
+    }
+  },
+  {
+    "chainId": 9745,
+    "type": "MULTILOG_DUTCH",
+    "identifier": "0xeefac321069fbecc9d6b2aed2948f6d5503d8633BORROW_BL",
+    "name": "Lend sUSDe and USDe on Aave (looping required)",
+    "description": "This campaign is part of Ethena’s Liquid Leverage program, with Merkl acting as the distribution partner in collaboration with the ACI. The campaign considers the lowest amount of tokens lent across the sUSDe and USDe markets. It will run indefinitely, with the stated rate expected to remain roughly in line with the sUSDe rate for the foreseeable future. To be eligible, users must also borrow USDC, USDT, or USDS and maintain a health factor below 2.5.",
+    "howToSteps": [
+      "Lend assets on Aave.",
+      "Rewards accumulate automatically."
+    ],
+    "status": "LIVE",
+    "action": "LEND",
+    "tvl": 327255834.2875783,
+    "apr": 4.861270139110032,
+    "maxApr": 0.05,
+    "dailyRewards": 43585.72644032179,
+    "tags": [
+      "ethena-aci"
+    ],
+    "liveCampaigns": 1,
+    "id": "3303167475767527441",
+    "depositUrl": "https://app.aave.com/markets/",
+    "explorerAddress": "0x7519403E12111ff6b710877Fcd821D0c12CAF43A",
+    "lastCampaignCreatedAt": 1767883160,
+    "tokens": [
+      {
+        "id": "11226507666967847048",
+        "name": "Staked USDe",
+        "chainId": 9745,
+        "address": "0x211Cc4DD073734dA055fbF44a2b4667d5E5fE5d2",
+        "decimals": 18,
+        "symbol": "sUSDe",
+        "icon": "https://storage.googleapis.com/merkl-static-assets/tokens/sUSDe.png",
+        "verified": true,
+        "isNative": false,
+        "isTest": false,
+        "type": "TOKEN",
+        "price": 1.215549567738809,
+        "updatedAt": 1768419670,
+        "priceSource": "Price Source sUSDe"
+      },
+      {
+        "id": "15416915424259961704",
+        "name": "Aave Plasma sUSDe",
+        "chainId": 9745,
+        "address": "0xC1A318493fF07a68fE438Cee60a7AD0d0DBa300E",
+        "decimals": 18,
+        "symbol": "aPlasUSDe",
+        "icon": "",
+        "verified": false,
+        "isNative": false,
+        "isTest": false,
+        "type": "TOKEN",
+        "price": 1.215621833998878,
+        "updatedAt": 1768418526,
+        "priceSource": "Price Source 0xC1A318493fF07a68fE438Cee60a7AD0d0DBa300E"
+      },
+      {
+        "id": "2121272964818336184",
+        "name": "Aave Plasma USDe",
+        "chainId": 9745,
+        "address": "0x7519403E12111ff6b710877Fcd821D0c12CAF43A",
+        "decimals": 18,
+        "symbol": "aPlaUSDe",
+        "icon": "",
+        "verified": false,
+        "isNative": false,
+        "isTest": false,
+        "type": "TOKEN",
+        "price": 1.000328147810664,
+        "updatedAt": 1768418524,
+        "priceSource": "Price Source 0x7519403E12111ff6b710877Fcd821D0c12CAF43A"
+      },
+      {
+        "id": "9310019237196849870",
+        "name": "USDe",
+        "chainId": 9745,
+        "address": "0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34",
+        "decimals": 18,
+        "symbol": "USDe",
+        "icon": "https://storage.googleapis.com/merkl-static-assets/tokens/USDe.png",
+        "verified": true,
+        "isNative": false,
+        "isTest": false,
+        "type": "TOKEN",
+        "price": 0.9998336527376298,
+        "updatedAt": 1768419664,
+        "priceSource": "Price Source USDe"
+      }
+    ],
+    "chain": {
+      "id": 9745,
+      "name": "Plasma",
+      "icon": "https://raw.githubusercontent.com/AngleProtocol/angle-token-list/main/src/assets/chains/plasma.png",
+      "liveCampaigns": 40,
+      "endOfDisputePeriod": 1768410000,
+      "explorers": [
+        {
+          "id": "14261454752756197884",
+          "type": "ETHERSCAN",
+          "url": "https://plasmascan.to/",
+          "chainId": 9745
+        }
+      ]
+    },
+    "protocol": {
+      "id": "aave",
+      "tags": [
+        "LENDING",
+        "zksync",
+        "drip",
+        "plasma"
+      ],
+      "name": "Aave",
+      "description": "A decentralized liquidity protocol where users can deposit and borrow",
+      "url": "https://app.aave.com/",
+      "icon": "https://raw.githubusercontent.com/AngleProtocol/angle-token-list/main/src/assets/protocols/aave.svg",
+      "banner": null,
+      "opportunityBannerLight": null,
+      "opportunityBannerDark": null
+    },
+    "activePrograms": [
+      {
+        "slug": "ethena",
+        "name": "Ethena Liquid Leverage",
+        "icon": "https://storage.googleapis.com/merkl-static-assets/protocols/ethena.svg",
+        "id": "ec8c59b5-f55d-4dd6-be41-76eaea78afd4"
+      }
+    ],
+    "aprRecord": {
+      "cumulated": 4.861270139110032,
+      "timestamp": "1768418676",
+      "breakdowns": [
+        {
+          "distributionType": "MAX_REWARD_VALUE_PER_LIQUIDITY_VALUE",
+          "identifier": "0xe5868984d986204605bdaa354bade84c70a79f547fa9da00efafd75bb652c540",
+          "type": "CAMPAIGN",
+          "value": 4.861270139110032,
+          "timestamp": "1768418676"
+        }
+      ]
+    },
+    "nativeAprRecord": {
+      "title": "Aave Supply Native APR - 0x7519403e12111ff6b710877fcd821d0c12caf43a",
+      "description": "Native supply APR for 0x7519403e12111ff6b710877fcd821d0c12caf43a on Aave on chain 9745",
+      "value": 1.535394366677722,
+      "timestamp": "1768419655"
+    },
+    "tvlRecord": {
+      "id": "13752431780882054856",
+      "total": 327255834.2875783,
+      "timestamp": "1768418676",
+      "breakdowns": []
+    },
+    "rewardsRecord": {
+      "id": "13752431780882054856",
+      "total": 43585.72644032179,
+      "timestamp": "1768418676",
+      "breakdowns": [
+        {
+          "token": {
+            "id": "10889890147624022259",
+            "name": "Aave Plasma USDe (wrapped)",
+            "chainId": 9745,
+            "address": "0x63dC02BB25E7BF7Eaa0E42E71D785a388AcD740b",
+            "decimals": 18,
+            "symbol": "aPlaUSDe",
+            "displaySymbol": "",
+            "icon": "https://storage.googleapis.com/merkl-static-assets/tokens/USDe.png",
+            "verified": true,
+            "isTest": false,
+            "type": "TOKEN",
+            "isNative": false,
+            "price": 1.000328147810664,
+            "updatedAt": 1768418531,
+            "priceSource": "Price Source 0x63dC02BB25E7BF7Eaa0E42E71D785a388AcD740b"
+          },
+          "amount": "43571428571428574724096",
+          "value": 43585.72644032179,
+          "distributionType": "MAX_REWARD_VALUE_PER_LIQUIDITY_VALUE",
+          "onChainCampaignId": "0xe5868984d986204605bdaa354bade84c70a79f547fa9da00efafd75bb652c540",
+          "id": "12e2a28c-c976-41b1-a4a4-5840c2988fe3",
+          "timestamp": "1768418676",
+          "campaignId": "1113884788718966617",
+          "dailyRewardsRecordId": "13752431780882054856"
+        }
+      ]
+    }
+  },
+  {
+    "chainId": 9745,
+    "type": "MULTILOG_DUTCH",
+    "identifier": "0xff7eb38fce1372e4a2a37fcc47668352da6c406b",
+    "name": "Borrow USDT0 from Aave (net borrow)",
+    "description": "Earn rewards by borrowing USDT0 on Aave on Plasma. This is a net borrowing opportunity: borrowing & lending the same asset will make you earn rewards based only on the difference of the two amounts.",
+    "howToSteps": [
+      "Borrow assets on Aave.",
+      "Rewards accumulate automatically."
+    ],
+    "status": "LIVE",
+    "action": "BORROW",
+    "tvl": 1809491563.930378,
+    "apr": 0.4998272067876044,
+    "maxApr": 0,
+    "dailyRewards": 24778.98942753575,
+    "tags": [
+      "aave",
+      "plasma"
+    ],
+    "liveCampaigns": 2,
+    "id": "14162857367574650843",
+    "depositUrl": "https://app.aave.com/reserve-overview/?underlyingAsset=0xb8ce59fc3717ada4c02eadf9682a9e934f625ebb&marketName=proto_plasma_v3",
+    "explorerAddress": "0xCBBC427b5658672768E11BFDa00879839DB4785F",
+    "lastCampaignCreatedAt": 1767676019,
+    "tokens": [
+      {
+        "id": "5737761031982269701",
+        "name": "USDT0",
+        "chainId": 9745,
+        "address": "0xB8CE59FC3717ada4C02eaDF9682A9e934F625ebb",
+        "decimals": 6,
+        "symbol": "USDT0",
+        "icon": "https://storage.googleapis.com/merkl-static-assets/tokens/USDT0.svg",
+        "verified": true,
+        "isNative": false,
+        "isTest": false,
+        "type": "TOKEN",
+        "price": 0.9999969677145352,
+        "updatedAt": 1768418529,
+        "priceSource": "Price Source USDT0",
+        "displaySymbol": "USDT0"
+      },
+      {
+        "id": "8783025235520225863",
+        "name": "Aave Plasma Variable Debt USDT0",
+        "chainId": 9745,
+        "address": "0xCBBC427b5658672768E11BFDa00879839DB4785F",
+        "decimals": 6,
+        "symbol": "variableDebtPlaUSDT0",
+        "icon": "",
+        "verified": false,
+        "isNative": false,
+        "isTest": false,
+        "type": "TOKEN",
+        "price": 0.9999969677145352,
+        "updatedAt": 1768418525,
+        "priceSource": "Price Source 0xCBBC427b5658672768E11BFDa00879839DB4785F"
+      }
+    ],
+    "chain": {
+      "id": 9745,
+      "name": "Plasma",
+      "icon": "https://raw.githubusercontent.com/AngleProtocol/angle-token-list/main/src/assets/chains/plasma.png",
+      "liveCampaigns": 40,
+      "endOfDisputePeriod": 1768410000,
+      "explorers": [
+        {
+          "id": "14261454752756197884",
+          "type": "ETHERSCAN",
+          "url": "https://plasmascan.to/",
+          "chainId": 9745
+        }
+      ]
+    },
+    "protocol": {
+      "id": "aave",
+      "tags": [
+        "LENDING",
+        "zksync",
+        "drip",
+        "plasma"
+      ],
+      "name": "Aave",
+      "description": "A decentralized liquidity protocol where users can deposit and borrow",
+      "url": "https://app.aave.com/",
+      "icon": "https://raw.githubusercontent.com/AngleProtocol/angle-token-list/main/src/assets/protocols/aave.svg",
+      "banner": null,
+      "opportunityBannerLight": null,
+      "opportunityBannerDark": null
+    },
+    "activePrograms": [],
+    "aprRecord": {
+      "cumulated": 0.4998272067876044,
+      "timestamp": "1768418676",
+      "breakdowns": [
+        {
+          "distributionType": "DUTCH_AUCTION",
+          "identifier": "0xbc76393d0104de187814af2a197548a1d6ed578a74be91dcf8522fecb3cd7fd2",
+          "type": "CAMPAIGN",
+          "value": 0.4385305838438722,
+          "timestamp": "1768418676"
+        },
+        {
+          "distributionType": "DUTCH_AUCTION",
+          "identifier": "0xda39cf756e73ec88c8af8517d5d5caa7b25d71e69a6342c3f6b1218d0fb93745",
+          "type": "CAMPAIGN",
+          "value": 0.06129662294373225,
+          "timestamp": "1768418676"
+        }
+      ]
+    },
+    "tvlRecord": {
+      "id": "17867632521191976674",
+      "total": 1809491563.930378,
+      "timestamp": "1768418676",
+      "breakdowns": [
+        {
+          "identifier": "8783025235520225863",
+          "type": "TOKEN",
+          "value": 1809497050.841984
+        }
+      ]
+    },
+    "rewardsRecord": {
+      "id": "17867632521191976674",
+      "total": 24778.98942753575,
+      "timestamp": "1768418676",
+      "breakdowns": [
+        {
+          "token": {
+            "id": "9177007823639843523",
+            "name": "Wrapped XPL",
+            "chainId": 9745,
+            "address": "0x6100E367285b01F48D07953803A2d8dCA5D19873",
+            "decimals": 18,
+            "symbol": "WXPL",
+            "displaySymbol": "",
+            "icon": "https://storage.googleapis.com/merkl-static-assets/tokens/XPL.png",
+            "verified": true,
+            "isTest": false,
+            "type": "TOKEN",
+            "isNative": false,
+            "price": 0.166835359612943,
+            "updatedAt": 1768418530,
+            "priceSource": "Price Source WXPL"
+          },
+          "amount": "18214285714285710540800",
+          "value": 3038.7869072357466,
+          "distributionType": "DUTCH_AUCTION",
+          "onChainCampaignId": "0xda39cf756e73ec88c8af8517d5d5caa7b25d71e69a6342c3f6b1218d0fb93745",
+          "id": "9aac21cb-52f4-48dd-9614-631881067fdc",
+          "timestamp": "1768418676",
+          "campaignId": "61805878361666393",
+          "dailyRewardsRecordId": "17867632521191976674"
+        },
+        {
+          "token": {
+            "id": "6934973107080008747",
+            "name": "USDT0 (wrapped)",
+            "chainId": 9745,
+            "address": "0x9421F7A094c299AF6d4451E68bA7bEC09a8a062D",
+            "decimals": 6,
+            "symbol": "USDT0",
+            "displaySymbol": "",
+            "icon": "https://storage.googleapis.com/merkl-static-assets/tokens/USDT0.svg",
+            "verified": true,
+            "isTest": false,
+            "type": "TOKEN",
+            "isNative": false,
+            "price": 0.9999969677145352,
+            "updatedAt": 1768418529,
+            "priceSource": "Price Source USDT0"
+          },
+          "amount": "21740268443",
+          "value": 21740.2025203,
+          "distributionType": "DUTCH_AUCTION",
+          "onChainCampaignId": "0xbc76393d0104de187814af2a197548a1d6ed578a74be91dcf8522fecb3cd7fd2",
+          "id": "bee5e7f6-2e94-4099-9cc8-00232ab57a76",
+          "timestamp": "1768418676",
+          "campaignId": "5765640535879083298",
+          "dailyRewardsRecordId": "17867632521191976674"
+        }
+      ]
+    }
+  },
+  {
+    "chainId": 9745,
+    "type": "ERC20LOGPROCESSOR",
+    "identifier": "0x1DD4b13fcAE900C60a350589BE8052959D2Ed27B",
+    "name": "Supply USDT0 to the Fluid fUSDT0 vault",
+    "description": "Earn rewards by supplying USDT0 to the Fluid fUSDT0 vault on Plasma",
+    "howToSteps": [
+      "Lend assets on Fluid.",
+      "Rewards accumulate automatically."
+    ],
+    "status": "LIVE",
+    "action": "LEND",
+    "tvl": 302027636.6883952,
+    "apr": 1.702143478112474,
+    "maxApr": 0,
+    "dailyRewards": 14084.77731503769,
+    "tags": [
+      "plasma"
+    ],
+    "liveCampaigns": 1,
+    "id": "16819067647031430650",
+    "depositUrl": "https://fluid.io/lending/9745/USDT0",
+    "explorerAddress": "0x1DD4b13fcAE900C60a350589BE8052959D2Ed27B",
+    "lastCampaignCreatedAt": 1768324536,
+    "tokens": [
+      {
+        "id": "1142676091959367296",
+        "name": "Fluid USDT0",
+        "chainId": 9745,
+        "address": "0x1DD4b13fcAE900C60a350589BE8052959D2Ed27B",
+        "decimals": 6,
+        "symbol": "fUSDT0",
+        "icon": "",
+        "verified": false,
+        "isNative": false,
+        "isTest": false,
+        "type": "TOKEN",
+        "price": 1.01032682873435,
+        "updatedAt": 1768418683,
+        "priceSource": "Computed Price - 0x0ecb3bf486cf41fe3f279c400591e777895a89d1281a24751941bc83ec310b1f on chain 9745"
+      },
+      {
+        "id": "5737761031982269701",
+        "name": "USDT0",
+        "chainId": 9745,
+        "address": "0xB8CE59FC3717ada4C02eaDF9682A9e934F625ebb",
+        "decimals": 6,
+        "symbol": "USDT0",
+        "icon": "https://storage.googleapis.com/merkl-static-assets/tokens/USDT0.svg",
+        "verified": true,
+        "isNative": false,
+        "isTest": false,
+        "type": "TOKEN",
+        "price": 0.9999969677145352,
+        "updatedAt": 1768418529,
+        "priceSource": "Price Source USDT0",
+        "displaySymbol": "USDT0"
+      }
+    ],
+    "chain": {
+      "id": 9745,
+      "name": "Plasma",
+      "icon": "https://raw.githubusercontent.com/AngleProtocol/angle-token-list/main/src/assets/chains/plasma.png",
+      "liveCampaigns": 40,
+      "endOfDisputePeriod": 1768410000,
+      "explorers": [
+        {
+          "id": "14261454752756197884",
+          "type": "ETHERSCAN",
+          "url": "https://plasmascan.to/",
+          "chainId": 9745
+        }
+      ]
+    },
+    "protocol": {
+      "id": "fluid",
+      "tags": [
+        "LENDING",
+        "drip",
+        "plasma"
+      ],
+      "name": "Fluid",
+      "description": "Financial system of the future",
+      "url": "https://fluid.instadapp.io/",
+      "icon": "https://icons.llamao.fi/icons/protocols/fluid?w=96&h=96",
+      "banner": null,
+      "opportunityBannerLight": null,
+      "opportunityBannerDark": null
+    },
+    "activePrograms": [],
+    "aprRecord": {
+      "cumulated": 1.702143478112474,
+      "timestamp": "1768418683",
+      "breakdowns": [
+        {
+          "distributionType": "DUTCH_AUCTION",
+          "identifier": "0xb46de95fe747e5463a351410b7ca05f2eaef7a8ff5e9196f2efc29df8fb23d7e",
+          "type": "CAMPAIGN",
+          "value": 1.702143478112474,
+          "timestamp": "1768418683"
+        }
+      ]
+    },
+    "tvlRecord": {
+      "id": "5026404580311520721",
+      "total": 302027636.6883952,
+      "timestamp": "1768418683",
+      "breakdowns": [
+        {
+          "identifier": "5737761031982269701",
+          "type": "TOKEN",
+          "value": 302028552.525185
+        }
+      ]
+    },
+    "rewardsRecord": {
+      "id": "5026404580311520721",
+      "total": 14084.77731503769,
+      "timestamp": "1768418683",
+      "breakdowns": [
+        {
+          "token": {
+            "id": "9177007823639843523",
+            "name": "Wrapped XPL",
+            "chainId": 9745,
+            "address": "0x6100E367285b01F48D07953803A2d8dCA5D19873",
+            "decimals": 18,
+            "symbol": "WXPL",
+            "displaySymbol": "",
+            "icon": "https://storage.googleapis.com/merkl-static-assets/tokens/XPL.png",
+            "verified": true,
+            "isTest": false,
+            "type": "TOKEN",
+            "isNative": false,
+            "price": 0.166835359612943,
+            "updatedAt": 1768418530,
+            "priceSource": "Price Source WXPL"
+          },
+          "amount": "0",
+          "value": 0,
+          "distributionType": "DUTCH_AUCTION",
+          "onChainCampaignId": "0x0ecb3bf486cf41fe3f279c400591e777895a89d1281a24751941bc83ec310b1f",
+          "id": "5b726231-7c0b-4d43-86f4-bbe272328598",
+          "timestamp": "1768418683",
+          "campaignId": "15303058294598059195",
+          "dailyRewardsRecordId": "5026404580311520721"
+        },
+        {
+          "token": {
+            "id": "9177007823639843523",
+            "name": "Wrapped XPL",
+            "chainId": 9745,
+            "address": "0x6100E367285b01F48D07953803A2d8dCA5D19873",
+            "decimals": 18,
+            "symbol": "WXPL",
+            "displaySymbol": "",
+            "icon": "https://storage.googleapis.com/merkl-static-assets/tokens/XPL.png",
+            "verified": true,
+            "isTest": false,
+            "type": "TOKEN",
+            "isNative": false,
+            "price": 0.166835359612943,
+            "updatedAt": 1768418530,
+            "priceSource": "Price Source WXPL"
+          },
+          "amount": "84423214285714282774528",
+          "value": 14084.777315037689,
+          "distributionType": "DUTCH_AUCTION",
+          "onChainCampaignId": "0xb46de95fe747e5463a351410b7ca05f2eaef7a8ff5e9196f2efc29df8fb23d7e",
+          "id": "ce2f2ccd-d6c7-4a47-be9a-e5f1fba30119",
+          "timestamp": "1768418683",
+          "campaignId": "11797268188122296740",
+          "dailyRewardsRecordId": "5026404580311520721"
+        }
+      ]
+    }
+  },
+  {
+    "chainId": 9745,
+    "type": "ERC20_CROSS_CHAIN",
+    "identifier": "0xd1074E0AE85610dDBA0147e29eBe0D8E5873a000",
+    "name": "Hold PlasmaUSD vault shares on Mainnet or Plasma",
+    "description": "Earn rewards by holding PlasmaUSD vault shares on Mainnet or Plasma",
+    "howToSteps": [
+      "Hold PlasmaUSD.",
+      "Rewards accumulate automatically."
+    ],
+    "status": "LIVE",
+    "action": "HOLD",
+    "tvl": 302358724.122482,
+    "apr": 1.60368314966402,
+    "maxApr": 0,
+    "dailyRewards": 12605.89188572655,
+    "tags": [
+      "plasma"
+    ],
+    "liveCampaigns": 2,
+    "id": "17605515837868232193",
+    "depositUrl": "https://app.plasma.to/",
+    "explorerAddress": "0xd1074E0AE85610dDBA0147e29eBe0D8E5873a000",
+    "lastCampaignCreatedAt": 1764861264,
+    "tokens": [
+      {
+        "id": "17103582425903030820",
+        "name": "Plasma USD Vault",
+        "chainId": 9745,
+        "address": "0xd1074E0AE85610dDBA0147e29eBe0D8E5873a000",
+        "decimals": 6,
+        "symbol": "PlasmaUSD",
+        "icon": "",
+        "verified": false,
+        "isNative": false,
+        "isTest": false,
+        "type": "TOKEN",
+        "price": 1,
+        "updatedAt": 1768419661,
+        "priceSource": "Price Source 0xd1074E0AE85610dDBA0147e29eBe0D8E5873a000"
+      },
+      {
+        "id": "5737761031982269701",
+        "name": "USDT0",
+        "chainId": 9745,
+        "address": "0xB8CE59FC3717ada4C02eaDF9682A9e934F625ebb",
+        "decimals": 6,
+        "symbol": "USDT0",
+        "icon": "https://storage.googleapis.com/merkl-static-assets/tokens/USDT0.svg",
+        "verified": true,
+        "isNative": false,
+        "isTest": false,
+        "type": "TOKEN",
+        "price": 0.9999969677145352,
+        "updatedAt": 1768418529,
+        "priceSource": "Price Source USDT0",
+        "displaySymbol": "USDT0"
+      }
+    ],
+    "chain": {
+      "id": 9745,
+      "name": "Plasma",
+      "icon": "https://raw.githubusercontent.com/AngleProtocol/angle-token-list/main/src/assets/chains/plasma.png",
+      "liveCampaigns": 40,
+      "endOfDisputePeriod": 1768410000,
+      "explorers": [
+        {
+          "id": "14261454752756197884",
+          "type": "ETHERSCAN",
+          "url": "https://plasmascan.to/",
+          "chainId": 9745
+        }
+      ]
+    },
+    "protocol": {
+      "id": "veda",
+      "tags": [
+        "VAULTS",
+        "bob",
+        "plasma"
+      ],
+      "name": "Veda",
+      "description": "On-chain vaults for turning points into real yield",
+      "url": "https://app.veda.tech",
+      "icon": "https://framerusercontent.com/images/6uzYXiufBk8hieJOrdpRIGhUI.png",
+      "banner": null,
+      "opportunityBannerLight": null,
+      "opportunityBannerDark": null
+    },
+    "activePrograms": [],
+    "aprRecord": {
+      "cumulated": 1.60368314966402,
+      "timestamp": "1768418676",
+      "breakdowns": [
+        {
+          "distributionType": "DUTCH_AUCTION",
+          "identifier": "0x07810a25444a18e413ce7bd4909bedab86e004c863ff578b7cd2e0ee7ddd9ba4",
+          "type": "CAMPAIGN",
+          "value": 0.6321832483121721,
+          "timestamp": "1768418676"
+        },
+        {
+          "distributionType": "DUTCH_AUCTION",
+          "identifier": "815196219811020228",
+          "type": "CAMPAIGN",
+          "value": 0.9714999013518474,
+          "timestamp": "1768418676"
+        }
+      ]
+    },
+    "tvlRecord": {
+      "id": "2579236274869083897",
+      "total": 302358724.122482,
+      "timestamp": "1768418676",
+      "breakdowns": [
+        {
+          "identifier": "17103582425903030820",
+          "type": "TOKEN",
+          "value": 302358724.122482
+        }
+      ]
+    },
+    "rewardsRecord": {
+      "id": "2579236274869083897",
+      "total": 12605.89188572655,
+      "timestamp": "1768418676",
+      "breakdowns": [
+        {
+          "token": {
+            "id": "9177007823639843523",
+            "name": "Wrapped XPL",
+            "chainId": 9745,
+            "address": "0x6100E367285b01F48D07953803A2d8dCA5D19873",
+            "decimals": 18,
+            "symbol": "WXPL",
+            "displaySymbol": "",
+            "icon": "https://storage.googleapis.com/merkl-static-assets/tokens/XPL.png",
+            "verified": true,
+            "isTest": false,
+            "type": "TOKEN",
+            "isNative": false,
+            "price": 0.166835359612943,
+            "updatedAt": 1768418530,
+            "priceSource": "Price Source WXPL"
+          },
+          "amount": "48237445248678486867968",
+          "value": 8047.711524872923,
+          "distributionType": "DUTCH_AUCTION",
+          "onChainCampaignId": "815196219811020228",
+          "id": "e349f259-53d1-4261-af71-dd8474420a42",
+          "timestamp": "1768418676",
+          "campaignId": "10093534370409447599",
+          "dailyRewardsRecordId": "2579236274869083897"
+        },
+        {
+          "token": {
+            "id": "9177007823639843523",
+            "name": "Wrapped XPL",
+            "chainId": 9745,
+            "address": "0x6100E367285b01F48D07953803A2d8dCA5D19873",
+            "decimals": 18,
+            "symbol": "WXPL",
+            "displaySymbol": "",
+            "icon": "https://storage.googleapis.com/merkl-static-assets/tokens/XPL.png",
+            "verified": true,
+            "isTest": false,
+            "type": "TOKEN",
+            "isNative": false,
+            "price": 0.166835359612943,
+            "updatedAt": 1768418530,
+            "priceSource": "Price Source WXPL"
+          },
+          "amount": "27321428571428568956928",
+          "value": 4558.18036085362,
+          "distributionType": "DUTCH_AUCTION",
+          "onChainCampaignId": "0x07810a25444a18e413ce7bd4909bedab86e004c863ff578b7cd2e0ee7ddd9ba4",
+          "id": "4898645e-a0ab-4ec0-99af-85fceb27aec0",
+          "timestamp": "1768418676",
+          "campaignId": "289551588894366843",
+          "dailyRewardsRecordId": "2579236274869083897"
+        }
+      ]
+    }
+  },
+  {
+    "chainId": 9745,
+    "type": "ERC20LOGPROCESSOR",
+    "identifier": "0xe818ad0D20D504C55601b9d5e0E137314414dec4",
+    "name": "Deposit into the Euler K3 Capital USDT0 Vault",
+    "description": "Earn rewards by providing liquidity to the K3 Capital USDT0 Vault vault on Euler on Plasma",
+    "howToSteps": [
+      "Lend assets on Euler.",
+      "Rewards accumulate automatically."
+    ],
+    "status": "LIVE",
+    "action": "LEND",
+    "tvl": 49181917.60055191,
+    "apr": 2.911835216442506,
+    "maxApr": 0,
+    "dailyRewards": 3923.55177209481,
+    "tags": [
+      "plasma"
+    ],
+    "liveCampaigns": 2,
+    "id": "9706076968547206717",
+    "depositUrl": "https://app.euler.finance/earn/0xe818ad0D20D504C55601b9d5e0E137314414dec4?network=plasma",
+    "explorerAddress": "0xe818ad0D20D504C55601b9d5e0E137314414dec4",
+    "lastCampaignCreatedAt": 1768324535,
+    "tokens": [
+      {
+        "id": "15652549669469313398",
+        "name": "K3 Capital USDT0 Vault",
+        "chainId": 9745,
+        "address": "0xe818ad0D20D504C55601b9d5e0E137314414dec4",
+        "decimals": 6,
+        "symbol": "k3USDT",
+        "icon": "",
+        "verified": false,
+        "isNative": false,
+        "isTest": false,
+        "type": "TOKEN",
+        "price": 1.014409179688324,
+        "updatedAt": 1768418684,
+        "priceSource": "Computed Price - 0x820f93f339c139ff666ac8ba84605d26f1a875366eef6bfabeaefedb6274ed0b on chain 9745"
+      },
+      {
+        "id": "5737761031982269701",
+        "name": "USDT0",
+        "chainId": 9745,
+        "address": "0xB8CE59FC3717ada4C02eaDF9682A9e934F625ebb",
+        "decimals": 6,
+        "symbol": "USDT0",
+        "icon": "https://storage.googleapis.com/merkl-static-assets/tokens/USDT0.svg",
+        "verified": true,
+        "isNative": false,
+        "isTest": false,
+        "type": "TOKEN",
+        "price": 0.9999969677145352,
+        "updatedAt": 1768418529,
+        "priceSource": "Price Source USDT0",
+        "displaySymbol": "USDT0"
+      }
+    ],
+    "chain": {
+      "id": 9745,
+      "name": "Plasma",
+      "icon": "https://raw.githubusercontent.com/AngleProtocol/angle-token-list/main/src/assets/chains/plasma.png",
+      "liveCampaigns": 40,
+      "endOfDisputePeriod": 1768410000,
+      "explorers": [
+        {
+          "id": "14261454752756197884",
+          "type": "ETHERSCAN",
+          "url": "https://plasmascan.to/",
+          "chainId": 9745
+        }
+      ]
+    },
+    "protocol": {
+      "id": "euler",
+      "tags": [
+        "LENDING",
+        "bob",
+        "drip",
+        "plasma"
+      ],
+      "name": "Euler",
+      "description": "Permissionless lending, borrowing, and leveraged yield strategies",
+      "url": "https://app.euler.finance/",
+      "icon": "https://raw.githubusercontent.com/AngleProtocol/angle-token-list/main/src/assets/protocols/euler.svg",
+      "banner": null,
+      "opportunityBannerLight": null,
+      "opportunityBannerDark": null
+    },
+    "activePrograms": [],
+    "aprRecord": {
+      "cumulated": 2.911835216442506,
+      "timestamp": "1768418683",
+      "breakdowns": [
+        {
+          "distributionType": "DUTCH_AUCTION",
+          "identifier": "0xf17af6854146669e285162c1283941c659222e49673fe5fdbddcefe2b73f1722",
+          "type": "CAMPAIGN",
+          "value": 0.2935323999408865,
+          "timestamp": "1768418683"
+        },
+        {
+          "distributionType": "DUTCH_AUCTION",
+          "identifier": "0xa2315155b15bc6b55af39c792f7b8ef6b43ad5af1917e7a8e2da30a880dd9bb6",
+          "type": "CAMPAIGN",
+          "value": 2.61830281650162,
+          "timestamp": "1768418683"
+        }
+      ]
+    },
+    "nativeAprRecord": {
+      "title": "Euler Earn APR - k3USDT",
+      "description": "Native APR for Euler Earn vault 0xe818ad0d20d504c55601b9d5e0e137314414dec4 (k3USDT) on chain 9745",
+      "value": 4.266651069883198,
+      "timestamp": "1768419654"
+    },
+    "tvlRecord": {
+      "id": "15665052596127758764",
+      "total": 49181917.60055191,
+      "timestamp": "1768418683",
+      "breakdowns": [
+        {
+          "identifier": "5737761031982269701",
+          "type": "TOKEN",
+          "value": 49182066.734618
+        }
+      ]
+    },
+    "rewardsRecord": {
+      "id": "15665052596127758764",
+      "total": 3923.55177209481,
+      "timestamp": "1768418683",
+      "breakdowns": [
+        {
+          "token": {
+            "id": "9177007823639843523",
+            "name": "Wrapped XPL",
+            "chainId": 9745,
+            "address": "0x6100E367285b01F48D07953803A2d8dCA5D19873",
+            "decimals": 18,
+            "symbol": "WXPL",
+            "displaySymbol": "",
+            "icon": "https://storage.googleapis.com/merkl-static-assets/tokens/XPL.png",
+            "verified": true,
+            "isTest": false,
+            "type": "TOKEN",
+            "isNative": false,
+            "price": 0.166835359612943,
+            "updatedAt": 1768418530,
+            "priceSource": "Price Source WXPL"
+          },
+          "amount": "0",
+          "value": 0,
+          "distributionType": "DUTCH_AUCTION",
+          "onChainCampaignId": "0x820f93f339c139ff666ac8ba84605d26f1a875366eef6bfabeaefedb6274ed0b",
+          "id": "e1b5c06f-60c0-41cc-a442-feaefaadbbc3",
+          "timestamp": "1768418683",
+          "campaignId": "14852033506766481415",
+          "dailyRewardsRecordId": "15665052596127758764"
+        },
+        {
+          "token": {
+            "id": "9177007823639843523",
+            "name": "Wrapped XPL",
+            "chainId": 9745,
+            "address": "0x6100E367285b01F48D07953803A2d8dCA5D19873",
+            "decimals": 18,
+            "symbol": "WXPL",
+            "displaySymbol": "",
+            "icon": "https://storage.googleapis.com/merkl-static-assets/tokens/XPL.png",
+            "verified": true,
+            "isTest": false,
+            "type": "TOKEN",
+            "isNative": false,
+            "price": 0.166835359612943,
+            "updatedAt": 1768418530,
+            "priceSource": "Price Source WXPL"
+          },
+          "amount": "21146785714285708312576",
+          "value": 3528.031599300702,
+          "distributionType": "DUTCH_AUCTION",
+          "onChainCampaignId": "0xa2315155b15bc6b55af39c792f7b8ef6b43ad5af1917e7a8e2da30a880dd9bb6",
+          "id": "fecd258a-4f27-4cf2-8e1a-108c36e9c900",
+          "timestamp": "1768418683",
+          "campaignId": "8337361537441920995",
+          "dailyRewardsRecordId": "15665052596127758764"
+        },
+        {
+          "token": {
+            "id": "17686054164691787727",
+            "name": "Reward EUL",
+            "chainId": 9745,
+            "address": "0xe2011F2bF6556863c3bacE991Efc8DaC26CD84c2",
+            "decimals": 18,
+            "symbol": "rEUL",
+            "displaySymbol": "",
+            "icon": "https://raw.githubusercontent.com/AngleProtocol/angle-token-list/main/src/assets/tokens/EUL.svg",
+            "verified": true,
+            "isTest": false,
+            "type": "TOKEN",
+            "isNative": false,
+            "price": 2.583011629019815,
+            "updatedAt": 1768418526,
+            "priceSource": "Price Source rEUL"
+          },
+          "amount": "153123651612903178240",
+          "value": 395.5201727941077,
+          "distributionType": "DUTCH_AUCTION",
+          "onChainCampaignId": "0xf17af6854146669e285162c1283941c659222e49673fe5fdbddcefe2b73f1722",
+          "id": "dfdbb7b8-020c-4cb8-827c-531534845f65",
+          "timestamp": "1768418683",
+          "campaignId": "9047265531058897175",
+          "dailyRewardsRecordId": "15665052596127758764"
+        }
+      ]
+    }
+  },
+  {
+    "chainId": 9745,
+    "type": "ERC20LOGPROCESSOR",
+    "identifier": "0x68930887e1318eF30653a4b7942AB07544ebEd4d",
+    "name": "Hold Pendle YT or LP from Ethena USDe 09 Apr 2026 market",
+    "description": "Earn rewards by depositing USDe into Pendle and holding the Yield or LP Token on Plasma",
+    "howToSteps": [
+      "Deposit USDe into Pendle, and get the YT or LP associated to SY Ethena USDe.",
+      "Rewards accumulate automatically."
+    ],
+    "status": "LIVE",
+    "action": "HOLD",
+    "tvl": 89615523.76812834,
+    "apr": 1.456370920068692,
+    "maxApr": 0,
+    "dailyRewards": 3575.710761715801,
+    "tags": [
+      "plasma"
+    ],
+    "liveCampaigns": 1,
+    "id": "1147617005121279110",
+    "depositUrl": "https://app.pendle.finance/trade/markets/0x4bab3368dedb3398664e845612d189666c6c3f5f/swap?view=yt&chain=plasma",
+    "explorerAddress": "0x68930887e1318eF30653a4b7942AB07544ebEd4d",
+    "lastCampaignCreatedAt": 1768324626,
+    "tokens": [
+      {
+        "id": "10971716765502887791",
+        "name": "SY Ethena USDe",
+        "chainId": 9745,
+        "address": "0x68930887e1318eF30653a4b7942AB07544ebEd4d",
+        "decimals": 18,
+        "symbol": "SY-USDe",
+        "icon": "",
+        "verified": false,
+        "isNative": false,
+        "isTest": false,
+        "type": "TOKEN",
+        "price": 1.000328147810664,
+        "updatedAt": 1768418685,
+        "priceSource": "Computed Price - 0x2ffccca1393b222d689fcd59cc66dae7362596493f41efca1c7fb1ce87ea218a on chain 9745",
+        "displaySymbol": "SY-USDe"
+      },
+      {
+        "id": "9310019237196849870",
+        "name": "USDe",
+        "chainId": 9745,
+        "address": "0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34",
+        "decimals": 18,
+        "symbol": "USDe",
+        "icon": "https://storage.googleapis.com/merkl-static-assets/tokens/USDe.png",
+        "verified": true,
+        "isNative": false,
+        "isTest": false,
+        "type": "TOKEN",
+        "price": 0.9998336527376298,
+        "updatedAt": 1768419664,
+        "priceSource": "Price Source USDe"
+      }
+    ],
+    "chain": {
+      "id": 9745,
+      "name": "Plasma",
+      "icon": "https://raw.githubusercontent.com/AngleProtocol/angle-token-list/main/src/assets/chains/plasma.png",
+      "liveCampaigns": 40,
+      "endOfDisputePeriod": 1768410000,
+      "explorers": [
+        {
+          "id": "14261454752756197884",
+          "type": "ETHERSCAN",
+          "url": "https://plasmascan.to/",
+          "chainId": 9745
+        }
+      ]
+    },
+    "protocol": {
+      "id": "pendle",
+      "tags": [
+        "HOLD"
+      ],
+      "name": "Pendle",
+      "description": "",
+      "url": "https://www.pendle.finance/",
+      "icon": "https://icons.llamao.fi/icons/protocols/pendle?w=64&h=64",
+      "banner": null,
+      "opportunityBannerLight": null,
+      "opportunityBannerDark": null
+    },
+    "activePrograms": [],
+    "aprRecord": {
+      "cumulated": 1.456370920068692,
+      "timestamp": "1768418683",
+      "breakdowns": [
+        {
+          "distributionType": "DUTCH_AUCTION",
+          "identifier": "0xf6f0f5636918980252a7cfa623dcd9bac0504a78551d5a86598f87c32ed8081e",
+          "type": "CAMPAIGN",
+          "value": 1.456370920068692,
+          "timestamp": "1768418683"
+        }
+      ]
+    },
+    "tvlRecord": {
+      "id": "4353976397982970421",
+      "total": 89615523.76812834,
+      "timestamp": "1768418683",
+      "breakdowns": [
+        {
+          "identifier": "9310019237196849870",
+          "type": "TOKEN",
+          "value": 89586126.27692468
+        }
+      ]
+    },
+    "rewardsRecord": {
+      "id": "4353976397982970421",
+      "total": 3575.710761715801,
+      "timestamp": "1768418683",
+      "breakdowns": [
+        {
+          "token": {
+            "id": "9177007823639843523",
+            "name": "Wrapped XPL",
+            "chainId": 9745,
+            "address": "0x6100E367285b01F48D07953803A2d8dCA5D19873",
+            "decimals": 18,
+            "symbol": "WXPL",
+            "displaySymbol": "",
+            "icon": "https://storage.googleapis.com/merkl-static-assets/tokens/XPL.png",
+            "verified": true,
+            "isTest": false,
+            "type": "TOKEN",
+            "isNative": false,
+            "price": 0.166835359612943,
+            "updatedAt": 1768418530,
+            "priceSource": "Price Source WXPL"
+          },
+          "amount": "0",
+          "value": 0,
+          "distributionType": "DUTCH_AUCTION",
+          "onChainCampaignId": "0x2ffccca1393b222d689fcd59cc66dae7362596493f41efca1c7fb1ce87ea218a",
+          "id": "6e299402-69de-49cb-806f-34a51d1736e4",
+          "timestamp": "1768418683",
+          "campaignId": "16971512686551776503",
+          "dailyRewardsRecordId": "4353976397982970421"
+        },
+        {
+          "token": {
+            "id": "9177007823639843523",
+            "name": "Wrapped XPL",
+            "chainId": 9745,
+            "address": "0x6100E367285b01F48D07953803A2d8dCA5D19873",
+            "decimals": 18,
+            "symbol": "WXPL",
+            "displaySymbol": "",
+            "icon": "https://storage.googleapis.com/merkl-static-assets/tokens/XPL.png",
+            "verified": true,
+            "isTest": false,
+            "type": "TOKEN",
+            "isNative": false,
+            "price": 0.166835359612943,
+            "updatedAt": 1768418530,
+            "priceSource": "Price Source WXPL"
+          },
+          "amount": "21432571428571430518784",
+          "value": 3575.710761715802,
+          "distributionType": "DUTCH_AUCTION",
+          "onChainCampaignId": "0xf6f0f5636918980252a7cfa623dcd9bac0504a78551d5a86598f87c32ed8081e",
+          "id": "3ac127a0-f919-4e0b-b701-9ced5509c2d2",
+          "timestamp": "1768418683",
+          "campaignId": "1680541552740259639",
+          "dailyRewardsRecordId": "4353976397982970421"
+        }
+      ]
+    }
+  },
+  {
+    "chainId": 9745,
+    "type": "ERC20LOGPROCESSOR",
+    "identifier": "0xdb3FaAD4436E2d133fdaB0788332845df9b0ABdF",
+    "name": "Hold Pendle YT or LP from Ethena sUSDE 09 Apr 2026 market",
+    "description": "Earn rewards by depositing USDe into Pendle and holding the Yield or LP Token on Plasma",
+    "howToSteps": [
+      "Deposit USDe into Pendle, and get the YT or LP associated to SY Ethena sUSDE.",
+      "Rewards accumulate automatically."
+    ],
+    "status": "LIVE",
+    "action": "HOLD",
+    "tvl": 477813823.7382055,
+    "apr": 0.2731470633929067,
+    "maxApr": 0,
+    "dailyRewards": 3575.710761715801,
+    "tags": [
+      "plasma"
+    ],
+    "liveCampaigns": 1,
+    "id": "6560561256163875352",
+    "depositUrl": "https://app.pendle.finance/trade/markets/0x5fa69163085efd4767f24639eb1fb87ed34bbb12/swap?view=yt&chain=plasma",
+    "explorerAddress": "0xdb3FaAD4436E2d133fdaB0788332845df9b0ABdF",
+    "lastCampaignCreatedAt": 1768324584,
+    "tokens": [
+      {
+        "id": "3632641024842513454",
+        "name": "SY Ethena sUSDE",
+        "chainId": 9745,
+        "address": "0xdb3FaAD4436E2d133fdaB0788332845df9b0ABdF",
+        "decimals": 18,
+        "symbol": "SY-sUSDE",
+        "icon": "",
+        "verified": false,
+        "isNative": false,
+        "isTest": false,
+        "type": "TOKEN",
+        "price": 1.215621833998878,
+        "updatedAt": 1768418686,
+        "priceSource": "Computed Price - 0x79e074cc58b280ce1cefe387a31874d189e73b602e85da6126ae34e053b94176 on chain 9745",
+        "displaySymbol": "SY-sUSDE"
+      },
+      {
+        "id": "9310019237196849870",
+        "name": "USDe",
+        "chainId": 9745,
+        "address": "0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34",
+        "decimals": 18,
+        "symbol": "USDe",
+        "icon": "https://storage.googleapis.com/merkl-static-assets/tokens/USDe.png",
+        "verified": true,
+        "isNative": false,
+        "isTest": false,
+        "type": "TOKEN",
+        "price": 0.9998336527376298,
+        "updatedAt": 1768419664,
+        "priceSource": "Price Source USDe"
+      }
+    ],
+    "chain": {
+      "id": 9745,
+      "name": "Plasma",
+      "icon": "https://raw.githubusercontent.com/AngleProtocol/angle-token-list/main/src/assets/chains/plasma.png",
+      "liveCampaigns": 40,
+      "endOfDisputePeriod": 1768410000,
+      "explorers": [
+        {
+          "id": "14261454752756197884",
+          "type": "ETHERSCAN",
+          "url": "https://plasmascan.to/",
+          "chainId": 9745
+        }
+      ]
+    },
+    "protocol": {
+      "id": "pendle",
+      "tags": [
+        "HOLD"
+      ],
+      "name": "Pendle",
+      "description": "",
+      "url": "https://www.pendle.finance/",
+      "icon": "https://icons.llamao.fi/icons/protocols/pendle?w=64&h=64",
+      "banner": null,
+      "opportunityBannerLight": null,
+      "opportunityBannerDark": null
+    },
+    "activePrograms": [],
+    "aprRecord": {
+      "cumulated": 0.2731470633929067,
+      "timestamp": "1768418683",
+      "breakdowns": [
+        {
+          "distributionType": "DUTCH_AUCTION",
+          "identifier": "0x5eb43d6c82974002e0477ecb52b7c7c1d674c50f625ac271151b2cadbebd5309",
+          "type": "CAMPAIGN",
+          "value": 0.2731470633929067,
+          "timestamp": "1768418683"
+        }
+      ]
+    },
+    "tvlRecord": {
+      "id": "11288875075989286230",
+      "total": 477813823.7382055,
+      "timestamp": "1768418683",
+      "breakdowns": [
+        {
+          "identifier": "11226507666967847048",
+          "type": "TOKEN",
+          "value": 393061238.5978636
+        }
+      ]
+    },
+    "rewardsRecord": {
+      "id": "11288875075989286230",
+      "total": 3575.710761715801,
+      "timestamp": "1768418683",
+      "breakdowns": [
+        {
+          "token": {
+            "id": "9177007823639843523",
+            "name": "Wrapped XPL",
+            "chainId": 9745,
+            "address": "0x6100E367285b01F48D07953803A2d8dCA5D19873",
+            "decimals": 18,
+            "symbol": "WXPL",
+            "displaySymbol": "",
+            "icon": "https://storage.googleapis.com/merkl-static-assets/tokens/XPL.png",
+            "verified": true,
+            "isTest": false,
+            "type": "TOKEN",
+            "isNative": false,
+            "price": 0.166835359612943,
+            "updatedAt": 1768418530,
+            "priceSource": "Price Source WXPL"
+          },
+          "amount": "0",
+          "value": 0,
+          "distributionType": "DUTCH_AUCTION",
+          "onChainCampaignId": "0x79e074cc58b280ce1cefe387a31874d189e73b602e85da6126ae34e053b94176",
+          "id": "32d0eb93-6a76-48e2-8638-1b72064c37d4",
+          "timestamp": "1768418683",
+          "campaignId": "14418377761647225442",
+          "dailyRewardsRecordId": "11288875075989286230"
+        },
+        {
+          "token": {
+            "id": "9177007823639843523",
+            "name": "Wrapped XPL",
+            "chainId": 9745,
+            "address": "0x6100E367285b01F48D07953803A2d8dCA5D19873",
+            "decimals": 18,
+            "symbol": "WXPL",
+            "displaySymbol": "",
+            "icon": "https://storage.googleapis.com/merkl-static-assets/tokens/XPL.png",
+            "verified": true,
+            "isTest": false,
+            "type": "TOKEN",
+            "isNative": false,
+            "price": 0.166835359612943,
+            "updatedAt": 1768418530,
+            "priceSource": "Price Source WXPL"
+          },
+          "amount": "21432571428571430518784",
+          "value": 3575.710761715802,
+          "distributionType": "DUTCH_AUCTION",
+          "onChainCampaignId": "0x5eb43d6c82974002e0477ecb52b7c7c1d674c50f625ac271151b2cadbebd5309",
+          "id": "7d12eadd-890f-4381-ab42-c0ec2f47621e",
+          "timestamp": "1768418683",
+          "campaignId": "10089862490609552911",
+          "dailyRewardsRecordId": "11288875075989286230"
+        }
+      ]
+    }
+  },
+  {
+    "chainId": 9745,
+    "type": "ERC20LOGPROCESSOR",
+    "identifier": "0xF57bf85A1067bdDb44a34152d9a2992882baCcE5",
+    "name": "Hold YT Ethena sUSDE 9APR2026",
+    "description": "Earn rewards by holding YT-sUSDE-9APR2026",
+    "howToSteps": [
+      "Hold YT-sUSDE-9APR2026.",
+      "Rewards accumulate automatically."
+    ],
+    "status": "LIVE",
+    "action": "HOLD",
+    "tvl": 5505372.569917614,
+    "apr": 22.41630737943987,
+    "maxApr": 0,
+    "dailyRewards": 3381.09928124959,
+    "tags": [
+      "plasma"
+    ],
+    "liveCampaigns": 1,
+    "id": "9656245777510124180",
+    "explorerAddress": "0xF57bf85A1067bdDb44a34152d9a2992882baCcE5",
+    "lastCampaignCreatedAt": 1768324625,
+    "tokens": [
+      {
+        "id": "17433051295305738098",
+        "name": "YT Ethena sUSDE 9APR2026",
+        "chainId": 9745,
+        "address": "0xF57bf85A1067bdDb44a34152d9a2992882baCcE5",
+        "decimals": 18,
+        "symbol": "YT-sUSDE-9APR2026",
+        "icon": "",
+        "verified": false,
+        "isNative": false,
+        "isTest": false,
+        "type": "TOKEN",
+        "price": 0.01216190817486997,
+        "updatedAt": 1768419235,
+        "priceSource": "Deprecated TVLBuilder - 17873675500853587455 on chain 9745",
+        "displaySymbol": "YT-sUSDE-9APR2026"
+      }
+    ],
+    "chain": {
+      "id": 9745,
+      "name": "Plasma",
+      "icon": "https://raw.githubusercontent.com/AngleProtocol/angle-token-list/main/src/assets/chains/plasma.png",
+      "liveCampaigns": 40,
+      "endOfDisputePeriod": 1768410000,
+      "explorers": [
+        {
+          "id": "14261454752756197884",
+          "type": "ETHERSCAN",
+          "url": "https://plasmascan.to/",
+          "chainId": 9745
+        }
+      ]
+    },
+    "activePrograms": [],
+    "aprRecord": {
+      "cumulated": 22.41630737943987,
+      "timestamp": "1768418683",
+      "breakdowns": [
+        {
+          "distributionType": "DUTCH_AUCTION",
+          "identifier": "17873675500853587455",
+          "type": "CAMPAIGN",
+          "value": 22.41630737943987,
+          "timestamp": "1768418683"
+        }
+      ]
+    },
+    "tvlRecord": {
+      "id": "15003183476396531878",
+      "total": 5505372.569917614,
+      "timestamp": "1768418683",
+      "breakdowns": [
+        {
+          "identifier": "9310019237196849870",
+          "type": "TOKEN",
+          "value": 372431582.7812876
+        }
+      ]
+    },
+    "rewardsRecord": {
+      "id": "15003183476396531878",
+      "total": 3381.09928124959,
+      "timestamp": "1768418683",
+      "breakdowns": [
+        {
+          "token": {
+            "id": "9177007823639843523",
+            "name": "Wrapped XPL",
+            "chainId": 9745,
+            "address": "0x6100E367285b01F48D07953803A2d8dCA5D19873",
+            "decimals": 18,
+            "symbol": "WXPL",
+            "displaySymbol": "",
+            "icon": "https://storage.googleapis.com/merkl-static-assets/tokens/XPL.png",
+            "verified": true,
+            "isTest": false,
+            "type": "TOKEN",
+            "isNative": false,
+            "price": 0.166835359612943,
+            "updatedAt": 1768418530,
+            "priceSource": "Price Source WXPL"
+          },
+          "amount": "0",
+          "value": 0,
+          "distributionType": "DUTCH_AUCTION",
+          "onChainCampaignId": "0x063b18b4e99ffbf4a763b629198eeab805cabc226d88fd9a6a0da4b5b744b504",
+          "id": "9a00b3c6-6ca7-4f44-bd8c-5ce7fa4bc233",
+          "timestamp": "1768418683",
+          "campaignId": "3841384233985806901",
+          "dailyRewardsRecordId": "15003183476396531878"
+        },
+        {
+          "token": {
+            "id": "9177007823639843523",
+            "name": "Wrapped XPL",
+            "chainId": 9745,
+            "address": "0x6100E367285b01F48D07953803A2d8dCA5D19873",
+            "decimals": 18,
+            "symbol": "WXPL",
+            "displaySymbol": "",
+            "icon": "https://storage.googleapis.com/merkl-static-assets/tokens/XPL.png",
+            "verified": true,
+            "isTest": false,
+            "type": "TOKEN",
+            "isNative": false,
+            "price": 0.166835359612943,
+            "updatedAt": 1768418530,
+            "priceSource": "Price Source WXPL"
+          },
+          "amount": "20266083215774639456256",
+          "value": 3381.09928124959,
+          "distributionType": "DUTCH_AUCTION",
+          "onChainCampaignId": "17873675500853587455",
+          "id": "a8bd508a-6bb1-4238-90d4-febddd25a493",
+          "timestamp": "1768418683",
+          "campaignId": "6248737936902403341",
+          "dailyRewardsRecordId": "15003183476396531878"
+        }
+      ]
+    }
+  },
+  {
+    "chainId": 9745,
+    "type": "ERC20LOGPROCESSOR",
+    "identifier": "0x40ACbCBc55d40500Fc9D9dA8204dE972E441f809",
+    "name": "Hold Pendle YT Ethena USDe 9APR2026",
+    "description": "Earn rewards by holding YT-USDe-9APR2026",
+    "howToSteps": [
+      "Hold YT-USDe-9APR2026.",
+      "Rewards accumulate automatically."
+    ],
+    "status": "LIVE",
+    "action": "HOLD",
+    "tvl": 724246.3194406852,
+    "apr": 161.6385993562096,
+    "maxApr": 0,
+    "dailyRewards": 3207.292072966638,
+    "tags": [
+      "plasma"
+    ],
+    "liveCampaigns": 1,
+    "id": "16216152837729437440",
+    "depositUrl": "https://www.pendle.finance/",
+    "explorerAddress": "0x40ACbCBc55d40500Fc9D9dA8204dE972E441f809",
+    "lastCampaignCreatedAt": 1768324631,
+    "tokens": [
+      {
+        "id": "16314871264165933842",
+        "name": "YT Ethena USDe 9APR2026",
+        "chainId": 9745,
+        "address": "0x40ACbCBc55d40500Fc9D9dA8204dE972E441f809",
+        "decimals": 18,
+        "symbol": "YT-USDe-9APR2026",
+        "icon": "",
+        "verified": false,
+        "isNative": false,
+        "isTest": false,
+        "type": "TOKEN",
+        "price": 0.00901715308707821,
+        "updatedAt": 1768419242,
+        "priceSource": "Deprecated TVLBuilder - 17972438835636481510 on chain 9745",
+        "displaySymbol": "YT-USDe-9APR2026"
+      },
+      {
+        "id": "9310019237196849870",
+        "name": "USDe",
+        "chainId": 9745,
+        "address": "0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34",
+        "decimals": 18,
+        "symbol": "USDe",
+        "icon": "https://storage.googleapis.com/merkl-static-assets/tokens/USDe.png",
+        "verified": true,
+        "isNative": false,
+        "isTest": false,
+        "type": "TOKEN",
+        "price": 0.9998336527376298,
+        "updatedAt": 1768419664,
+        "priceSource": "Price Source USDe"
+      }
+    ],
+    "chain": {
+      "id": 9745,
+      "name": "Plasma",
+      "icon": "https://raw.githubusercontent.com/AngleProtocol/angle-token-list/main/src/assets/chains/plasma.png",
+      "liveCampaigns": 40,
+      "endOfDisputePeriod": 1768410000,
+      "explorers": [
+        {
+          "id": "14261454752756197884",
+          "type": "ETHERSCAN",
+          "url": "https://plasmascan.to/",
+          "chainId": 9745
+        }
+      ]
+    },
+    "protocol": {
+      "id": "pendle",
+      "tags": [
+        "HOLD"
+      ],
+      "name": "Pendle",
+      "description": "",
+      "url": "https://www.pendle.finance/",
+      "icon": "https://icons.llamao.fi/icons/protocols/pendle?w=64&h=64",
+      "banner": null,
+      "opportunityBannerLight": null,
+      "opportunityBannerDark": null
+    },
+    "activePrograms": [],
+    "aprRecord": {
+      "cumulated": 161.6385993562096,
+      "timestamp": "1768418683",
+      "breakdowns": [
+        {
+          "distributionType": "DUTCH_AUCTION",
+          "identifier": "17972438835636481510",
+          "type": "CAMPAIGN",
+          "value": 161.6385993562096,
+          "timestamp": "1768418683"
+        }
+      ]
+    },
+    "tvlRecord": {
+      "id": "3205863920077841934",
+      "total": 724246.3194406852,
+      "timestamp": "1768418683",
+      "breakdowns": [
+        {
+          "identifier": "9310019237196849870",
+          "type": "TOKEN",
+          "value": 80318733.91154322
+        }
+      ]
+    },
+    "rewardsRecord": {
+      "id": "3205863920077841934",
+      "total": 3207.292072966638,
+      "timestamp": "1768418683",
+      "breakdowns": [
+        {
+          "token": {
+            "id": "9177007823639843523",
+            "name": "Wrapped XPL",
+            "chainId": 9745,
+            "address": "0x6100E367285b01F48D07953803A2d8dCA5D19873",
+            "decimals": 18,
+            "symbol": "WXPL",
+            "displaySymbol": "",
+            "icon": "https://storage.googleapis.com/merkl-static-assets/tokens/XPL.png",
+            "verified": true,
+            "isTest": false,
+            "type": "TOKEN",
+            "isNative": false,
+            "price": 0.166835359612943,
+            "updatedAt": 1768418530,
+            "priceSource": "Price Source WXPL"
+          },
+          "amount": "0",
+          "value": 0,
+          "distributionType": "DUTCH_AUCTION",
+          "onChainCampaignId": "0xa671465c49e90bea3941fb386488c247f055b2c28841f43c4119b23321d57c57",
+          "id": "04b81cfc-5767-4b84-9480-bcf3eab21b49",
+          "timestamp": "1768418683",
+          "campaignId": "16754374599362636015",
+          "dailyRewardsRecordId": "3205863920077841934"
+        },
+        {
+          "token": {
+            "id": "9177007823639843523",
+            "name": "Wrapped XPL",
+            "chainId": 9745,
+            "address": "0x6100E367285b01F48D07953803A2d8dCA5D19873",
+            "decimals": 18,
+            "symbol": "WXPL",
+            "displaySymbol": "",
+            "icon": "https://storage.googleapis.com/merkl-static-assets/tokens/XPL.png",
+            "verified": true,
+            "isTest": false,
+            "type": "TOKEN",
+            "isNative": false,
+            "price": 0.166835359612943,
+            "updatedAt": 1768418530,
+            "priceSource": "Price Source WXPL"
+          },
+          "amount": "19224294420604459679744",
+          "value": 3207.2920729666384,
+          "distributionType": "DUTCH_AUCTION",
+          "onChainCampaignId": "17972438835636481510",
+          "id": "92ebb3f3-7cfe-4dfc-b161-c2126a1bc351",
+          "timestamp": "1768418683",
+          "campaignId": "10522200633164662460",
+          "dailyRewardsRecordId": "3205863920077841934"
+        }
+      ]
+    }
+  },
+  {
+    "chainId": 9745,
+    "type": "ERC20LOGPROCESSOR",
+    "identifier": "0xD8B49Fba7054a6eE2C4bd6813cdD6064430dB85C",
+    "name": "Hold YT or LP of syrupUSDT 29JAN2026",
+    "description": "Earn rewards by depositing syrupUSDT into Pendle and holding the Yield Token on Plasma",
+    "howToSteps": [
+      "Deposit USDT0 into Pendle, and get the YT or LP associated to SY Syrup USDT.",
+      "Rewards accumulate automatically."
+    ],
+    "status": "LIVE",
+    "action": "HOLD",
+    "tvl": 26755967.55547368,
+    "apr": 2.16206463083952,
+    "maxApr": 0,
+    "dailyRewards": 1584.880304536421,
+    "tags": [
+      "plasma"
+    ],
+    "liveCampaigns": 1,
+    "id": "7994896074897364259",
+    "depositUrl": "https://app.pendle.finance/trade/markets/0x18d89b23d2875590c502cd3eac8f448f3ccf9999/swap?view=yt&chain=plasma",
+    "explorerAddress": "0xD8B49Fba7054a6eE2C4bd6813cdD6064430dB85C",
+    "lastCampaignCreatedAt": 1764787892,
+    "tokens": [
+      {
+        "id": "2030221892194760975",
+        "name": "SY Syrup USDT",
+        "chainId": 9745,
+        "address": "0xD8B49Fba7054a6eE2C4bd6813cdD6064430dB85C",
+        "decimals": 6,
+        "symbol": "SY-syrupUSDT",
+        "icon": "",
+        "verified": false,
+        "isNative": false,
+        "isTest": false,
+        "type": "TOKEN",
+        "price": 1.111843896238832,
+        "updatedAt": 1768418686,
+        "priceSource": "Computed Price - 0x71956c8c2d545238bfe4e8ce93246f2fb400d4d43dbc7fc76b05fbf140c27a23 on chain 9745"
+      },
+      {
+        "id": "5737761031982269701",
+        "name": "USDT0",
+        "chainId": 9745,
+        "address": "0xB8CE59FC3717ada4C02eaDF9682A9e934F625ebb",
+        "decimals": 6,
+        "symbol": "USDT0",
+        "icon": "https://storage.googleapis.com/merkl-static-assets/tokens/USDT0.svg",
+        "verified": true,
+        "isNative": false,
+        "isTest": false,
+        "type": "TOKEN",
+        "price": 0.9999969677145352,
+        "updatedAt": 1768418529,
+        "priceSource": "Price Source USDT0",
+        "displaySymbol": "USDT0"
+      }
+    ],
+    "chain": {
+      "id": 9745,
+      "name": "Plasma",
+      "icon": "https://raw.githubusercontent.com/AngleProtocol/angle-token-list/main/src/assets/chains/plasma.png",
+      "liveCampaigns": 40,
+      "endOfDisputePeriod": 1768410000,
+      "explorers": [
+        {
+          "id": "14261454752756197884",
+          "type": "ETHERSCAN",
+          "url": "https://plasmascan.to/",
+          "chainId": 9745
+        }
+      ]
+    },
+    "protocol": {
+      "id": "pendle",
+      "tags": [
+        "HOLD"
+      ],
+      "name": "Pendle",
+      "description": "",
+      "url": "https://www.pendle.finance/",
+      "icon": "https://icons.llamao.fi/icons/protocols/pendle?w=64&h=64",
+      "banner": null,
+      "opportunityBannerLight": null,
+      "opportunityBannerDark": null
+    },
+    "activePrograms": [],
+    "aprRecord": {
+      "cumulated": 2.16206463083952,
+      "timestamp": "1768418683",
+      "breakdowns": [
+        {
+          "distributionType": "DUTCH_AUCTION",
+          "identifier": "0x71956c8c2d545238bfe4e8ce93246f2fb400d4d43dbc7fc76b05fbf140c27a23",
+          "type": "CAMPAIGN",
+          "value": 2.16206463083952,
+          "timestamp": "1768418683"
+        }
+      ]
+    },
+    "tvlRecord": {
+      "id": "4678243170759316929",
+      "total": 26755967.55547368,
+      "timestamp": "1768418683",
+      "breakdowns": [
+        {
+          "identifier": "407849590589359900",
+          "type": "TOKEN",
+          "value": 24064500.102923
+        }
+      ]
+    },
+    "rewardsRecord": {
+      "id": "4678243170759316929",
+      "total": 1584.880304536421,
+      "timestamp": "1768418683",
+      "breakdowns": [
+        {
+          "token": {
+            "id": "9177007823639843523",
+            "name": "Wrapped XPL",
+            "chainId": 9745,
+            "address": "0x6100E367285b01F48D07953803A2d8dCA5D19873",
+            "decimals": 18,
+            "symbol": "WXPL",
+            "displaySymbol": "",
+            "icon": "https://storage.googleapis.com/merkl-static-assets/tokens/XPL.png",
+            "verified": true,
+            "isTest": false,
+            "type": "TOKEN",
+            "isNative": false,
+            "price": 0.166835359612943,
+            "updatedAt": 1768418530,
+            "priceSource": "Price Source WXPL"
+          },
+          "amount": "9499666666666665705472",
+          "value": 1584.8803045364207,
+          "distributionType": "DUTCH_AUCTION",
+          "onChainCampaignId": "0x71956c8c2d545238bfe4e8ce93246f2fb400d4d43dbc7fc76b05fbf140c27a23",
+          "id": "00f1e99b-24c1-435a-9984-4693bf12d72a",
+          "timestamp": "1768418683",
+          "campaignId": "858064630360183498",
+          "dailyRewardsRecordId": "4678243170759316929"
+        }
+      ]
+    }
+  },
+  {
+    "chainId": 9745,
+    "type": "ERC20LOGPROCESSOR",
+    "identifier": "0x44920a786043F663693D2eA1C7De8551D90B3213",
+    "name": "Hold Pendle YT Syrup USDT 29JAN2026",
+    "description": "Earn rewards by holding YT-syrupUSDT-29JAN2026",
+    "howToSteps": [
+      "Hold YT-syrupUSDT-29JAN2026.",
+      "Rewards accumulate automatically."
+    ],
+    "status": "LIVE",
+    "action": "HOLD",
+    "tvl": 71964.51235443047,
+    "apr": 757.273295733842,
+    "maxApr": 0,
+    "dailyRewards": 1493.06310812379,
+    "tags": [],
+    "liveCampaigns": 2,
+    "id": "1505710373341152368",
+    "depositUrl": "https://app.pendle.finance/trade/markets/0x18d89b23d2875590c502cd3eac8f448f3ccf9999/swap?view=yt&chain=plasma",
+    "explorerAddress": "0x44920a786043F663693D2eA1C7De8551D90B3213",
+    "lastCampaignCreatedAt": 1768324638,
+    "tokens": [
+      {
+        "id": "10554161149550486140",
+        "name": "YT Syrup USDT 29JAN2026",
+        "chainId": 9745,
+        "address": "0x44920a786043F663693D2eA1C7De8551D90B3213",
+        "decimals": 6,
+        "symbol": "YT-syrupUSDT-29JAN2026",
+        "icon": "",
+        "verified": false,
+        "isNative": false,
+        "isTest": false,
+        "type": "TOKEN",
+        "price": 0.003031024555277484,
+        "updatedAt": 1768419240,
+        "priceSource": "Deprecated TVLBuilder - 13023115481363473828 on chain 9745"
+      },
+      {
+        "id": "407849590589359900",
+        "name": "Syrup USDT",
+        "chainId": 9745,
+        "address": "0xC4374775489CB9C56003BF2C9b12495fC64F0771",
+        "decimals": 6,
+        "symbol": "syrupUSDT",
+        "icon": "https://storage.googleapis.com/merkl-static-assets/tokens/syrupUSDT.png",
+        "verified": true,
+        "isNative": false,
+        "isTest": false,
+        "type": "TOKEN",
+        "price": 1.111805050246298,
+        "updatedAt": 1768419688,
+        "priceSource": "Price Source 0xC4374775489CB9C56003BF2C9b12495fC64F0771"
+      }
+    ],
+    "chain": {
+      "id": 9745,
+      "name": "Plasma",
+      "icon": "https://raw.githubusercontent.com/AngleProtocol/angle-token-list/main/src/assets/chains/plasma.png",
+      "liveCampaigns": 40,
+      "endOfDisputePeriod": 1768410000,
+      "explorers": [
+        {
+          "id": "14261454752756197884",
+          "type": "ETHERSCAN",
+          "url": "https://plasmascan.to/",
+          "chainId": 9745
+        }
+      ]
+    },
+    "protocol": {
+      "id": "pendle",
+      "tags": [
+        "HOLD"
+      ],
+      "name": "Pendle",
+      "description": "",
+      "url": "https://www.pendle.finance/",
+      "icon": "https://icons.llamao.fi/icons/protocols/pendle?w=64&h=64",
+      "banner": null,
+      "opportunityBannerLight": null,
+      "opportunityBannerDark": null
+    },
+    "activePrograms": [],
+    "aprRecord": {
+      "cumulated": 757.273295733842,
+      "timestamp": "1768418683",
+      "breakdowns": [
+        {
+          "distributionType": "DUTCH_AUCTION",
+          "identifier": "13023115481363473828",
+          "type": "CAMPAIGN",
+          "value": 714.9663276817375,
+          "timestamp": "1768418683"
+        },
+        {
+          "distributionType": "DUTCH_AUCTION",
+          "identifier": "0x50d1c783a8b2428777ebde12cbe20e3c8e8786bb8300354182314fd4d9c98356",
+          "type": "CAMPAIGN",
+          "value": 42.30696805210444,
+          "timestamp": "1768418683"
+        }
+      ]
+    },
+    "tvlRecord": {
+      "id": "6580231628426707405",
+      "total": 71964.51235443047,
+      "timestamp": "1768418683",
+      "breakdowns": [
+        {
+          "identifier": "5737761031982269701",
+          "type": "TOKEN",
+          "value": 21403257.95702
+        }
+      ]
+    },
+    "rewardsRecord": {
+      "id": "6580231628426707405",
+      "total": 1493.06310812379,
+      "timestamp": "1768418683",
+      "breakdowns": [
+        {
+          "token": {
+            "id": "9177007823639843523",
+            "name": "Wrapped XPL",
+            "chainId": 9745,
+            "address": "0x6100E367285b01F48D07953803A2d8dCA5D19873",
+            "decimals": 18,
+            "symbol": "WXPL",
+            "displaySymbol": "",
+            "icon": "https://storage.googleapis.com/merkl-static-assets/tokens/XPL.png",
+            "verified": true,
+            "isTest": false,
+            "type": "TOKEN",
+            "isNative": false,
+            "price": 0.166835359612943,
+            "updatedAt": 1768418530,
+            "priceSource": "Price Source WXPL"
+          },
+          "amount": "0",
+          "value": 0,
+          "distributionType": "DUTCH_AUCTION",
+          "onChainCampaignId": "0x8af617c2da3f7f53217ef57f5568cbe9cb90faf54b6437c586709a85e8e3244e",
+          "id": "2e5c571c-abc5-41ea-8408-00c9afff8730",
+          "timestamp": "1768418683",
+          "campaignId": "10211977594193034335",
+          "dailyRewardsRecordId": "6580231628426707405"
+        },
+        {
+          "token": {
+            "id": "9177007823639843523",
+            "name": "Wrapped XPL",
+            "chainId": 9745,
+            "address": "0x6100E367285b01F48D07953803A2d8dCA5D19873",
+            "decimals": 18,
+            "symbol": "WXPL",
+            "displaySymbol": "",
+            "icon": "https://storage.googleapis.com/merkl-static-assets/tokens/XPL.png",
+            "verified": true,
+            "isTest": false,
+            "type": "TOKEN",
+            "isNative": false,
+            "price": 0.166835359612943,
+            "updatedAt": 1768418530,
+            "priceSource": "Price Source WXPL"
+          },
+          "amount": "499976190476190482432",
+          "value": 83.41370753600452,
+          "distributionType": "DUTCH_AUCTION",
+          "onChainCampaignId": "0x50d1c783a8b2428777ebde12cbe20e3c8e8786bb8300354182314fd4d9c98356",
+          "id": "c6b36861-641e-4f48-86f5-9d76cde7f36d",
+          "timestamp": "1768418683",
+          "campaignId": "7567667821908263717",
+          "dailyRewardsRecordId": "6580231628426707405"
+        },
+        {
+          "token": {
+            "id": "9177007823639843523",
+            "name": "Wrapped XPL",
+            "chainId": 9745,
+            "address": "0x6100E367285b01F48D07953803A2d8dCA5D19873",
+            "decimals": 18,
+            "symbol": "WXPL",
+            "displaySymbol": "",
+            "icon": "https://storage.googleapis.com/merkl-static-assets/tokens/XPL.png",
+            "verified": true,
+            "isTest": false,
+            "type": "TOKEN",
+            "isNative": false,
+            "price": 0.166835359612943,
+            "updatedAt": 1768418530,
+            "priceSource": "Price Source WXPL"
+          },
+          "amount": "8449344334787083501568",
+          "value": 1409.6494005877857,
+          "distributionType": "DUTCH_AUCTION",
+          "onChainCampaignId": "13023115481363473828",
+          "id": "932cc6d0-6378-4a3a-a26f-4ec53dfd17ae",
+          "timestamp": "1768418683",
+          "campaignId": "15799101674842087302",
+          "dailyRewardsRecordId": "6580231628426707405"
+        }
+      ]
+    }
+  },
+  {
+    "chainId": 9745,
+    "type": "MULTILOG_DUTCH",
+    "identifier": "0x153a3c8615ceeea4f42ec6f867a538fe20fda244",
+    "name": "Lend WETH on Aave (net lending)",
+    "description": "Earn rewards by lending WETH to Aave on Plasma",
+    "howToSteps": [
+      "Lend assets on Aave.",
+      "Rewards accumulate automatically."
+    ],
+    "status": "LIVE",
+    "action": "LEND",
+    "tvl": 59951787.61555602,
+    "apr": 0.8880393518233631,
+    "maxApr": 0,
+    "dailyRewards": 1458.617715473159,
+    "tags": [
+      "aave",
+      "plasma"
+    ],
+    "liveCampaigns": 1,
+    "id": "1066843715043513228",
+    "depositUrl": "https://app.aave.com/reserve-overview/?underlyingAsset=0x9895D81bB462A195b4922ED7De0e3ACD007c32CB",
+    "explorerAddress": "0xf1aB7f60128924d69f6d7dE25A20eF70bBd43d07",
+    "lastCampaignCreatedAt": 1764807700,
+    "tokens": [
+      {
+        "id": "11782607725304456266",
+        "name": "Aave Plasma WETH",
+        "chainId": 9745,
+        "address": "0xf1aB7f60128924d69f6d7dE25A20eF70bBd43d07",
+        "decimals": 18,
+        "symbol": "aPlaWETH",
+        "icon": "",
+        "verified": false,
+        "isNative": false,
+        "isTest": false,
+        "type": "TOKEN",
+        "price": 3351.774186258295,
+        "updatedAt": 1768418528,
+        "priceSource": "Price Source 0xf1aB7f60128924d69f6d7dE25A20eF70bBd43d07"
+      },
+      {
+        "id": "13641117210526610882",
+        "name": "WETH",
+        "chainId": 9745,
+        "address": "0x9895D81bB462A195b4922ED7De0e3ACD007c32CB",
+        "decimals": 18,
+        "symbol": "WETH",
+        "icon": "https://storage.googleapis.com/merkl-static-assets/tokens/WETH.png",
+        "verified": true,
+        "isNative": false,
+        "isTest": false,
+        "type": "TOKEN",
+        "price": 3367.321986671435,
+        "updatedAt": 1768419669,
+        "priceSource": "Price Source WETH"
+      }
+    ],
+    "chain": {
+      "id": 9745,
+      "name": "Plasma",
+      "icon": "https://raw.githubusercontent.com/AngleProtocol/angle-token-list/main/src/assets/chains/plasma.png",
+      "liveCampaigns": 40,
+      "endOfDisputePeriod": 1768410000,
+      "explorers": [
+        {
+          "id": "14261454752756197884",
+          "type": "ETHERSCAN",
+          "url": "https://plasmascan.to/",
+          "chainId": 9745
+        }
+      ]
+    },
+    "protocol": {
+      "id": "aave",
+      "tags": [
+        "LENDING",
+        "zksync",
+        "drip",
+        "plasma"
+      ],
+      "name": "Aave",
+      "description": "A decentralized liquidity protocol where users can deposit and borrow",
+      "url": "https://app.aave.com/",
+      "icon": "https://raw.githubusercontent.com/AngleProtocol/angle-token-list/main/src/assets/protocols/aave.svg",
+      "banner": null,
+      "opportunityBannerLight": null,
+      "opportunityBannerDark": null
+    },
+    "activePrograms": [],
+    "aprRecord": {
+      "cumulated": 0.8880393518233631,
+      "timestamp": "1768418676",
+      "breakdowns": [
+        {
+          "distributionType": "DUTCH_AUCTION",
+          "identifier": "0x2f9a7ce9c84f32c2a8e9a3a1a92a003f1f5ce2f98d3b7905a0cfcd9cd44a8de8",
+          "type": "CAMPAIGN",
+          "value": 0.8880393518233631,
+          "timestamp": "1768418676"
+        }
+      ]
+    },
+    "nativeAprRecord": {
+      "title": "Aave Supply Native APR - 0xf1ab7f60128924d69f6d7de25a20ef70bbd43d07",
+      "description": "Native supply APR for 0xf1ab7f60128924d69f6d7de25a20ef70bbd43d07 on Aave on chain 9745",
+      "value": 1.435188176623164,
+      "timestamp": "1768419655"
+    },
+    "tvlRecord": {
+      "id": "2889893704735129235",
+      "total": 59951787.61555602,
+      "timestamp": "1768418676",
+      "breakdowns": [
+        {
+          "identifier": "11782607725304456266",
+          "type": "TOKEN",
+          "value": 17886.58313001758
+        }
+      ]
+    },
+    "rewardsRecord": {
+      "id": "2889893704735129235",
+      "total": 1458.617715473159,
+      "timestamp": "1768418676",
+      "breakdowns": [
+        {
+          "token": {
+            "id": "9177007823639843523",
+            "name": "Wrapped XPL",
+            "chainId": 9745,
+            "address": "0x6100E367285b01F48D07953803A2d8dCA5D19873",
+            "decimals": 18,
+            "symbol": "WXPL",
+            "displaySymbol": "",
+            "icon": "https://storage.googleapis.com/merkl-static-assets/tokens/XPL.png",
+            "verified": true,
+            "isTest": false,
+            "type": "TOKEN",
+            "isNative": false,
+            "price": 0.166835359612943,
+            "updatedAt": 1768418530,
+            "priceSource": "Price Source WXPL"
+          },
+          "amount": "8742857142857143156736",
+          "value": 1458.6177154731588,
+          "distributionType": "DUTCH_AUCTION",
+          "onChainCampaignId": "0x2f9a7ce9c84f32c2a8e9a3a1a92a003f1f5ce2f98d3b7905a0cfcd9cd44a8de8",
+          "id": "849c86ce-cbe2-444d-9ae8-198edb294d07",
+          "timestamp": "1768418676",
+          "campaignId": "18196938144971173471",
+          "dailyRewardsRecordId": "2889893704735129235"
+        }
+      ]
+    }
+  },
+  {
+    "chainId": 9745,
+    "type": "ERC20LOGPROCESSOR",
+    "identifier": "0x7B28407bf5DF59ce93867B5e011575D14c1d7703",
+    "name": "Hold Pendle YT Ethena sUSDe 15JAN2026",
+    "description": "Earn rewards by holding YT-sUSDe-15JAN2026",
+    "howToSteps": [
+      "Hold YT-sUSDE-15JAN2026.",
+      "Rewards accumulate automatically."
+    ],
+    "status": "LIVE",
+    "action": "HOLD",
+    "tvl": 15544.01970098629,
+    "apr": 2251.133470498825,
+    "maxApr": 0,
+    "dailyRewards": 958.6756990406402,
+    "tags": [],
+    "liveCampaigns": 1,
+    "id": "7986403095127178086",
+    "depositUrl": "https://app.pendle.finance/trade/markets/0xe06c3b972ba630ccf3392cecdbe070690b4e6b55/swap?view=yt&chain=plasma",
+    "explorerAddress": "0x7B28407bf5DF59ce93867B5e011575D14c1d7703",
+    "lastCampaignCreatedAt": 1764855178,
+    "tokens": [
+      {
+        "id": "11226507666967847048",
+        "name": "Staked USDe",
+        "chainId": 9745,
+        "address": "0x211Cc4DD073734dA055fbF44a2b4667d5E5fE5d2",
+        "decimals": 18,
+        "symbol": "sUSDe",
+        "icon": "https://storage.googleapis.com/merkl-static-assets/tokens/sUSDe.png",
+        "verified": true,
+        "isNative": false,
+        "isTest": false,
+        "type": "TOKEN",
+        "price": 1.215549567738809,
+        "updatedAt": 1768419670,
+        "priceSource": "Price Source sUSDe"
+      },
+      {
+        "id": "7548655035920924076",
+        "name": "YT Ethena sUSDE 15JAN2026",
+        "chainId": 9745,
+        "address": "0x7B28407bf5DF59ce93867B5e011575D14c1d7703",
+        "decimals": 18,
+        "symbol": "YT-sUSDE-15JAN2026",
+        "icon": "",
+        "verified": false,
+        "isNative": false,
+        "isTest": false,
+        "type": "TOKEN",
+        "price": 0.00003327657600255064,
+        "updatedAt": 1768418687,
+        "priceSource": "Computed Price - 0xaec47e3bdcf41cfbcf2c5135ce29496c1719e4764156c71f02c9e194dd9857e9 on chain 9745"
+      }
+    ],
+    "chain": {
+      "id": 9745,
+      "name": "Plasma",
+      "icon": "https://raw.githubusercontent.com/AngleProtocol/angle-token-list/main/src/assets/chains/plasma.png",
+      "liveCampaigns": 40,
+      "endOfDisputePeriod": 1768410000,
+      "explorers": [
+        {
+          "id": "14261454752756197884",
+          "type": "ETHERSCAN",
+          "url": "https://plasmascan.to/",
+          "chainId": 9745
+        }
+      ]
+    },
+    "protocol": {
+      "id": "pendle",
+      "tags": [
+        "HOLD"
+      ],
+      "name": "Pendle",
+      "description": "",
+      "url": "https://www.pendle.finance/",
+      "icon": "https://icons.llamao.fi/icons/protocols/pendle?w=64&h=64",
+      "banner": null,
+      "opportunityBannerLight": null,
+      "opportunityBannerDark": null
+    },
+    "activePrograms": [],
+    "aprRecord": {
+      "cumulated": 2251.133470498825,
+      "timestamp": "1768418683",
+      "breakdowns": [
+        {
+          "distributionType": "DUTCH_AUCTION",
+          "identifier": "0xaec47e3bdcf41cfbcf2c5135ce29496c1719e4764156c71f02c9e194dd9857e9",
+          "type": "CAMPAIGN",
+          "value": 2251.133470498825,
+          "timestamp": "1768418683"
+        }
+      ]
+    },
+    "tvlRecord": {
+      "id": "13680497123319093065",
+      "total": 15544.01970098629,
+      "timestamp": "1768418683",
+      "breakdowns": [
+        {
+          "identifier": "9310019237196849870",
+          "type": "TOKEN",
+          "value": 385039647.925158
+        }
+      ]
+    },
+    "rewardsRecord": {
+      "id": "13680497123319093065",
+      "total": 958.6756990406402,
+      "timestamp": "1768418683",
+      "breakdowns": [
+        {
+          "token": {
+            "id": "9177007823639843523",
+            "name": "Wrapped XPL",
+            "chainId": 9745,
+            "address": "0x6100E367285b01F48D07953803A2d8dCA5D19873",
+            "decimals": 18,
+            "symbol": "WXPL",
+            "displaySymbol": "",
+            "icon": "https://storage.googleapis.com/merkl-static-assets/tokens/XPL.png",
+            "verified": true,
+            "isTest": false,
+            "type": "TOKEN",
+            "isNative": false,
+            "price": 0.166835359612943,
+            "updatedAt": 1768418530,
+            "priceSource": "Price Source WXPL"
+          },
+          "amount": "5746238095238095699968",
+          "value": 958.6756990406402,
+          "distributionType": "DUTCH_AUCTION",
+          "onChainCampaignId": "0xaec47e3bdcf41cfbcf2c5135ce29496c1719e4764156c71f02c9e194dd9857e9",
+          "id": "dcabd68e-16a9-4d54-b905-9d7127bd0085",
+          "timestamp": "1768418683",
+          "campaignId": "8372895142526570748",
+          "dailyRewardsRecordId": "13680497123319093065"
+        }
+      ]
+    }
+  },
+  {
+    "chainId": 9745,
+    "type": "ERC20LOGPROCESSOR",
+    "identifier": "0x000668f32DA0C691149Ac736024433d36a16b941",
+    "name": "Hold Pendle YT Ethena USDe 15JAN2026",
+    "description": "Earn rewards by holding YT-USDe-15JAN2026",
+    "howToSteps": [
+      "Hold YT-USDe-15JAN2026.",
+      "Rewards accumulate automatically."
+    ],
+    "status": "LIVE",
+    "action": "HOLD",
+    "tvl": 3968.423851139773,
+    "apr": 8817.521597380128,
+    "maxApr": 0,
+    "dailyRewards": 958.6756990406402,
+    "tags": [],
+    "liveCampaigns": 1,
+    "id": "2968924501645098509",
+    "depositUrl": "https://app.pendle.finance/trade/markets/0xfd3eb62302fa3cbc3c7e59e887b92dbbc814285d/swap?view=yt&chain=plasma",
+    "explorerAddress": "0x000668f32DA0C691149Ac736024433d36a16b941",
+    "lastCampaignCreatedAt": 1764855264,
+    "tokens": [
+      {
+        "id": "7840305832323037896",
+        "name": "YT Ethena USDe 15JAN2026",
+        "chainId": 9745,
+        "address": "0x000668f32DA0C691149Ac736024433d36a16b941",
+        "decimals": 18,
+        "symbol": "YT-USDe-15JAN2026",
+        "icon": "",
+        "verified": false,
+        "isNative": false,
+        "isTest": false,
+        "type": "TOKEN",
+        "price": 0.00003935670043309971,
+        "updatedAt": 1768418688,
+        "priceSource": "Computed Price - 0xdc6c7d61a4878a5cd351c2e0e2b64ec8b6288a2145de7a854705edae70a12210 on chain 9745"
+      },
+      {
+        "id": "9310019237196849870",
+        "name": "USDe",
+        "chainId": 9745,
+        "address": "0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34",
+        "decimals": 18,
+        "symbol": "USDe",
+        "icon": "https://storage.googleapis.com/merkl-static-assets/tokens/USDe.png",
+        "verified": true,
+        "isNative": false,
+        "isTest": false,
+        "type": "TOKEN",
+        "price": 0.9998336527376298,
+        "updatedAt": 1768419664,
+        "priceSource": "Price Source USDe"
+      }
+    ],
+    "chain": {
+      "id": 9745,
+      "name": "Plasma",
+      "icon": "https://raw.githubusercontent.com/AngleProtocol/angle-token-list/main/src/assets/chains/plasma.png",
+      "liveCampaigns": 40,
+      "endOfDisputePeriod": 1768410000,
+      "explorers": [
+        {
+          "id": "14261454752756197884",
+          "type": "ETHERSCAN",
+          "url": "https://plasmascan.to/",
+          "chainId": 9745
+        }
+      ]
+    },
+    "protocol": {
+      "id": "pendle",
+      "tags": [
+        "HOLD"
+      ],
+      "name": "Pendle",
+      "description": "",
+      "url": "https://www.pendle.finance/",
+      "icon": "https://icons.llamao.fi/icons/protocols/pendle?w=64&h=64",
+      "banner": null,
+      "opportunityBannerLight": null,
+      "opportunityBannerDark": null
+    },
+    "activePrograms": [],
+    "aprRecord": {
+      "cumulated": 8817.521597380128,
+      "timestamp": "1768418683",
+      "breakdowns": [
+        {
+          "distributionType": "DUTCH_AUCTION",
+          "identifier": "0xdc6c7d61a4878a5cd351c2e0e2b64ec8b6288a2145de7a854705edae70a12210",
+          "type": "CAMPAIGN",
+          "value": 8817.521597380128,
+          "timestamp": "1768418683"
+        }
+      ]
+    },
+    "tvlRecord": {
+      "id": "8980645568913466512",
+      "total": 3968.423851139773,
+      "timestamp": "1768418683",
+      "breakdowns": [
+        {
+          "identifier": "9310019237196849870",
+          "type": "TOKEN",
+          "value": 100832229.5179566
+        }
+      ]
+    },
+    "rewardsRecord": {
+      "id": "8980645568913466512",
+      "total": 958.6756990406402,
+      "timestamp": "1768418683",
+      "breakdowns": [
+        {
+          "token": {
+            "id": "9177007823639843523",
+            "name": "Wrapped XPL",
+            "chainId": 9745,
+            "address": "0x6100E367285b01F48D07953803A2d8dCA5D19873",
+            "decimals": 18,
+            "symbol": "WXPL",
+            "displaySymbol": "",
+            "icon": "https://storage.googleapis.com/merkl-static-assets/tokens/XPL.png",
+            "verified": true,
+            "isTest": false,
+            "type": "TOKEN",
+            "isNative": false,
+            "price": 0.166835359612943,
+            "updatedAt": 1768418530,
+            "priceSource": "Price Source WXPL"
+          },
+          "amount": "5746238095238095699968",
+          "value": 958.6756990406402,
+          "distributionType": "DUTCH_AUCTION",
+          "onChainCampaignId": "0xdc6c7d61a4878a5cd351c2e0e2b64ec8b6288a2145de7a854705edae70a12210",
+          "id": "0f1b655d-752f-41ea-9464-85ccb0eb0de2",
+          "timestamp": "1768418683",
+          "campaignId": "18157272891725306559",
+          "dailyRewardsRecordId": "8980645568913466512"
+        }
+      ]
+    }
+  },
+  {
+    "chainId": 9745,
+    "type": "ERC20LOGPROCESSOR",
+    "identifier": "0x1e31C52936fC48146343A10f72C63c69dcddcd19",
+    "name": "Hold YT or LP of PlasmaUSD 29JAN2026",
+    "description": "Earn rewards by depositing USDT0 into Pendle and holding the Yield Token on Plasma",
+    "howToSteps": [
+      "Deposit USDT0 into Pendle, and get the SY, YT or LP.",
+      "Rewards accumulate automatically."
+    ],
+    "status": "LIVE",
+    "action": "HOLD",
+    "tvl": 14250320.387725,
+    "apr": 2.241141603176366,
+    "maxApr": 0,
+    "dailyRewards": 874.9859145074754,
+    "tags": [
+      "plasma"
+    ],
+    "liveCampaigns": 3,
+    "id": "11702253115255193123",
+    "depositUrl": "https://app.pendle.finance/trade/markets/",
+    "explorerAddress": "0x1e31C52936fC48146343A10f72C63c69dcddcd19",
+    "lastCampaignCreatedAt": 1764862682,
+    "tokens": [
+      {
+        "id": "5737761031982269701",
+        "name": "USDT0",
+        "chainId": 9745,
+        "address": "0xB8CE59FC3717ada4C02eaDF9682A9e934F625ebb",
+        "decimals": 6,
+        "symbol": "USDT0",
+        "icon": "https://storage.googleapis.com/merkl-static-assets/tokens/USDT0.svg",
+        "verified": true,
+        "isNative": false,
+        "isTest": false,
+        "type": "TOKEN",
+        "price": 0.9999969677145352,
+        "updatedAt": 1768418529,
+        "priceSource": "Price Source USDT0",
+        "displaySymbol": "USDT0"
+      },
+      {
+        "id": "8805787059652449606",
+        "name": "SY Plasma USD Vault",
+        "chainId": 9745,
+        "address": "0x1e31C52936fC48146343A10f72C63c69dcddcd19",
+        "decimals": 6,
+        "symbol": "SY-PlasmaUSD",
+        "icon": "",
+        "verified": false,
+        "isNative": false,
+        "isTest": false,
+        "type": "TOKEN",
+        "price": 1,
+        "updatedAt": 1768418686,
+        "priceSource": "Computed Price - 7861162880798949890 on chain 9745"
+      }
+    ],
+    "chain": {
+      "id": 9745,
+      "name": "Plasma",
+      "icon": "https://raw.githubusercontent.com/AngleProtocol/angle-token-list/main/src/assets/chains/plasma.png",
+      "liveCampaigns": 40,
+      "endOfDisputePeriod": 1768410000,
+      "explorers": [
+        {
+          "id": "14261454752756197884",
+          "type": "ETHERSCAN",
+          "url": "https://plasmascan.to/",
+          "chainId": 9745
+        }
+      ]
+    },
+    "protocol": {
+      "id": "pendle",
+      "tags": [
+        "HOLD"
+      ],
+      "name": "Pendle",
+      "description": "",
+      "url": "https://www.pendle.finance/",
+      "icon": "https://icons.llamao.fi/icons/protocols/pendle?w=64&h=64",
+      "banner": null,
+      "opportunityBannerLight": null,
+      "opportunityBannerDark": null
+    },
+    "activePrograms": [],
+    "aprRecord": {
+      "cumulated": 2.241141603176366,
+      "timestamp": "1768418683",
+      "breakdowns": [
+        {
+          "distributionType": "DUTCH_AUCTION",
+          "identifier": "0x5dced9b08df5c9a95411cd401757faeffa43602aae6f947c23a45aae75e5c9eb",
+          "type": "CAMPAIGN",
+          "value": 0.8118833058313082,
+          "timestamp": "1768418683"
+        },
+        {
+          "distributionType": "DUTCH_AUCTION",
+          "identifier": "2436665532331223581",
+          "type": "CAMPAIGN",
+          "value": 0.8099701958943318,
+          "timestamp": "1768418683"
+        },
+        {
+          "distributionType": "DUTCH_AUCTION",
+          "identifier": "7861162880798949890",
+          "type": "CAMPAIGN",
+          "value": 0.6192881014507255,
+          "timestamp": "1768418683"
+        }
+      ]
+    },
+    "tvlRecord": {
+      "id": "10602429119596473532",
+      "total": 14250320.387725,
+      "timestamp": "1768418683",
+      "breakdowns": [
+        {
+          "identifier": "5737761031982269701",
+          "type": "TOKEN",
+          "value": 0
+        },
+        {
+          "identifier": "17103582425903030820",
+          "type": "TOKEN",
+          "value": 14250320.387725
+        }
+      ]
+    },
+    "rewardsRecord": {
+      "id": "10602429119596473532",
+      "total": 874.9859145074754,
+      "timestamp": "1768418683",
+      "breakdowns": [
+        {
+          "token": {
+            "id": "9177007823639843523",
+            "name": "Wrapped XPL",
+            "chainId": 9745,
+            "address": "0x6100E367285b01F48D07953803A2d8dCA5D19873",
+            "decimals": 18,
+            "symbol": "WXPL",
+            "displaySymbol": "",
+            "icon": "https://storage.googleapis.com/merkl-static-assets/tokens/XPL.png",
+            "verified": true,
+            "isTest": false,
+            "type": "TOKEN",
+            "isNative": false,
+            "price": 0.166835359612943,
+            "updatedAt": 1768418530,
+            "priceSource": "Price Source WXPL"
+          },
+          "amount": "1449226938700549849088",
+          "value": 241.78229747887073,
+          "distributionType": "DUTCH_AUCTION",
+          "onChainCampaignId": "7861162880798949890",
+          "id": "4abec612-08fc-42b5-b061-3dc25499dbf3",
+          "timestamp": "1768418683",
+          "campaignId": "17685064427355249202",
+          "dailyRewardsRecordId": "10602429119596473532"
+        },
+        {
+          "token": {
+            "id": "9177007823639843523",
+            "name": "Wrapped XPL",
+            "chainId": 9745,
+            "address": "0x6100E367285b01F48D07953803A2d8dCA5D19873",
+            "decimals": 18,
+            "symbol": "WXPL",
+            "displaySymbol": "",
+            "icon": "https://storage.googleapis.com/merkl-static-assets/tokens/XPL.png",
+            "verified": true,
+            "isTest": false,
+            "type": "TOKEN",
+            "isNative": false,
+            "price": 0.166835359612943,
+            "updatedAt": 1768418530,
+            "priceSource": "Price Source WXPL"
+          },
+          "amount": "1895451607555266838528",
+          "value": 316.22835057541386,
+          "distributionType": "DUTCH_AUCTION",
+          "onChainCampaignId": "2436665532331223581",
+          "id": "b41326aa-4748-4165-9f88-0e318e514786",
+          "timestamp": "1768418683",
+          "campaignId": "15639646929100954575",
+          "dailyRewardsRecordId": "10602429119596473532"
+        },
+        {
+          "token": {
+            "id": "9177007823639843523",
+            "name": "Wrapped XPL",
+            "chainId": 9745,
+            "address": "0x6100E367285b01F48D07953803A2d8dCA5D19873",
+            "decimals": 18,
+            "symbol": "WXPL",
+            "displaySymbol": "",
+            "icon": "https://storage.googleapis.com/merkl-static-assets/tokens/XPL.png",
+            "verified": true,
+            "isTest": false,
+            "type": "TOKEN",
+            "isNative": false,
+            "price": 0.166835359612943,
+            "updatedAt": 1768418530,
+            "priceSource": "Price Source WXPL"
+          },
+          "amount": "1899928571428571185152",
+          "value": 316.9752664531907,
+          "distributionType": "DUTCH_AUCTION",
+          "onChainCampaignId": "0x5dced9b08df5c9a95411cd401757faeffa43602aae6f947c23a45aae75e5c9eb",
+          "id": "5f261eae-a45e-4013-b5fa-b7723528cf95",
+          "timestamp": "1768418683",
+          "campaignId": "8665033415306967840",
+          "dailyRewardsRecordId": "10602429119596473532"
+        }
+      ]
+    }
+  },
+  {
+    "chainId": 9745,
+    "type": "MULTILOG_DUTCH",
+    "identifier": "0xcb7c7e6bf43534e41197f15e67f611ec7bcf7a78",
+    "name": " Lend weETH on Aave (net lending)",
+    "description": "Earn rewards by lending weETH to Aave on Plasma. This is a net lending opportunity: lending & borrowing the same asset will make you earn rewards based only on the difference of the two amounts",
+    "howToSteps": [
+      "Lend assets on Aave.",
+      "Rewards accumulate automatically."
+    ],
+    "status": "LIVE",
+    "action": "LEND",
+    "tvl": 294475744.966857,
+    "apr": 0.1005385590992136,
+    "maxApr": 0,
+    "dailyRewards": 811.1278654420629,
+    "tags": [
+      "aave"
+    ],
+    "liveCampaigns": 1,
+    "id": "6397446418992379567",
+    "depositUrl": "https://app.aave.com/reserve-overview/?underlyingAsset=0xa3d68b74bf0528fdd07263c60d6488749044914b&marketName=proto_plasma_v3",
+    "explorerAddress": "0xAf1a7a488c8348b41d5860C04162af7d3D38A996",
+    "lastCampaignCreatedAt": 1765071382,
+    "tokens": [
+      {
+        "id": "14178706307683891785",
+        "name": "Aave Plasma weETH",
+        "chainId": 9745,
+        "address": "0xAf1a7a488c8348b41d5860C04162af7d3D38A996",
+        "decimals": 18,
+        "symbol": "aPlaweETH",
+        "icon": "",
+        "verified": false,
+        "isNative": false,
+        "isTest": false,
+        "type": "TOKEN",
+        "price": 3633.582637523488,
+        "updatedAt": 1768418678,
+        "priceSource": "Computed Price - 0x1eb9850dab5a7b71e86446f721384d7645ac0eda08a531d69a56a1a879c13eeb on chain 9745"
+      },
+      {
+        "id": "3885658325202072166",
+        "name": "Wrapped eETH",
+        "chainId": 9745,
+        "address": "0xA3D68b74bF0528fdD07263c60d6488749044914b",
+        "decimals": 18,
+        "symbol": "weETH",
+        "icon": "https://storage.googleapis.com/merkl-static-assets/tokens/weETH.webp",
+        "verified": true,
+        "isNative": false,
+        "isTest": false,
+        "type": "TOKEN",
+        "price": 3633.582637523488,
+        "updatedAt": 1768418530,
+        "priceSource": "Price Source weETH"
+      }
+    ],
+    "chain": {
+      "id": 9745,
+      "name": "Plasma",
+      "icon": "https://raw.githubusercontent.com/AngleProtocol/angle-token-list/main/src/assets/chains/plasma.png",
+      "liveCampaigns": 40,
+      "endOfDisputePeriod": 1768410000,
+      "explorers": [
+        {
+          "id": "14261454752756197884",
+          "type": "ETHERSCAN",
+          "url": "https://plasmascan.to/",
+          "chainId": 9745
+        }
+      ]
+    },
+    "protocol": {
+      "id": "aave",
+      "tags": [
+        "LENDING",
+        "zksync",
+        "drip",
+        "plasma"
+      ],
+      "name": "Aave",
+      "description": "A decentralized liquidity protocol where users can deposit and borrow",
+      "url": "https://app.aave.com/",
+      "icon": "https://raw.githubusercontent.com/AngleProtocol/angle-token-list/main/src/assets/protocols/aave.svg",
+      "banner": null,
+      "opportunityBannerLight": null,
+      "opportunityBannerDark": null
+    },
+    "activePrograms": [],
+    "aprRecord": {
+      "cumulated": 0.1005385590992136,
+      "timestamp": "1768418676",
+      "breakdowns": [
+        {
+          "distributionType": "DUTCH_AUCTION",
+          "identifier": "0x5870e1b9b9ef1c6254d195c620815a9934e234535a27453765da831cf39a331c",
+          "type": "CAMPAIGN",
+          "value": 0.1005385590992136,
+          "timestamp": "1768418676"
+        }
+      ]
+    },
+    "nativeAprRecord": {
+      "title": "Aave Supply Native APR - 0xaf1a7a488c8348b41d5860c04162af7d3d38a996",
+      "description": "Native supply APR for 0xaf1a7a488c8348b41d5860c04162af7d3d38a996 on Aave on chain 9745",
+      "value": 0,
+      "timestamp": "1768419655"
+    },
+    "tvlRecord": {
+      "id": "7071984849852438782",
+      "total": 294475744.966857,
+      "timestamp": "1768418676",
+      "breakdowns": [
+        {
+          "identifier": "14178706307683891785",
+          "type": "TOKEN",
+          "value": 81042.80935456046
+        }
+      ]
+    },
+    "rewardsRecord": {
+      "id": "7071984849852438782",
+      "total": 811.1278654420629,
+      "timestamp": "1768418676",
+      "breakdowns": [
+        {
+          "token": {
+            "id": "11147101301458094682",
+            "name": "ether.fi governance token",
+            "chainId": 1,
+            "address": "0xFe0c30065B384F05761f15d0CC899D4F9F9Cc0eB",
+            "decimals": 18,
+            "symbol": "ETHFI",
+            "displaySymbol": "ETHFI",
+            "icon": "https://storage.googleapis.com/merkl-static-assets/tokens/ETHFI.jpeg",
+            "verified": true,
+            "isTest": false,
+            "type": "TOKEN",
+            "isNative": false,
+            "price": 0.7922533631999916,
+            "updatedAt": 1768419669,
+            "priceSource": "Price Source ETHFI"
+          },
+          "amount": "1031904761904761929728",
+          "value": 817.5300181211343,
+          "distributionType": "DUTCH_AUCTION",
+          "onChainCampaignId": "0x5870e1b9b9ef1c6254d195c620815a9934e234535a27453765da831cf39a331c",
+          "id": "eece2d14-a1c6-408a-9ee9-83710bde619e",
+          "timestamp": "1768418676",
+          "campaignId": "7477281772290040159",
+          "dailyRewardsRecordId": "7071984849852438782"
+        }
+      ]
+    }
+  },
+  {
+    "chainId": 9745,
+    "type": "FLUIDVAULT_BORROW",
+    "identifier": "0xBc345229C1b52e4c30530C614BB487323BA38Da5",
+    "name": "Borrow USDT0 from Fluid wstUSR/USDT0 Vault",
+    "description": "Earn rewards by borrowing USDT0 from Fluid wstUSR/USDT0 Vault on Plasma",
+    "howToSteps": [
+      "Borrow assets on Fluid.",
+      "Rewards accumulate automatically."
+    ],
+    "status": "LIVE",
+    "action": "BORROW",
+    "tvl": 134408842.3641621,
+    "apr": 0.1925493494679361,
+    "maxApr": 0,
+    "dailyRewards": 709.0502783550077,
+    "tags": [
+      "plasma"
+    ],
+    "liveCampaigns": 1,
+    "id": "15920013398923350612",
+    "depositUrl": "https://fluid.io/vaults",
+    "explorerAddress": "0xBc345229C1b52e4c30530C614BB487323BA38Da5",
+    "lastCampaignCreatedAt": 1768324660,
+    "tokens": [
+      {
+        "id": "5737761031982269701",
+        "name": "USDT0",
+        "chainId": 9745,
+        "address": "0xB8CE59FC3717ada4C02eaDF9682A9e934F625ebb",
+        "decimals": 6,
+        "symbol": "USDT0",
+        "icon": "https://storage.googleapis.com/merkl-static-assets/tokens/USDT0.svg",
+        "verified": true,
+        "isNative": false,
+        "isTest": false,
+        "type": "TOKEN",
+        "price": 0.9999969677145352,
+        "updatedAt": 1768418529,
+        "priceSource": "Price Source USDT0",
+        "displaySymbol": "USDT0"
+      }
+    ],
+    "chain": {
+      "id": 9745,
+      "name": "Plasma",
+      "icon": "https://raw.githubusercontent.com/AngleProtocol/angle-token-list/main/src/assets/chains/plasma.png",
+      "liveCampaigns": 40,
+      "endOfDisputePeriod": 1768410000,
+      "explorers": [
+        {
+          "id": "14261454752756197884",
+          "type": "ETHERSCAN",
+          "url": "https://plasmascan.to/",
+          "chainId": 9745
+        }
+      ]
+    },
+    "protocol": {
+      "id": "fluid",
+      "tags": [
+        "LENDING",
+        "drip",
+        "plasma"
+      ],
+      "name": "Fluid",
+      "description": "Financial system of the future",
+      "url": "https://fluid.instadapp.io/",
+      "icon": "https://icons.llamao.fi/icons/protocols/fluid?w=96&h=96",
+      "banner": null,
+      "opportunityBannerLight": null,
+      "opportunityBannerDark": null
+    },
+    "activePrograms": [],
+    "aprRecord": {
+      "cumulated": 0.1925493494679361,
+      "timestamp": "1768418678",
+      "breakdowns": [
+        {
+          "distributionType": "DUTCH_AUCTION",
+          "identifier": "0x77cdf4cc8e2abbb829166b666f09a19677c2467f94c76d84e7c4b4058dba3027",
+          "type": "CAMPAIGN",
+          "value": 0.1925493494679361,
+          "timestamp": "1768418678"
+        }
+      ]
+    },
+    "tvlRecord": {
+      "id": "15126513626330600598",
+      "total": 134408842.3641621,
+      "timestamp": "1768418678",
+      "breakdowns": [
+        {
+          "identifier": "5737761031982269701",
+          "type": "TOKEN",
+          "value": 134409249.931377
+        }
+      ]
+    },
+    "rewardsRecord": {
+      "id": "15126513626330600598",
+      "total": 709.0502783550077,
+      "timestamp": "1768418678",
+      "breakdowns": [
+        {
+          "token": {
+            "id": "9177007823639843523",
+            "name": "Wrapped XPL",
+            "chainId": 9745,
+            "address": "0x6100E367285b01F48D07953803A2d8dCA5D19873",
+            "decimals": 18,
+            "symbol": "WXPL",
+            "displaySymbol": "",
+            "icon": "https://storage.googleapis.com/merkl-static-assets/tokens/XPL.png",
+            "verified": true,
+            "isTest": false,
+            "type": "TOKEN",
+            "isNative": false,
+            "price": 0.166835359612943,
+            "updatedAt": 1768418530,
+            "priceSource": "Price Source WXPL"
+          },
+          "amount": "0",
+          "value": 0,
+          "distributionType": "DUTCH_AUCTION",
+          "onChainCampaignId": "0xb9254b61f7313b658056ea717857c61d6618275a62d0a8b03f960b01cdc1b477",
+          "id": "a9aeb88c-dffb-415b-a711-0a191638f120",
+          "timestamp": "1768418678",
+          "campaignId": "7262609835682045709",
+          "dailyRewardsRecordId": "15126513626330600598"
+        },
+        {
+          "token": {
+            "id": "9177007823639843523",
+            "name": "Wrapped XPL",
+            "chainId": 9745,
+            "address": "0x6100E367285b01F48D07953803A2d8dCA5D19873",
+            "decimals": 18,
+            "symbol": "WXPL",
+            "displaySymbol": "",
+            "icon": "https://storage.googleapis.com/merkl-static-assets/tokens/XPL.png",
+            "verified": true,
+            "isTest": false,
+            "type": "TOKEN",
+            "isNative": false,
+            "price": 0.166835359612943,
+            "updatedAt": 1768418530,
+            "priceSource": "Price Source WXPL"
+          },
+          "amount": "4250000000000000000000",
+          "value": 709.0502783550077,
+          "distributionType": "DUTCH_AUCTION",
+          "onChainCampaignId": "0x77cdf4cc8e2abbb829166b666f09a19677c2467f94c76d84e7c4b4058dba3027",
+          "id": "f9564000-e3b9-42b2-a872-909fd7212165",
+          "timestamp": "1768418678",
+          "campaignId": "11960284478555021690",
+          "dailyRewardsRecordId": "15126513626330600598"
+        }
+      ]
+    }
+  },
+  {
+    "chainId": 9745,
+    "type": "ERC20LOGPROCESSOR",
+    "identifier": "0xcC4fABf1f3623e4FdD05f119F296169bb56Ea3aF",
+    "name": "Hold Pendle YT Plasma USD Vault 29JAN2026",
+    "description": "Earn rewards by holding YT-PlasmaUSD-29JAN2026",
+    "howToSteps": [
+      "Hold YT-PlasmaUSD-29JAN2026.",
+      "Rewards accumulate automatically."
+    ],
+    "status": "LIVE",
+    "action": "HOLD",
+    "tvl": 20908.95333271324,
+    "apr": 1149.346365785241,
+    "maxApr": 0,
+    "dailyRewards": 658.4008089130729,
+    "tags": [],
+    "liveCampaigns": 4,
+    "id": "627865597566810838",
+    "depositUrl": "https://www.pendle.finance/",
+    "explorerAddress": "0xcC4fABf1f3623e4FdD05f119F296169bb56Ea3aF",
+    "lastCampaignCreatedAt": 1768324644,
+    "tokens": [
+      {
+        "id": "1303991119659272757",
+        "name": "YT Plasma USD Vault 29JAN2026",
+        "chainId": 9745,
+        "address": "0xcC4fABf1f3623e4FdD05f119F296169bb56Ea3aF",
+        "decimals": 6,
+        "symbol": "YT-PlasmaUSD-29JAN2026",
+        "icon": "",
+        "verified": false,
+        "isNative": false,
+        "isTest": false,
+        "type": "TOKEN",
+        "price": 0.001901950614661353,
+        "updatedAt": 1768419191,
+        "priceSource": "Deprecated TVLBuilder - 16630719854942924066 on chain 9745"
+      },
+      {
+        "id": "17103582425903030820",
+        "name": "Plasma USD Vault",
+        "chainId": 9745,
+        "address": "0xd1074E0AE85610dDBA0147e29eBe0D8E5873a000",
+        "decimals": 6,
+        "symbol": "PlasmaUSD",
+        "icon": "",
+        "verified": false,
+        "isNative": false,
+        "isTest": false,
+        "type": "TOKEN",
+        "price": 1,
+        "updatedAt": 1768419661,
+        "priceSource": "Price Source 0xd1074E0AE85610dDBA0147e29eBe0D8E5873a000"
+      }
+    ],
+    "chain": {
+      "id": 9745,
+      "name": "Plasma",
+      "icon": "https://raw.githubusercontent.com/AngleProtocol/angle-token-list/main/src/assets/chains/plasma.png",
+      "liveCampaigns": 40,
+      "endOfDisputePeriod": 1768410000,
+      "explorers": [
+        {
+          "id": "14261454752756197884",
+          "type": "ETHERSCAN",
+          "url": "https://plasmascan.to/",
+          "chainId": 9745
+        }
+      ]
+    },
+    "protocol": {
+      "id": "pendle",
+      "tags": [
+        "HOLD"
+      ],
+      "name": "Pendle",
+      "description": "",
+      "url": "https://www.pendle.finance/",
+      "icon": "https://icons.llamao.fi/icons/protocols/pendle?w=64&h=64",
+      "banner": null,
+      "opportunityBannerLight": null,
+      "opportunityBannerDark": null
+    },
+    "activePrograms": [],
+    "aprRecord": {
+      "cumulated": 1149.346365785241,
+      "timestamp": "1768418683",
+      "breakdowns": [
+        {
+          "distributionType": "DUTCH_AUCTION",
+          "identifier": "0x67a94c47918a9f77a4a20580ebdea51b70f5cca2afdd57e38ff82838ef1012a8",
+          "type": "CAMPAIGN",
+          "value": 29.12384244669515,
+          "timestamp": "1768418683"
+        },
+        {
+          "distributionType": "DUTCH_AUCTION",
+          "identifier": "3810587369879345718",
+          "type": "CAMPAIGN",
+          "value": 397.2844159331821,
+          "timestamp": "1768418683"
+        },
+        {
+          "distributionType": "DUTCH_AUCTION",
+          "identifier": "16630719854942924066",
+          "type": "CAMPAIGN",
+          "value": 419.1818544884745,
+          "timestamp": "1768418683"
+        },
+        {
+          "distributionType": "DUTCH_AUCTION",
+          "identifier": "12572546700574380824",
+          "type": "CAMPAIGN",
+          "value": 303.7562529168889,
+          "timestamp": "1768418683"
+        }
+      ]
+    },
+    "tvlRecord": {
+      "id": "4875030602829954502",
+      "total": 20908.95333271324,
+      "timestamp": "1768418683",
+      "breakdowns": [
+        {
+          "identifier": "5737761031982269701",
+          "type": "TOKEN",
+          "value": 10795460.099337
+        }
+      ]
+    },
+    "rewardsRecord": {
+      "id": "4875030602829954502",
+      "total": 658.4008089130729,
+      "timestamp": "1768418683",
+      "breakdowns": [
+        {
+          "token": {
+            "id": "9177007823639843523",
+            "name": "Wrapped XPL",
+            "chainId": 9745,
+            "address": "0x6100E367285b01F48D07953803A2d8dCA5D19873",
+            "decimals": 18,
+            "symbol": "WXPL",
+            "displaySymbol": "",
+            "icon": "https://storage.googleapis.com/merkl-static-assets/tokens/XPL.png",
+            "verified": true,
+            "isTest": false,
+            "type": "TOKEN",
+            "isNative": false,
+            "price": 0.166835359612943,
+            "updatedAt": 1768418530,
+            "priceSource": "Price Source WXPL"
+          },
+          "amount": "0",
+          "value": 0,
+          "distributionType": "DUTCH_AUCTION",
+          "onChainCampaignId": "0xd54c3befd8d9b8aa677fefafc7c96e4f78192b43635eb6d051faaf96ca5061fd",
+          "id": "ae0264cc-0914-4449-9b10-e6a1b7cba9c6",
+          "timestamp": "1768418683",
+          "campaignId": "6444033068736397993",
+          "dailyRewardsRecordId": "4875030602829954502"
+        },
+        {
+          "token": {
+            "id": "9177007823639843523",
+            "name": "Wrapped XPL",
+            "chainId": 9745,
+            "address": "0x6100E367285b01F48D07953803A2d8dCA5D19873",
+            "decimals": 18,
+            "symbol": "WXPL",
+            "displaySymbol": "",
+            "icon": "https://storage.googleapis.com/merkl-static-assets/tokens/XPL.png",
+            "verified": true,
+            "isTest": false,
+            "type": "TOKEN",
+            "isNative": false,
+            "price": 0.166835359612943,
+            "updatedAt": 1768418530,
+            "priceSource": "Price Source WXPL"
+          },
+          "amount": "1042981376763209056256",
+          "value": 174.00617306189235,
+          "distributionType": "DUTCH_AUCTION",
+          "onChainCampaignId": "12572546700574380824",
+          "id": "eb19de5f-b73e-4d44-9a2b-182569e38a16",
+          "timestamp": "1768418683",
+          "campaignId": "18106084595227399861",
+          "dailyRewardsRecordId": "4875030602829954502"
+        },
+        {
+          "token": {
+            "id": "9177007823639843523",
+            "name": "Wrapped XPL",
+            "chainId": 9745,
+            "address": "0x6100E367285b01F48D07953803A2d8dCA5D19873",
+            "decimals": 18,
+            "symbol": "WXPL",
+            "displaySymbol": "",
+            "icon": "https://storage.googleapis.com/merkl-static-assets/tokens/XPL.png",
+            "verified": true,
+            "isTest": false,
+            "type": "TOKEN",
+            "isNative": false,
+            "price": 0.166835359612943,
+            "updatedAt": 1768418530,
+            "priceSource": "Price Source WXPL"
+          },
+          "amount": "1439308206860737970176",
+          "value": 240.12750228547137,
+          "distributionType": "DUTCH_AUCTION",
+          "onChainCampaignId": "16630719854942924066",
+          "id": "431397f7-499d-4348-8e23-96d049d44f53",
+          "timestamp": "1768418683",
+          "campaignId": "7445353308213171609",
+          "dailyRewardsRecordId": "4875030602829954502"
+        },
+        {
+          "token": {
+            "id": "9177007823639843523",
+            "name": "Wrapped XPL",
+            "chainId": 9745,
+            "address": "0x6100E367285b01F48D07953803A2d8dCA5D19873",
+            "decimals": 18,
+            "symbol": "WXPL",
+            "displaySymbol": "",
+            "icon": "https://storage.googleapis.com/merkl-static-assets/tokens/XPL.png",
+            "verified": true,
+            "isTest": false,
+            "type": "TOKEN",
+            "isNative": false,
+            "price": 0.166835359612943,
+            "updatedAt": 1768418530,
+            "priceSource": "Price Source WXPL"
+          },
+          "amount": "1364120880204337119232",
+          "value": 227.5835976044149,
+          "distributionType": "DUTCH_AUCTION",
+          "onChainCampaignId": "3810587369879345718",
+          "id": "f927b78d-a35d-4beb-852a-f0940da64676",
+          "timestamp": "1768418683",
+          "campaignId": "16381932984078478754",
+          "dailyRewardsRecordId": "4875030602829954502"
+        },
+        {
+          "token": {
+            "id": "9177007823639843523",
+            "name": "Wrapped XPL",
+            "chainId": 9745,
+            "address": "0x6100E367285b01F48D07953803A2d8dCA5D19873",
+            "decimals": 18,
+            "symbol": "WXPL",
+            "displaySymbol": "",
+            "icon": "https://storage.googleapis.com/merkl-static-assets/tokens/XPL.png",
+            "verified": true,
+            "isTest": false,
+            "type": "TOKEN",
+            "isNative": false,
+            "price": 0.166835359612943,
+            "updatedAt": 1768418530,
+            "priceSource": "Price Source WXPL"
+          },
+          "amount": "100000000000000000000",
+          "value": 16.6835359612943,
+          "distributionType": "DUTCH_AUCTION",
+          "onChainCampaignId": "0x67a94c47918a9f77a4a20580ebdea51b70f5cca2afdd57e38ff82838ef1012a8",
+          "id": "5cce8a9d-6674-4260-95ea-5f952ddd05c8",
+          "timestamp": "1768418683",
+          "campaignId": "7734436354386281624",
+          "dailyRewardsRecordId": "4875030602829954502"
+        }
+      ]
+    }
+  },
+  {
+    "chainId": 9745,
+    "type": "AAVE_SUPPLY",
+    "identifier": "0xAf1a7a488c8348b41d5860C04162af7d3D38A996",
+    "name": "Lend weETH on Aave",
+    "description": "Earn rewards by lending weETH on Aave on Plasma",
+    "howToSteps": [
+      "Lend assets on Aave.",
+      "Rewards accumulate automatically."
+    ],
+    "status": "LIVE",
+    "action": "LEND",
+    "tvl": 294475744.9668571,
+    "apr": 0.07533097310040814,
+    "maxApr": 0,
+    "dailyRewards": 607.7573814471494,
+    "tags": [
+      "aave",
+      "plasma"
+    ],
+    "liveCampaigns": 1,
+    "id": "10393099370774181763",
+    "depositUrl": "https://app.aave.com/reserve-overview/?underlyingAsset=0xa3d68b74bf0528fdd07263c60d6488749044914b&marketName=proto_plasma_v3",
+    "explorerAddress": "0xAf1a7a488c8348b41d5860C04162af7d3D38A996",
+    "lastCampaignCreatedAt": 1764807701,
+    "tokens": [
+      {
+        "id": "14178706307683891785",
+        "name": "Aave Plasma weETH",
+        "chainId": 9745,
+        "address": "0xAf1a7a488c8348b41d5860C04162af7d3D38A996",
+        "decimals": 18,
+        "symbol": "aPlaweETH",
+        "icon": "",
+        "verified": false,
+        "isNative": false,
+        "isTest": false,
+        "type": "TOKEN",
+        "price": 3633.582637523488,
+        "updatedAt": 1768418678,
+        "priceSource": "Computed Price - 0x1eb9850dab5a7b71e86446f721384d7645ac0eda08a531d69a56a1a879c13eeb on chain 9745"
+      },
+      {
+        "id": "3885658325202072166",
+        "name": "Wrapped eETH",
+        "chainId": 9745,
+        "address": "0xA3D68b74bF0528fdD07263c60d6488749044914b",
+        "decimals": 18,
+        "symbol": "weETH",
+        "icon": "https://storage.googleapis.com/merkl-static-assets/tokens/weETH.webp",
+        "verified": true,
+        "isNative": false,
+        "isTest": false,
+        "type": "TOKEN",
+        "price": 3633.582637523488,
+        "updatedAt": 1768418530,
+        "priceSource": "Price Source weETH"
+      }
+    ],
+    "chain": {
+      "id": 9745,
+      "name": "Plasma",
+      "icon": "https://raw.githubusercontent.com/AngleProtocol/angle-token-list/main/src/assets/chains/plasma.png",
+      "liveCampaigns": 40,
+      "endOfDisputePeriod": 1768410000,
+      "explorers": [
+        {
+          "id": "14261454752756197884",
+          "type": "ETHERSCAN",
+          "url": "https://plasmascan.to/",
+          "chainId": 9745
+        }
+      ]
+    },
+    "protocol": {
+      "id": "aave",
+      "tags": [
+        "LENDING",
+        "zksync",
+        "drip",
+        "plasma"
+      ],
+      "name": "Aave",
+      "description": "A decentralized liquidity protocol where users can deposit and borrow",
+      "url": "https://app.aave.com/",
+      "icon": "https://raw.githubusercontent.com/AngleProtocol/angle-token-list/main/src/assets/protocols/aave.svg",
+      "banner": null,
+      "opportunityBannerLight": null,
+      "opportunityBannerDark": null
+    },
+    "activePrograms": [],
+    "aprRecord": {
+      "cumulated": 0.07533097310040814,
+      "timestamp": "1768418678",
+      "breakdowns": [
+        {
+          "distributionType": "DUTCH_AUCTION",
+          "identifier": "0x1eb9850dab5a7b71e86446f721384d7645ac0eda08a531d69a56a1a879c13eeb",
+          "type": "CAMPAIGN",
+          "value": 0.07533097310040814,
+          "timestamp": "1768418678"
+        }
+      ]
+    },
+    "nativeAprRecord": {
+      "title": "Aave Supply Native APR - 0xaf1a7a488c8348b41d5860c04162af7d3d38a996",
+      "description": "Native supply APR for 0xaf1a7a488c8348b41d5860c04162af7d3d38a996 on Aave on chain 9745",
+      "value": 0,
+      "timestamp": "1768419655"
+    },
+    "tvlRecord": {
+      "id": "7226006172603883049",
+      "total": 294475744.9668571,
+      "timestamp": "1768418678",
+      "breakdowns": [
+        {
+          "identifier": "14178706307683891785",
+          "type": "TOKEN",
+          "value": 81042.80935456048
+        }
+      ]
+    },
+    "rewardsRecord": {
+      "id": "7226006172603883049",
+      "total": 607.7573814471494,
+      "timestamp": "1768418678",
+      "breakdowns": [
+        {
+          "token": {
+            "id": "9177007823639843523",
+            "name": "Wrapped XPL",
+            "chainId": 9745,
+            "address": "0x6100E367285b01F48D07953803A2d8dCA5D19873",
+            "decimals": 18,
+            "symbol": "WXPL",
+            "displaySymbol": "",
+            "icon": "https://storage.googleapis.com/merkl-static-assets/tokens/XPL.png",
+            "verified": true,
+            "isTest": false,
+            "type": "TOKEN",
+            "isNative": false,
+            "price": 0.166835359612943,
+            "updatedAt": 1768418530,
+            "priceSource": "Price Source WXPL"
+          },
+          "amount": "3642857142857143156736",
+          "value": 607.7573814471496,
+          "distributionType": "DUTCH_AUCTION",
+          "onChainCampaignId": "0x1eb9850dab5a7b71e86446f721384d7645ac0eda08a531d69a56a1a879c13eeb",
+          "id": "5e4baf53-5af4-4be5-9803-415bbdc8d2ba",
+          "timestamp": "1768418678",
+          "campaignId": "7307447420779598021",
+          "dailyRewardsRecordId": "7226006172603883049"
+        }
+      ]
+    }
+  }
+]

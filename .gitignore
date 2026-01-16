@@ -1,0 +1,13 @@
+
+*.DS_Store
+.env
+.env.local
+.env.production
+
+product_idea.md
+AGENTS.md
+CLAUDE.md
+dev_notes.md
+dev_notes2.md
+notes/
+node_modules/
