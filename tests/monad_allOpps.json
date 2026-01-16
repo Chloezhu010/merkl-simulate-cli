@@ -1,0 +1,135 @@
+Fetching ALL opportunities on chain 143...
+{
+  chainId: 143,
+  chainName: 'Monad',
+  summary: {
+    totalOpportunities: 96,
+    totalTvl: 492463664.35480064,
+    totalDailyRewards: 72496.45426821627,
+    avgApr: 23.191855771616574,
+    weightedAvgApr: 5.371426550469981,
+    totalLiveCampaigns: 118
+  },
+  byAction: [
+    {
+      action: 'LEND',
+      count: 30,
+      totalTvl: 299292826.8569279,
+      avgApr: 5.928280612833904,
+      weightedAvgApr: 4.421010227624018
+    },
+    {
+      action: 'BORROW',
+      count: 14,
+      totalTvl: 113110095.27465001,
+      avgApr: 5.110559618874549,
+      weightedAvgApr: 2.1287248303829047
+    },
+    {
+      action: 'HOLD',
+      count: 9,
+      totalTvl: 40848636.06824662,
+      avgApr: 18.388281603309228,
+      weightedAvgApr: 4.281080017102489
+    },
+    {
+      action: 'POOL',
+      count: 43,
+      totalTvl: 39212106.15497632,
+      avgApr: 42.12854340921272,
+      weightedAvgApr: 23.115290000236786
+    }
+  ],
+  topPoolsByTvl: [
+    {
+      identifier: '0x103222f020e98Bba0AD9809A011FDF8e6F067496',
+      name: 'Deposit AUSD to Upshift earnAUSD',
+      action: 'LEND',
+      tvl: 78491467.391856,
+      apr: 0.3215093793947239,
+      dailyRewards: 691.3902183270363,
+      liveCampaigns: 2
+    },
+    {
+      identifier: '0x103222f020e98Bba0AD9809A011FDF8e6F067496',
+      name: 'Deposit AUSD to Upshift earnAUSD',
+      action: 'LEND',
+      tvl: 78178600.40283206,
+      apr: 8.082688071712822,
+      dailyRewards: 17312.14358737463,
+      liveCampaigns: 1
+    },
+    {
+      identifier: '0x00000000eFE302BEAA2b3e6e1b18d08D69a9012a',
+      name: 'Borrow AUSD on any Morpho Market',
+      action: 'BORROW',
+      tvl: 41625182.87691767,
+      apr: 1.436633371615579,
+      dailyRewards: 1638.359638920035,
+      liveCampaigns: 1
+    },
+    {
+      identifier: '0xfdadd7956236da5f13037487dfc61ca0a0be4da7',
+      name: 'Borrow from Isolated WBTC-AUSD AUSD vault using Isolated WBTC-AUSD WBTC',
+      action: 'BORROW',
+      tvl: 33913135.85586098,
+      apr: 0.2099205082948862,
+      dailyRewards: 195.0428141571471,
+      liveCampaigns: 1
+    },
+    {
+      identifier: '0x852FF1EC21D63b405eC431e04AE3AC760e29263D',
+      name: 'Supply earnAUSD to Curvance earnAUSD/AUSD market',
+      action: 'LEND',
+      tvl: 27691685.115678,
+      apr: 8.858335369179606,
+      dailyRewards: 6720.609142257395,
+      liveCampaigns: 4
+    },
+    {
+      identifier: '0xAd4AA2a713fB86FBb6b60dE2aF9E32a11DB6Abf2',
+      name: 'Supply AUSD to Curvance earnAUSD/AUSD market',
+      action: 'LEND',
+      tvl: 20771968.84600209,
+      apr: 0.9445826755429921,
+      dailyRewards: 537.5573125712967,
+      liveCampaigns: 2
+    },
+    {
+      identifier: '0x3a2c4aAae6776dC1c31316De559598f2f952E2cB',
+      name: 'Deposit USDC in Yuzu Money Vault',
+      action: 'HOLD',
+      tvl: 19868353.53192475,
+      apr: 4.213315136508151,
+      dailyRewards: 2293.469443111061,
+      liveCampaigns: 1
+    },
+    {
+      identifier: '0x6B343F7B797f1488AA48C49d540690F2b2c89751',
+      name: 'Deposit USDC on the Gearbox EDGE UltraYield USDC vault',
+      action: 'LEND',
+      tvl: 19282791.43407433,
+      apr: 3.789123441837747,
+      dailyRewards: 2001.777453340251,
+      liveCampaigns: 1
+    },
+    {
+      identifier: '0xAd4AA2a713fB86FBb6b60dE2aF9E32a11DB6Abf2',
+      name: 'Borrow AUSD from Curvance earnAUSD/AUSD market',
+      action: 'BORROW',
+      tvl: 17390259.92214083,
+      apr: 5.265514058128451,
+      dailyRewards: 2508.730358754529,
+      liveCampaigns: 2
+    },
+    {
+      identifier: '0x754704Bc059F8C67012fEd69BC8A327a5aafb603',
+      name: 'Supply USDC on any Morpho Market',
+      action: 'LEND',
+      tvl: 13914358.63766964,
+      apr: 4.093074155764702,
+      dailyRewards: 1560.342513257177,
+      liveCampaigns: 1
+    }
+  ]
+}

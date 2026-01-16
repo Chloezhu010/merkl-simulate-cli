@@ -130,7 +130,7 @@ export async function analyzeChain(chainId: number, fetchAll = false): Promise<C
     // return value
     return {
         chainId,
-        chainName: opps[0]?.chainName,
+        chainName: opps[0]?.chain?.name,
         summary: {
             totalOpportunities: opps.length,
             totalTvl: sum(tvls),

@@ -4,7 +4,11 @@
   "type": "module",
   "description": "",
   "main": "index.js",
+  "bin": {
+    "merkl-simulate": "./dist/cli.js"
+  },
   "scripts": {
+    "build": "tsup src/commands/cli.ts --format esm --outDir dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

@@ -1,4 +1,4 @@
-import { MerklClient } from '../api/client.ts';
+import { MerklClient } from '../api/client.js';
 import { calculateApr } from './apr-calculator.js';
 import { parseCampain } from './campaign-parser.js';
 import { rankTargetCampaign, budgetToReachRank  } from './ranker.js';
@@ -56,8 +56,7 @@ export async function simulate(input: SimulationInput) {
     let budgetToReach;
     if (input.targetRank){
         budgetToReach = budgetToReachRank(input.targetRank, existingCampaigns, tvl, input.durationDays);
-    }
-        
+    }    
 
     // return results
     return {

@@ -2,7 +2,7 @@ import { MerklClient } from '../src/api/client.js';
 import { parseCampain } from '../src/simulator/campaign-parser.js';
 import { rankTargetCampaign } from '../src/simulator/ranker.js';
 import { budgetToReachRank } from '../src/simulator/ranker.js';
-import { simulate } from '../src/simulator/index.js';
+import { simulate } from '../src/simulator/simulate.js';
 import { analyzeChain } from '../src/simulator/chain-analyzer.js';
 
 
@@ -33,7 +33,7 @@ import { analyzeChain } from '../src/simulator/chain-analyzer.js';
 // })
 
 // test analyzeChain()
-analyzeChain(9745, true).then(result => {
+analyzeChain(143, true).then(result => {
     console.log(result);
 }).catch(err => {
     console.error('Error:', err.message);
